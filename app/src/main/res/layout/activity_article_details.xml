@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArticleDetails">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/article_detail_toolbar"
+    android:background="@color/colorPrimary">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="The Legislative Branch"
+    android:textColor="@color/White"
+    android:textSize="18dp"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:id="@+id/article_detail_toolbar_title"
+    android:gravity="center|left"/>
+</androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/article_detail_recyclerview"/>
+</LinearLayout>

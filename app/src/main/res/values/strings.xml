@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Civil Service Regulation</string>
+    <string name="preamble">In exercise of powers conferred by section 208(1) of the Constitution of
+the Federal Republic of Nigeria,1999 and by virtue of all other powers enabling
+in that behalf,the following Regulations are hereby made by the Ondo State
+Civil service Commission,with the approval and consent of His Excellency,the
+Executive Governor:
+</string>
+
+    <string name="preface">Ondo State Civil Service Rules are issued in replacement of Part 1 of the Public Service Manual – The General Orders.  The Rules supersede all Civil Service Rules but include extant Gazette Notices and Circulars, etc. published prior to date of the approval on the subject concerned.  They shall be read in conjunction with the Constitution of the Federal Republic of Nigeria as well as Circulars, labour laws and instructions issued on or after that date.  It shall be the duty of every officer to acquaint himself with the Civil Service Rules and any other regulations in force.\n\n
+
+        <b>Method of Numbering:</b>\n\n
+        2.  Each rule has been given a number containing five digits, of which the first two indicate the chapter, the third indicates the section within the chapter while the last two give the number of the individual rule within the section, e.g. Rule 14211 is the eleventh Rule in Section two of Chapter fourteen.\n\n
+
+        <b>Major Amendments:</b>\n\n
+	3.   Major amendments to these Rules will be published by means of dated and serially numbered replacement sheets, the issue and effective date (but not the text) of which will be notified in the Gazette.  When a replacement sheet is received, it should be inserted in the appropriate place in the binder and entered in the “Schedule of Replacement Sheets” (General Appendix A) at the end of the Rules; the sheet it replaces should be removed from its original position, endorsed with the number of the Replacement sheet and reinserted behind General Appendix A.\n\n
+
+Minor Amendments:\n\n
+	4.   The full text of minor amendments (also numbered serially but in a separate series) will be published in the Gazette and reprints will be issued, in the form of amendment slips.  When a minor amendment appears in the Gazette, it should be entered in the “Schedule of Minor Amendments” (General Appendix B) at the end of the Rules and the necessary amendment to the text of the Civil Service Rules affected should be made forthwith in manuscript, with a marginal reference to the serial number of the amendment.
+	When the corresponding Amendment slip is subsequently received it should be pasted over the blank pages behind Appendix B (‘Appendix C’) in its correct serial order.\n\n
+
+	5.	This book is not a personal issue to officers; it is issued to an office and may not be removed from it.  Each successive officer in charge of the office to which this copy of Civil Service Rule is issued, is responsible during his tenure of the office, for ensuring that it is kept in good order and up to date, and must ensure that his successor in office signs a handing over certificate acknowledging its receipt.
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

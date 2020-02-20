@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Civil_Service_Rules_Coat_Of_Arm">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:id="@+id/ondostateofnigeria1"
+        android:gravity="center"
+        android:text="ONDO STATE OF NIGERIA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:id="@+id/civilservicerules1999"
+        android:text="CIVIL SERVICE RULES, 1999"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:id="@+id/revisededition"
+        android:text="Revised Edition"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/preparedunderauthority"
+        android:text="Prepared under the authority of"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:id="@+id/executivegovernor"
+        android:text="THE EXECUTIVE GOVERNOR"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:id="@+id/of"
+        android:layout_marginTop="20dp"
+        android:text="OF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:id="@+id/ondostateofnigeria2"
+        android:text="ONDO STATE OF NIGERIA"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:id="@+id/july1999"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center|right"
+        android:text="JULY,1999"/>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

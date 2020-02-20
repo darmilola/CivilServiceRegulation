@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/apppendix_toolbar"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Appendix"
+            android:textColor="#ffffff"
+            android:gravity="center|left"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/appendix_page_title"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/pdfview"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
