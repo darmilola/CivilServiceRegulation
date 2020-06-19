@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.damilolaakinterinwa.android.civilserviceregulation">
+    package="com.servicematter.android.civilserviceregulation">
 
     <application
-        android:name=".MyApplication"
+        android:name="com.servicematter.android.civilserviceregulation.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/newimageicon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/newimageicon"
         android:supportsRtl="true"
         android:testOnly="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".appendix"></activity>
+        <activity android:name="com.servicematter.android.civilserviceregulation.appendix"></activity>
         <activity
-            android:name=".ruleBookmark"
+            android:name="com.servicematter.android.civilserviceregulation.ruleBookmark"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ruleSearch"
+            android:name="com.servicematter.android.civilserviceregulation.ruleSearch"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ruledetail"
+            android:name="com.servicematter.android.civilserviceregulation.ruledetail"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".rules_chapter"
+            android:name="com.servicematter.android.civilserviceregulation.rules_chapter"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Preface"
+            android:name="com.servicematter.android.civilserviceregulation.Preface"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".rule_main"
+            android:name="com.servicematter.android.civilserviceregulation.rule_main"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Civil_Service_Regulation_Coat_Of_Arm"
+            android:name="com.servicematter.android.civilserviceregulation.Civil_Service_Regulation_Coat_Of_Arm"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Civil_Service_Rules_Coat_Of_Arm"
+            android:name="com.servicematter.android.civilserviceregulation.Civil_Service_Rules_Coat_Of_Arm"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DashBoard"
+            android:name="com.servicematter.android.civilserviceregulation.DashBoard"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Search"
+            android:name="com.servicematter.android.civilserviceregulation.Search"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".BookmarksPage"
+            android:name="com.servicematter.android.civilserviceregulation.BookmarksPage"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ArticleDetails"
+            android:name="com.servicematter.android.civilserviceregulation.ArticleDetails"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Preamble"
+            android:name="com.servicematter.android.civilserviceregulation.Preamble"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Chapters"
+            android:name="com.servicematter.android.civilserviceregulation.Chapters"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashScren"
+            android:name="com.servicematter.android.civilserviceregulation.SplashScren"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,7 +64,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.servicematter.android.civilserviceregulation.MainActivity"
             android:screenOrientation="portrait" />
     </application>
 

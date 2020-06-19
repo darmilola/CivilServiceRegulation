@@ -11,6 +11,10 @@
         android:layout_height="60dp"
         android:id="@+id/search_toolbar"
         android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout

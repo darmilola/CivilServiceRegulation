@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Civil Service Regulation</string>
+    <string name="app_name">CSR|CSCR</string>
     <string name="preamble">In exercise of powers conferred by section 208(1) of the Constitution of
 the Federal Republic of Nigeria,1999 and by virtue of all other powers enabling
 in that behalf,the following Regulations are hereby made by the Ondo State
@@ -24,4 +24,21 @@ Minor Amendments:\n\n
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text">  <b>About Us\n</b>The App is an initiative by Mr. Olanrewaju Amuda, a Civil Servant in the Public Service of Ondo State, Nigeria with technical support from Mr. Damilola Akinterinwa, a Software Engineer, to encourage the rate of access to, use of and compliance with Regulatory Books thus reducing infractions in the conduct of Public Officers.\n
+ <b>Developers Contact:\n</b>
+    damilolaakinterinwa@gmail.com and misterequity17@gmail.com\n
+    <b>What is new\n</b>
+*The App is a digital copy of the 1999 Edition of the Civil Service Rules and Civil Service Commission Regulations that allows navigation options for its users.\n
+*The App works offline.\n
+*The App would be updated as soon as the new edition comes into force.\n
+*The extant Financial Regulations would be added in due course.\n
+
+    <b>Gratitude\n</b>
+We are indebted to:\n
+(i) Mr. Dare Aragbaiye, 13th Head of Service of Ondo State for giving the go ahead;\n
+(ii) Mr. Wole Adeyemi of Ondo State Information Technology Agency(SITA) for facilitating this link\n
+(iii) Mrs. C.K. Adebisi and Mrs. Dayo Abimbola for the secretarial work.\n
+    <b>Feedback\n</b>
+We welcome feedbacks for improvement in both content and design.</string>
+
 </resources>

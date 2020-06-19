@@ -15,11 +15,11 @@
             android:layout_height="320dp"
             android:orientation="vertical"
             android:gravity="center"
-            android:background="#180242">
+            android:background="#FFFFFF">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
                 android:src="@drawable/logo"/>
 
             <TextView
@@ -28,8 +28,8 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:gravity="center|top"
-                android:text="Ondo State Of Nigeria\n The Civil Service Rules 1999"
-                android:textColor="#ffffff"
+                android:text="Ondo State Of Nigeria\n The Civil Service Rules, 1999"
+                android:textColor="#000000"
                 android:id="@+id/main_title"
                 android:textSize="20dp" />
 
@@ -57,7 +57,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#ffffff">
+                        android:background="#EB5108">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                             android:id="@+id/preface"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:text="Preface"/>
 
                     </LinearLayout>
@@ -84,7 +84,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#ffffff">
+                        android:background="#EB5108">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -94,7 +94,7 @@
                             android:id="@+id/chapters"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:text="Chapters"/>
 
                     </LinearLayout>
@@ -110,7 +110,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#ffffff">
+                        android:background="#EB5108">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                             android:id="@+id/appendix"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:text="Appendix"/>
 
                     </LinearLayout>
@@ -138,7 +138,7 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center|left"
-                        android:background="#ffffff">
+                        android:background="#EB5108">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -148,7 +148,7 @@
                             android:gravity="center|left"
                             android:id="@+id/search_key_word"
                             android:text="Search for Keywords"
-                            android:textColor="#920707"
+                            android:textColor="#FFFFFF"
                             android:textSize="15dp" />
 
                         <TextView
@@ -159,7 +159,7 @@
                             android:gravity="center|left"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:text="Search"/>
 
                     </LinearLayout>
@@ -175,7 +175,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#ffffff">
+                        android:background="#EB5108">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -185,7 +185,7 @@
                             android:id="@+id/bookmarks"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:text="Bookmarks"/>
 
                     </LinearLayout>
