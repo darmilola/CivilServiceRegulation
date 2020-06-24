@@ -69,9 +69,11 @@ public class DashBoard extends AppCompatActivity {
                     return new secondpage();
 
                 case 2:
-                    return new aboutus();
+                    return new fragment_financeregulation();
                 case 3:
 
+                    return new aboutus();
+                case 4:
                     return new thirdpage();
 
 
@@ -82,7 +84,7 @@ public class DashBoard extends AppCompatActivity {
         }
             @Override
             public int getCount () {
-                return 4;
+                return 5;
             }
 
     }

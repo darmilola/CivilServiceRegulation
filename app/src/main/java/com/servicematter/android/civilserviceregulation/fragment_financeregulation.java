@@ -1,8 +1,9 @@
 package com.servicematter.android.civilserviceregulation;
 
-
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -14,52 +15,49 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class thirdpage extends Fragment {
+public class fragment_financeregulation extends Fragment {
+
+
     View view;
     LinearLayout linearLayout;
     TextView textView;
-
-    public thirdpage() {
+    public fragment_financeregulation() {
         // Required empty public constructor
     }
+
+
+
+
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-        view = inflater.inflate(R.layout.fragment_thirdpage, container, false);
-        linearLayout = view.findViewById(R.id.thirdpageback);
-        textView = view.findViewById(R.id.thirdpagetext);
+        view = inflater.inflate(R.layout.fragment_fragment_financeregulation, container, false);
+        linearLayout = view.findViewById(R.id.finance_reg_back);
+        textView = view.findViewById(R.id.finance_reg_text);
         Typeface customfont= Typeface.createFromAsset(getActivity().getAssets(), "Kylo-Light.otf");
         textView.setTypeface(customfont);
 
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent share = new Intent(Intent.ACTION_SEND);
-                share.setType("text/plain");
-                String text = "Download Civil Service Rule and Civil Service commission Regulation 1999 of the Ondo state of Nigeria from playstore  http://play.google.com/store/apps/details?id=com.servicematter.android.civilserviceregulation";
-                share.putExtra(Intent.EXTRA_TEXT,text);
-                startActivity(Intent.createChooser(share,"Share"));
+                startActivity(new Intent(getContext(),Financial_Regulations_Coat_of_Arm.class));
 
             }
         });
-
-                return view;
+        return view;
     }
+
+
     @Override
     public void setUserVisibleHint(boolean isvisibletouser) {
         super.setUserVisibleHint(isvisibletouser);
 
         if (isvisibletouser) {
 
-            DashBoard.AuthPage(5,R.drawable.share);
+            DashBoard.AuthPage(3,R.drawable.portraitfinance);
         }
     }
-
 }

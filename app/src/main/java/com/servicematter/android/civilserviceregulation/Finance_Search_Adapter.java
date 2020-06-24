@@ -14,13 +14,13 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.BookmarksViewHolder> {
+public class Finance_Search_Adapter extends RecyclerView.Adapter<Finance_Search_Adapter.BookmarksViewHolder> {
 
-    List<Section> sectionList;
+    List<Finance_Section> sectionList;
     String searchString;
     private ListItemClickListener mOnClickListener;
 
-    public SearchAdapter(List<Section> sectionList,String searchString/*,ListItemClickListener listItemClickListener*/) {
+    public Finance_Search_Adapter(List<Finance_Section> sectionList,String searchString/*,ListItemClickListener listItemClickListener*/) {
         //this.mOnClickListener = listItemClickListener;
         this.sectionList = sectionList;
         this.searchString = searchString;
@@ -39,11 +39,11 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.BookmarksV
 
     @Override
     public void onBindViewHolder(@NonNull BookmarksViewHolder holder, int position) {
-        Section current = sectionList.get(position);
+        Finance_Section current = sectionList.get(position);
         holder.title.setText(current.getTitle());
-        holder.text.setText(current.getRegulation(), TextView.BufferType.SPANNABLE);
+        holder.text.setText(current.getRules(), TextView.BufferType.SPANNABLE);
         Spannable spannable = (Spannable)holder.text.getText();
-        int start = sectionList.get(position).getRegulation().indexOf(searchString);
+        int start = sectionList.get(position).getRules().indexOf(searchString);
         if(start < 0){
             start = 0;
         }

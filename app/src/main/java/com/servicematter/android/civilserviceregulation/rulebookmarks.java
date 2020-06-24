@@ -10,8 +10,6 @@ import androidx.room.PrimaryKey;
 public class rulebookmarks {
 
 
-
-
         @NonNull
         @PrimaryKey(autoGenerate = true)
         private int id;

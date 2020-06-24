@@ -14,23 +14,25 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class ruleBookmark extends AppCompatActivity {
+public class Finance_Bookmark extends AppCompatActivity {
 
     RecyclerView recyclerView;
     Toolbar toolbar;
     TextView title;
-    rulebookmarksdatabase bookmarksDatabase;
-    List<rulebookmarks> sectionList;
+    finance_bookmark_database bookmarksDatabase;
+    List<Finance_Bookmark_Model> sectionList;
     TextView nobookmark;
+    Finance_Bookmark_Adapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rule_bookmark);
+        setContentView(R.layout.activity_finance__bookmark);
+
 
         initView();
         initDatabase();
 
-        rulebookmarkadapter adapter = new rulebookmarkadapter(sectionList);
+        adapter = new Finance_Bookmark_Adapter(sectionList);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -44,9 +46,10 @@ public class ruleBookmark extends AppCompatActivity {
         }
     }
 
+
     private void initDatabase(){
-        bookmarksDatabase = Room.databaseBuilder(this,rulebookmarksdatabase.class,"rulebookmarksdb").allowMainThreadQueries().build();
-        sectionList = bookmarksDatabase.rulebookmarkdao().getAll();
+        bookmarksDatabase = Room.databaseBuilder(this,finance_bookmark_database.class,"finance_bookmark_db").allowMainThreadQueries().build();
+        sectionList = bookmarksDatabase.finance_bookmark_dao().getAll();
 
     }
 
@@ -63,7 +66,6 @@ public class ruleBookmark extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.getNavigationIcon().setColorFilter(getResources().getColor(R.color.White), PorterDuff.Mode.SRC_ATOP);
-
 
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

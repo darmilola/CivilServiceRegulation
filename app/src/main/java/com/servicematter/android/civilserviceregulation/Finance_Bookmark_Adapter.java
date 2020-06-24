@@ -1,9 +1,6 @@
 package com.servicematter.android.civilserviceregulation;
 
-import android.graphics.Color;
 import android.graphics.Typeface;
-import android.text.Spannable;
-import android.text.style.BackgroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,16 +11,14 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.BookmarksViewHolder> {
+public class Finance_Bookmark_Adapter extends RecyclerView.Adapter<Finance_Bookmark_Adapter.BookmarksViewHolder> {
 
-    List<Section> sectionList;
-    String searchString;
+    List<Finance_Bookmark_Model> sectionList;
     private ListItemClickListener mOnClickListener;
 
-    public SearchAdapter(List<Section> sectionList,String searchString/*,ListItemClickListener listItemClickListener*/) {
+    public Finance_Bookmark_Adapter(List<Finance_Bookmark_Model> sectionList/*,ListItemClickListener listItemClickListener*/) {
         //this.mOnClickListener = listItemClickListener;
         this.sectionList = sectionList;
-        this.searchString = searchString;
     }
 
     public interface ListItemClickListener {
@@ -39,17 +34,9 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.BookmarksV
 
     @Override
     public void onBindViewHolder(@NonNull BookmarksViewHolder holder, int position) {
-        Section current = sectionList.get(position);
+        Finance_Bookmark_Model current = sectionList.get(position);
         holder.title.setText(current.getTitle());
-        holder.text.setText(current.getRegulation(), TextView.BufferType.SPANNABLE);
-        Spannable spannable = (Spannable)holder.text.getText();
-        int start = sectionList.get(position).getRegulation().indexOf(searchString);
-        if(start < 0){
-            start = 0;
-        }
-        int end = start + searchString.length();
-        spannable.setSpan(new BackgroundColorSpan(Color.parseColor("#EB5108")), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-
+        holder.text.setText(current.getRegulation());
     }
 
     @Override
@@ -61,7 +48,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.BookmarksV
         TextView title;
         TextView text;
 
-        public BookmarksViewHolder(View itemView) {
+        public BookmarksViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.article_item_title);
             text = itemView.findViewById(R.id.article_item_text);
@@ -71,13 +58,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.BookmarksV
 
             title.setTypeface(customfont);
             text.setTypeface(customfont2);
-
-
-
         }
-
-
-
 
 
     }
