@@ -81,7 +81,17 @@ public class Finance_Chapter extends AppCompatActivity {
         List<Finance_Section> section5 = appdatabase.finance_dao().FindSectionByCategory("cat5");
         List<Finance_Section> section6 = appdatabase.finance_dao().FindSectionByCategory("cat6");
 
-        //List<Finance_Section> section6 = appdatabase.finance_dao().FindSectionByCategory("cat6");
+        List<Finance_Section> section7 = appdatabase.finance_dao().FindSectionByCategory("cat7");
+
+
+        List<Finance_Section> section8 = appdatabase.finance_dao().FindSectionByCategory("cat8");
+
+        List<Finance_Section> section9 = appdatabase.finance_dao().FindSectionByCategory("cat9");
+        List<Finance_Section> section10 = appdatabase.finance_dao().FindSectionByCategory("cat10");
+
+        List<Finance_Section> section11 = appdatabase.finance_dao().FindSectionByCategory("cat11");
+
+
 
 
         Finance_Articles article1 = new Finance_Articles("Article 1","INTRODUCTION",section1);
@@ -93,6 +103,16 @@ public class Finance_Chapter extends AppCompatActivity {
         Finance_Articles article5 = new Finance_Articles("Article 5","TREASURY DEPARTMENT OF THE MINSITRY OF FINANCE AND TREASURY CASH OFFICES",section5);
         Finance_Articles article6 = new Finance_Articles("Article 6","REVENUE COLLECTION AND ACCOUNTING ",section6);
 
+        Finance_Articles article7 = new Finance_Articles("Article 7","AUTHORIZATION OF EXPENDITURE",section7);
+
+
+        Finance_Articles article8 = new Finance_Articles("Article 8","EXPENDITURE CLASSIFICATION AND CONTROL",section8);
+        Finance_Articles article9 = new Finance_Articles("Article 9","PAYMENT PROCEDURE AND STANDARDIZATION",section9);
+
+        Finance_Articles article10 = new Finance_Articles("Article 10","TRANSFERS AND ADJUSTMENTS",section10);
+        Finance_Articles article11 = new Finance_Articles("Article 11","BANK ACCOUNTS AND CHEQUES, ETC",section11);
+
+
         ArrayList<Finance_Articles> makeArticle = new ArrayList<>();
 
 
@@ -102,6 +122,11 @@ public class Finance_Chapter extends AppCompatActivity {
         makeArticle.add(article4);
         makeArticle.add(article5);
         makeArticle.add(article6);
+        makeArticle.add(article7);
+        makeArticle.add(article8);
+        makeArticle.add(article9);
+        makeArticle.add(article10);
+        makeArticle.add(article11);
 
         return  makeArticle;
     }
