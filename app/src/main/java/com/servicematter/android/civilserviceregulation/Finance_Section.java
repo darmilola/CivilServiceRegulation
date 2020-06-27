@@ -1063,40 +1063,359 @@ public class Finance_Section implements Parcelable {
         Finance_Section section187 = new Finance_Section("Money and remittance register","cat11","showing the date of receipt, and, if accompanied by correspondence, by a reference to the letter and file.  Where the officer entering the register is not responsible for issuing receipts he must obtain a signature in the register from the officer to whom he hands the money.  A reference must be given in the register to the number of the receipt on which the money has been brought to account and, if paid to a bank, to the date on which paid to the bank, or if remitted to another station for collection of a reference to the Remittance Voucher.  The officer entering the register must not be responsible for issuing receipts but must obtain a signature in the register from the officer to whom he hands over the money.");
 
 
-        Finance_Section section188 = new Finance_Section("","cat12","");
-        Finance_Section section189 = new Finance_Section("","cat12","");
-        Finance_Section section190 = new Finance_Section("","cat12","");
-        Finance_Section section191 = new Finance_Section("","cat12","");
-        Finance_Section section192 = new Finance_Section("","cat12","");
-        Finance_Section section193 = new Finance_Section("","cat12","");
-        Finance_Section section194 = new Finance_Section("","cat12","");
-        Finance_Section section195 = new Finance_Section("","cat12","");
-        Finance_Section section196 = new Finance_Section("","cat12","");
-        Finance_Section section197 = new Finance_Section("","cat12","");
-        Finance_Section section198 = new Finance_Section("","cat12","");
-        Finance_Section section199 = new Finance_Section("","cat12","");
-        Finance_Section section200 = new Finance_Section("","cat12","");
-        Finance_Section section201 = new Finance_Section("","cat12","");
-        Finance_Section section202 = new Finance_Section("","cat12","");
-        Finance_Section section203 = new Finance_Section("","cat12","");
-        Finance_Section section204 = new Finance_Section("","cat12","");
-        Finance_Section section205 = new Finance_Section("","cat12","");
-        Finance_Section section206 = new Finance_Section("","cat12","");
-        Finance_Section section207 = new Finance_Section("","cat12","");
-        Finance_Section section208 = new Finance_Section("","cat12","");
-        Finance_Section section209 = new Finance_Section("","cat12","");
-        Finance_Section section210 = new Finance_Section("","cat12","");
-        Finance_Section section211 = new Finance_Section("","cat12","");
-        Finance_Section section212 = new Finance_Section("","cat12","");
-        Finance_Section section213 = new Finance_Section("","cat12","");
-        Finance_Section section214 = new Finance_Section("","cat12","");
-        Finance_Section section215 = new Finance_Section("","cat12","");
-        Finance_Section section216 = new Finance_Section("","cat12","");
-        Finance_Section section217 = new Finance_Section("","cat12","");
-        Finance_Section section218 = new Finance_Section("","cat12","");
-        Finance_Section section219 = new Finance_Section("","cat12","");
-        Finance_Section section220 = new Finance_Section("","cat12","");
+        Finance_Section section188 = new Finance_Section("Use of Banks","cat12","At stations where there is a branch of the bank patronized by Government, the fullest possible use should be made of banking facilities and all cash surplus to daily requirements should be banked immediately.");
+        Finance_Section section189 = new Finance_Section("Strongroom and reserve Safes.","cat12",".  In all offices where cash or receipt and licence books beyond immediate requirements are maintained, there must be a strong room or one or more reserve cash safes for the custody of such cash and stocks, secured if possible by not less than two locks, the key to one being held by the cashier and the key of the other by a senior official.  Where existing safes have only one lock, steps should be taken to provide for a second key holder either by having locking bars fitted or the safe exchanged for one with double locks.");
+        Finance_Section section190 = new Finance_Section("Safe custody of working balance etc.","cat12",".   In all offices having cash transactions a safe must be provided for the safe custody or the daily working balance of cash, receipt and licence books during office hour.  Such safes should be built in to the wall of the building or otherwise securely attached to the structure of the building.");
+        Finance_Section section191 = new Finance_Section("Safe custody of Revenue Collectors, etc. cash.","cat12","In cases where cash collected by revenue collectors or cash to be disbursed in payment of wages, etc. has to be transported from one place to another, the officer responsible for the cash must be provided with an approved cash tank or box and at least one police escort.");
+        Finance_Section section192 = new Finance_Section("Security of strongrooms.","cat12",".  Strong-rooms should be examined periodically to ensure that no vents or openings exist through which any of the contents could be extracted either by hand or by other means.  Currency notes should be kept in boxes with lids and not loosely on shelves.");
+        Finance_Section section193 = new Finance_Section("Responsibility for custody of public money.","cat12",".  It is the duty of Accounting Officers to ensure that their departmental officers, who are required to hold public money are provided with proper safe custody facilities.");
+        Finance_Section section194 = new Finance_Section("Safes, etc. to be obtained from the Accountant-General.\n","cat12","All safes, strong-room doors and cash tanks or boxes must be obtained from the Accountant-General, who will register them and cause a registered number to be placed in a prominent position on each.");
+        Finance_Section section195 = new Finance_Section("Keys of cash tanks","cat12"," Accounting Officers shall issue instructions governing the security of keys of departmental cash tanks and boxes.");
+        Finance_Section section196 = new Finance_Section("Duplicate keys of strong-rooms and safes: safe custody of","cat12","Duplicate, and triplicate (if issued), keys of each Government strong room and safe and steel specie box must be enclosed in a separate sealed envelope with the description and details marked on the outside, and sent under confidential cover, for safe custody as follows:\n" +
+                "(a)\tThe duplicate and triplicate key of the Accountant-General’s strong-room shall be retained by the Permanent Secretary, Ministry of Finance.\n" +
+                "(b)\tDuplicate and triplicate keys of all other strong-rooms and safes and of cash/stamps boxes shall be retained by the Accountant-General.\n (c)\tDuplicate and triplicate keys of saves in which duplicates and triplicates keys of other safes are kept, shall if the safe containing the keys is located in an office other than that of the Accountant-General be kept by the Accountant-General. If the safe containing the keys is located in the Accountant-General’s Office, then the duplicate and triplicate keys shall be lodged with the Permanent secretary, Ministry of Finance.\n" +
+                "\n" +
+                "       The envelopes containing duplicate or triplicate keys shall, if possible, be sealed in the presence of the officer with whom they are to be deposited, and signed by the depositing and receiving officers.  The latter shall also give a formal receipt which shall be carefully preserved by the depositing officer.  Particulars on sealed envelopes in which duplicate keys are enclosed should be given as follows:  \n" +
+                "     Ministry of Agriculture and Rural Development Duplicate key of safe at Igbokoda Milner’s 212 Fire Resisting Safe. \n" +
+                "     Registered No. 2557\n" +
+                "     Date ………………………………\n" +
+                "     Signed …………………………..  Rank ………………………..\n" +
+                "\n" +
+                "     12010.   Where a safe is contained in a strong-room, one officer should not hold the keys of both the strong-room and safe.\n" +
+                "\n" +
+                "    12011.   The holders of original keys of safe, strong room, cash tank, etc. must verify the whereabouts of the duplicate keys and, if non-existent or untraceable, they must report to their Ministry or Department and request that the locks be altered and new keys provided.\n");
+        Finance_Section section197 = new Finance_Section("Custody of Original keys.","cat12","Officers holding the keys of strong-rooms, safes, cash tanks or cash boxes are personally responsible for their safe custody and collectively responsible for the contents.  Except when officially handed over to another officer, keys must not leave their personal possession (see Regulation 12027).  This precaution is not only to prevent their being stolen but also to safeguard them from being copied or duplicated.");
+        Finance_Section section198 = new Finance_Section("Lost Keys.","cat12","The loss of any strong-room, safe, cash tank or cash box key must be reported immediately to the Accountant-General, giving  a full explanation of the loss, with a copy to the officer holding the duplicate key and a copy to the head of the key holder’s department. The other key holders, if any, must be informed immediately, and a tape should at once be sealed across the door of the safe, the time of doing so being carefully noted.  If the safe contains cash, securities, receipts or licence books,  a police guard must be placed over the safe or strong-room until it has been opened and the contents removed.  The duplicate keys shall be obtained only to open the safe for the verification and removal of the contents.  The safe may not thereafter be used until the lock has been altered and new keys provided.");
+        Finance_Section section199 = new Finance_Section("Responsibility of officer who losses key. Keys, locks, suspected interference with.","cat12","The officer who loses a key of a Government safe, etc.  is to be called upon to meet the cost of altering the lock and the provision of new keys,\n" +
+                "\n" +
+                "   12015.   In the event of a key holder having any suspicion that the keys or locks of a strong-room or safe in his charge has been interfered with, he must remove the contents to another safe, report the circumstances as directed in Regulation 12013, and ask that immediate steps be taken to have the locks altered and new keys provided.  Other key holders, if any, must be notified immediately.\n");
+        Finance_Section section200 = new Finance_Section("Keys–locally made.","cat12","12016.   Alternations to locks of safes and the provision of new keys must, if undertaken locally, be made by the Ministry of Works under security conditions.");
+        Finance_Section section201 = new Finance_Section("Departmental records of safes and keys.","cat12","Accounting Officers are required to keep a register of the Government safes, etc. and keys thereof in the charge of their departmental officers containing a full description of each safe and its key(s).");
+        Finance_Section section202 = new Finance_Section("Annual returns of safes, etc.","cat12","Annual returns, in duplicate of all Government strong-rooms and safes shall be rendered on the 31st December by all Ministries and Departments to the Accountant-General who will have all particulars checked with his records and his register amended where necessary.  These returns shall give full particulars of the safes, etc. and the disposition of duplicate keys if not held by the Accountant-General.");
+        Finance_Section section203 = new Finance_Section("Safes-transfers of.","cat12","Any transfers of safes between stations, or from one department to another, must be notified at once to the Accountant-General. The duplicate key holders must likewise be informed to enable them to forward their keys under confidential cover to another officer for safe custody if necessary.");
+        Finance_Section section204 = new Finance_Section("Duplicate key holders to be informed of changes in locks, etc.\n" +
+                "Key holders to be present while strong-room or safe is open.\n","cat12","Whenever locks are changed and new keys made and new duplicates deposited, or a safe has been condemned and destroyed, departments should notify the officer who holds the obsolete duplicates of the fact so that old key may be destroyed.\n" +
+                "\n" +
+                "   12021.   No strong-room or safe may be opened by a person other than the authorized key holder, who must be present while the strong-room or safe is opened.  Where there are two or more key holders, all must remain present.\n");
+        Finance_Section section205 = new Finance_Section("Private money, etc not to be kept in an official safe.","cat12",".  Officers are prohibited from keeping private money or effects in an official safe, etc.  Any private money found in an official safe, is liable to be credited to Revenue.");
+        Finance_Section section206 = new Finance_Section("Security of cash overnight.","cat12"," Heads of Accounts are personally responsible for ensuring that the balance of cash in the hands of the cashier is locked in a strong-room or safe at the close of business, daily.  Where a strong-room or reserved cash safe is provided, on no account should cash be kept overnight in the cashier’s safe.");
+        Finance_Section section207 = new Finance_Section("Safes- register of contents","cat12",".   Registers shall be kept in each strong-room or reserved cash safe of all cash,  receipts or licence books and other articles deposited, the cash register must show separately the denominations and amounts of all coins and notes.  Bags of coins and bundles of notes must be properly labeled and denominations kept separate.  All entries must be signed by the authorized key holders and, in the case of documents or other articles deposited for safe custody, a receipt shall be given to the depositor (see Regulation 12029).");
+        Finance_Section section208 = new Finance_Section("Verification of contents or safes, etc","cat12",".   Heads of Accounts shall check the contents of the strong-room or reserve cash safe at least once a month against the register and report any discrepancy.  The register shall be signed by the key holders on each occasion (see Regulation 05005 re-daily check of cash)");
+        Finance_Section section209 = new Finance_Section("Custody of bonds and agreements.","cat12","It is generally desirable that Bonds and Agreements, particularly those which safeguard the financial interests of Government, should be kept in a strong-room or safe.");
+        Finance_Section section210 = new Finance_Section("Temporary transfer of key to be recorded in key register.","cat12","When an officer holding a key of a strong-room or reserve cash safe is temporarily absent, the key in his charge may, if necessary, be handed to the officer next in rank, against signature in the departmental key register but in no case may all the keys be held by one officer (see Regulation 12028)");
+        Finance_Section section211 = new Finance_Section("Certificates on handling and taking over","cat12","In all cases where one key holder hands over to another, temporarily or permanently the contents of the strong-room or safe shall be checked and certificates inserted in the register if kept, or if not, in the cash book, and signed by both officers.  Any discrepancies must be reported to the Accountant-General.");
+        Finance_Section section212 = new Finance_Section("Delivery of articles held in safe custody.","cat12","Documents or other articles deposited for safe custody shall only be delivered on the demand of the depositing officer and on the production of the receipt issued when the deposit was made.  The documents, etc, shall be acknowledged by the receiver on the back of the receipt which shall then be posted into the register.");
+        Finance_Section section213 = new Finance_Section("Security Documents  received by post.","cat12",".   Every office at which security documents of value are received through the post must be provided with a padlocked Post Office Mail Bag in which all letters from the post office shall be delivered.  The key of the padlock shall be kept by the officer in charge of the office and the bag shall be opened in his presence.");
+        Finance_Section section214 = new Finance_Section("Registered letters registers.","cat12","The officer to whom the responsibility for the opening of mail has been delegated shall keep a register of all inward and outward registered letters, giving details of the contents of the letters.  Unregistered letters containing articles of value shall also be entered in the register.  All entries must be signed by the officer-in-charge.  In the case of outward registered letters, the Post Office receipts shall be filed and numbered consecutively and a reference inserted in the register.");
+        Finance_Section section215 = new Finance_Section("Safe custody of security documents","cat12","The greatest care must be exercised at all times in the care and safe custody of security documents and an officer having in his charge any of the under-mentioned documents must ensure that they are locked overnight in a safe, strong-room or fireproof security cabinet, according to their importance, and that adequate measures are taken to safeguard them during the day:\n" +
+                "\n" +
+                "UNUSED OR PARTLY USED FORMS, ETC IN THE FOLLOWING CATEGORIES:\n" +
+                "\n" +
+                "      All Receipt and Licence Books and Fixed Fee Tickets.\n" +
+                "      Entertainment Tax Tickets\n" +
+                "      Cheque Books and Drafts\n" +
+                "      Payment Request Booklets\n" +
+                "      Local Purchase Order Books\n" +
+                "      Stores Requisition Books\n" +
+                "      Legal Documents, etc including Contracts\n" +
+                "      Bonds and Agreements\n" +
+                "      Insurance Policies\n" +
+                "      Share certificates, Debentures and similar securities\n" +
+                "      Documents submitted for assessment and/or payment of \n" +
+                "      stamp  duty.\n" +
+                "\n");
+        Finance_Section section216 = new Finance_Section("Safe custody of security books","cat12",".   Adequate precautions must be taken to protect against access by unauthorized persons and against damage by fire, the following security books.\n" +
+                "      Cash Books (including Revenue Collector’s Cash Books)\n" +
+                "      Principal and other Journals\n" +
+                "      Principal and Subsidiary Ledgers\n" +
+                "      Abstracts of Revenues and Expenditure\n" +
+                "      Loans Registers \n" +
+                "      Investment Registers\n" +
+                "      Records of Advances and Deposits\n" +
+                "      Paper Money Register and Registered Letter Registers\n" +
+                "      Registers of Safe and Keys\n" +
+                "      Stores Ledger and Stock Books\n" +
+                "      Asset Register\n" +
+                "      Personal Emoluments Index and Record Sheets\n" +
+                "      Pension Registers\n" +
+                "      Used Receipt and Licence Books.\n" +
+                "\n" +
+                "An officer having in his charge any of the above mentioned security documents and books must ensure that they are locked in a safe strong room or security container overnight and that adequate measures are taken to safeguard them during the day.  Where it is impossible to put them in one or the other overnight, the best possible alternative msut be devised. \n");
+        Finance_Section section217 = new Finance_Section("Retention of Security documents and books after use.","cat12","Security books and documents and other accounting records shall be retained for the following periods after use (i.e. in the case of books or registers, from the date of the last entry made therein):\n" +
+                "\n" +
+                "       (a)   Permanently:\n" +
+                "       (i)      Warrants issued by the Commissioner for Finance,\n" +
+                "(ii)\t Cash Books (other than Revenue Collectors’ Cash Books).  \n" +
+                "\n" +
+                " Principal and other Journals\n" +
+                "                Principal and Subsidiary Ledgers\n" +
+                "                Personal Emoluments records (Index) Sheets.\n" +
+                "                Pension Registers\n" +
+                "                Loans Register.\n" +
+                "                Register of Safes and Keys.\n" +
+                "                Asset Registers\n" +
+                "(b)\tFor seven years:\n" +
+                "Abstracts of Revenue and Expenditure\n" +
+                "Revenue Collector’s Cash Books,\n" +
+                "Original and Duplicate Receipt Vouchers and Abstracts,\n" +
+                "Investment Registers,\n" +
+                "Paper Money Registers,\n" +
+                "Stores Ledgers and Stock Books.\n" +
+                "\n" +
+                "(c)\tFor five years:\n" +
+                "Duplicates and other copies of vouchers\n" +
+                "\n" +
+                "(d)\tFor three years  \n" +
+                "Cheque Book Stubs:  Until after the audit by Auditor-General\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                " Officers having in their custody any of the documents specified above may destroy them at the end of the prescribed periods provided they have been audited by the Auditor-General.\n" +
+                "\n");
+        Finance_Section section218 = new Finance_Section("Delivery of articles held in safe","cat12","Documents or other articles deposited for safe custody shall only be delivered on the written demand of the depositing officer or other authorized person and on the production of the receipt issued when the deposit was made.  The documents, etc, shall be acknowledged by the receiver on the back of the receipt which shall be filled in the register.");
 
+
+
+
+        Finance_Section section219 = new Finance_Section("General controls","cat13","Except as provided below, the Accountant-General is responsible for the control of all receipt and licence books, etc, used in accounting for the receipt of Government money.");
+        Finance_Section section220 = new Finance_Section("Departmental control","cat13","Accounting Officers are responsible for the registration and control of special receipt, licence, etc, books applicable to their departments. Before any kind of departmental revenue books is put into use, Treasury approval must be obtained.  The Accountant-General and Accounting Officers, who are responsible for the control of these departmental revenue books, shall maintain Stock Registers in compliance with the laid down rules in this chapter.");
+        Finance_Section section221 = new Finance_Section("Requisition to Government Printer.","cat13","Only Accounting Officers and the Accountant-General are authorized to make requisition to the Government Printer for supplies of new books which must be printed in the forms prescribed by law, or by the Ministry of Finance or by these Regulations.  All counterfoils shall bear printed consecutive Treasury Numbers in separate series for each type of class of book.");
+        Finance_Section section222 = new Finance_Section("Indents on Accountant-General","cat13","Requisitions for receipt, etc, books other than the special departmental books referred to in Regulation 13002 shall be submitted quarterly to the Accountant-General by Heads of Account who shall include in their requisitions the requirements of Revenue Collectors who account to them.");
+        Finance_Section section223 = new Finance_Section("Issues by Accountant-General and Head of Accounts","cat13","(1)    Issues by the Accountant-General shall be made to Heads of Accounts only.  All issues shall be recorded in the Stock Registers.\n" +
+                "\n" +
+                "   (2)   The Heads of Accounts shall record their supplies in the Stock Register and issue for use as required by themselves and the Revenue Collectors who account to them.  All issues shall similarly be recorded in the Stock Register.\n" +
+                "\n" +
+                "(3)\tAll issues shall be made in consecutive order.\n");
+        Finance_Section section224 = new Finance_Section("Receipt Book Issue Notes","cat13","(1)   Issue Notes of Receipt Books shall be numbered consecutively and made out in four copies for distribution as follows:\n (a)\tOriginal and duplicate copies to the officer to whom the issues are made.  The duplicate copy shall be receipted and returned to the office of issue where it shall be securely attached to the forth copy.\n" +
+                "   \n" +
+                "(b)\tThird copies to the Auditor-General.\n" +
+                "\n" +
+                "(c)\tFourth copies shall remain in the book at the office of issue. \n All issuing officers must ensure that the duly receipted duplicate copies of issue notes are returned without delay.");
+        Finance_Section section225 = new Finance_Section("Special Departmental Receipts.  Issue of:","cat13","Heads of Departments who are responsible for the control of special receipt, etc books are required to notify issues to the Auditor-General and to the Treasury cash Office responsible for checking the Revenue Collector’s Cash Books.  An additional copy of the issue note shall have to be prepared in these cases.");
+        Finance_Section section226 = new Finance_Section("Responsibility, for checking all issues.","cat13",".   Every issue of receipt and licence books must be checked with the supporting Receipt Book Issue Note as soon as it is received and each book examined for defects in numbering, printing etc.  any discrepancy in the quantity or the numbering of the books supplied shall be reported immediately to the supplying officer with a copy to the Accountant-General and the Auditor-General.  The receiving officer shall be held responsible for any errors discovered after the duplicate copy of the Receipt Book Issue Note has been receipted and returned to the supplying officer.");
+        Finance_Section section227 = new Finance_Section("Taking on charge and safe custody by users.","cat13",".   All receipt books, etc.  Issued from main stocks for use must be recorded in a Receipt Book Register in the prescribed form by the receiving officer.  He shall be responsible for ensuring that the books are locked in a safe or strong-room at the close of business and adequate measures are taken to safeguard them during the day.  Cashier or clerks to whom issues are made for daily use shall be responsible for them during the day, but the responsible officer must ensure that they are locked up daily at the close of business.  Similarly, cashier or clerks shall be responsible for the custody of such receipt and licence books as it may be necessary to leave with them for the performance of routine business during any temporary absence of the responsible officer.  It shall, however,   be the duty of the latter on his return to examine the books, satisfy himself that there has been no loss or misuse and make a test check of the receipts and licences issued with the entries in the Cash Books.");
+        Finance_Section section228 = new Finance_Section("Transfer of receipt and licence books","cat13","Receipt and licence books shall not be transferred between Heads of Accounts without the consent of the Accountant-General, except in Special cases of emergency when the circumstances shall be reported to the Accountant-General.");
+        Finance_Section section229 = new Finance_Section("No transfers between Revenue Collectors.","cat13","Except when one Revenue Collector is officially relieved by another, no used or unused receipt or licence books may be passed, transferred or lent by one Revenue Collector to another.  (See Regulation 12028  re-handing over certificates.)");
+        Finance_Section section230 = new Finance_Section("Receipts not to be altered.","cat13","All revenue receipts, etc. shall be issued to payers in strict serial order and they shall not be altered in anyway, nor cut nor divided.");
+        Finance_Section section231 = new Finance_Section("Spoiled receipt and licence forms","cat13","When a receipt or licence form is spoilt or damaged it shall be cancelled and all copies endorsed in ink or indelible pencil ‘Cancelled’. The original, duplicate and triplicate copies of the cancelled receipt or licence should be retained in the receipt book for audit to support the R.V to the Treasury Cash Officer or Head of Accounts, while the triplicate shall be retained in the receipt book for audit.");
+        Finance_Section section232 = new Finance_Section("Disposal of original of receipts and licence forms.","cat13"," The original receipt or licence form shall be handed or delivered to the payee.");
+        Finance_Section section233 = new Finance_Section("Disposal of duplicate copies of receipt and licence forms.","cat13","The duplicate of all receipts and licences (excluding, fixed fee licences and tickets of the counterfoil type) issued by Heads of Accounts and by Revenue Collectors shall be sent with the monthly account to the Accountant-General or Accounting Officer.  (see Regulation 06008).");
+        Finance_Section section234 = new Finance_Section("Disposal of triplicate copies of receipt and licence","cat13","Audited used receipt or licence books printed in triplicate may be destroyed one year after the date of the audit inspection unless advice that a particular book should be retained has been received from the Accountant-General, Accounting Officer, Auditor-General or the Commissioner of Police.");
+        Finance_Section section235 = new Finance_Section("Fixed fee receipts and licences.","cat13","In the case of receipt and licence forms which bear a printed value, the receipt voucher on which the revenue is brought to account in the Accounts Officer’s cash book must give reference to the opening and closing serial numbers of the receipts and licences issued.");
+        Finance_Section section236 = new Finance_Section("Monthly for returns","cat13","Every Officer having in his charge revenue receipt, etc books shall render with his monthly accounts a certified return showing in respect of each type of receipt or licence in stock and in use:\n" +
+                "\n" +
+                "(a)\tSerial numbers of unused receipts on hand at commencement of the month.\n" +
+                "(b)\tSerial numbers of stock received during the month.\n" +
+                "(c)\tSerial numbers of issues during the month.\n" +
+                "(d)\tSerial numbers of unused receipts on hand at end of the month.\n" +
+                "          Collectors of Revenue including holders of special departmental receipts or licences, shall render their returns monthly to the Head of Accounts, who shall forward them with his accounts after checking.  Holders of special departmental receipts shall send a copy of each monthly returns to the office of issue.  For the purpose of the returns submitted by Revenue Collectors as required by this Regulation, the term at the end of the month is made to the Head of Accounts.\n");
+        Finance_Section section237 = new Finance_Section("Monthly returns to continue though no receipt or licenses issued.","cat13","In cases where an Accounts Officer or Revenue Collector does not issue any receipts or licences during a month, he shall nevertheless submit monthly returns as prescribed by Regulation 13018, so long as he holds a receipt or licence book.");
+        Finance_Section section238 = new Finance_Section("Surplus receipt and licence books and forms.","cat13","Unused surplus Receipt and Licence Books should be returned to the office of issue and the Accountant-General (or Accounting Officer as the case may be) and the Auditor-General be informed.  (see Regulation 13006)");
+        Finance_Section section239 = new Finance_Section("Certified true copies.","cat13","If an issued receipt form is lost and application is made for the issue of a duplicate, the Accountant-General (or Accounting Officer concerned) may issue a certified true copy.  Under no circumstances may a printed receipt form be used, nor may a copy of the licence be issued unless the Law makes specific provision therefore.");
+        Finance_Section section240 = new Finance_Section("Missing receipt and licence books","cat13","Every officer responsible for the safe custody of receipt and licence forms must investigate any loss immediately and report the particulars to the officer who supplied him.  The officer to whom the loss is reported shall ensure that the investigation is brought to conclusion, and shall render a report to the Accountant-General (with a copy to the Auditor-General) so that, if necessary, particulars of the missing forms can be published in the Gazette.   No lost book or counterfoil may be written off without the specific authority of the Accountant-General which when received, should be noted in the register or the book as the case may be.  The Auditor-General must be notified of any approved write-off.");
+        Finance_Section section241 = new Finance_Section("Handing over certificates","cat13","When one officer hands over to another, certificates signed by both officers are required in respect of all receipt or licence books or forms on charge.  The certificates should be supported by detailed lists showing the quantity and serial numbers of each type of book, and the officer taking over should sign below the last entries in the Stock Register.");
+        Finance_Section section242 = new Finance_Section("Destruction of exhausted counterfoil receipts, etc","cat13","Audited fixed fee licence and ticket counterfoil may be destroyed at the expiration of seven years from the date of issue of the last receipt therein.");
+        Finance_Section section243 = new Finance_Section("Destruction of obsolete unused receipts, etc.","cat13","Accounting Officers may authorize the destruction of obsolete unused receipts and licences, etc. which must be destroyed in the presence of three senior officers of whom two must be from other departments.  Destruction may only be effected by total burning.  The unused receipts must first be carefully examined to ensure that they are complete as to originals and all copies and that they are in fact unused.  The unused receipts actually destroyed must be carefully listed on a destruction certificate signed by all three officers and a copy shall be forwarded to the Auditor-General.  The main Stock Registers must also show details of all books so destroyed.  The destruction of any obsolete receipt books, etc containing used forms is also governed by the requirements of Regulations 13016.\n" +
+                "\n");
+        Finance_Section section245 = new Finance_Section("Auditor-General to be notified","cat13","Prior notice of intention to destroy unused receipts must be given to the Auditor-General so as to enable an Audit Officer to attend and witness the destruction if the Auditor-General so desires");
+
+
+
+
+
+
+
+
+        Finance_Section section246 = new Finance_Section("Definition.","cat14","The term ‘Imprests’ is applicable to all sums advanced to officer of the government to meet expenditure under the current estimates, for which vouchers cannot be presented immediately to the Accountant-General or Head of Accounts for payment.");
+        Finance_Section section247 = new Finance_Section("Imprest:  application and authority for.","cat14",".  (a)    Imprests are issued by Accounting Officers from Departmental drawing accounts under the authority of the Release Warrant.  Application for imprests shall be directed to Accounting Officer stating the amount and the purpose for which it is requested.\n" +
+                "\n" +
+                "14003.   Imprests are of two classes, namely:\n" +
+                "\n" +
+                "(a)\tSpecial imprests is granted for a particular purposes, which must be accounted for in full within the period allowed or when the service is completed.\n" +
+                "\n" +
+                "(b)\tStanding imprests, which may be replenished from time to time during the financial year by submission of paid vouchers to the Accounting Officer for reimbursement?\n");
+        Finance_Section section248 = new Finance_Section("Procedure for payment from imprests.","cat14",")   Every imprest holder shall keep a detailed record of disbursement and shall record therein all receipts and payments.  This procedure applies also to imprests for dispatching of mails.  \n" +
+                "\n" +
+                "(b   All imprest payments shall be supported by such documents in one of the prescribed forms which shall be correctly raised and certified, and duly receipted when payment is made\n" +
+                "\n" +
+                "(c)\tDisbursement shall be classified to the Heads and Sub-heads of the approved Estimates. \n" +
+                "\n" +
+                "(d)\tEntries shall be made in the cash  book on the day they occur and shall show full particulars of each receipt or payment.\n" +
+                "\n" +
+                "        (e)         The cash book shall be regularly balanced and ruled off, and the cash on hand regularly checked by a Senior Officer, who shall certify the cash book \n" +
+                "                       accordingly.  Accounting Officers shall issue instructions concerning the\n" +
+                "                       frequency, having due regard to the size of the imprest and the number of\n" +
+                "                       payments made.\n" +
+                "\n" +
+                "(f)        The cash in bank as shown by the cash book shall be regularly reconciled with\n" +
+                "             the bank statement, and the Reconciliation Statements duly certified by a\n" +
+                "             senior officer.\n" +
+                "\n" +
+                "(g)   A record shall be kept of vouchers which have been submitted for reimbursement, and reimbursement monies shall be brought to account immediately they are received.\n" +
+                "\n" +
+                "(h)      Imprest cash shall be kept separate from other monies at all times.\n" +
+                "\n" +
+                "(i)      The provision of Regulation 12003 as appropriate shall apply with regard to the custody of imprest cash.\n" +
+                "\n" +
+                "(j)     The duty of maintaining the imprest cash and cash book may not be delegated to an officer on a salary scale lower than grade level 07, the delegated officer must also be conversant with the book keeping procedure for posting and balancing the cash book.\n" +
+                "\n" +
+                "(k)  On no account shall personal advance be sued in disguise of special Imprest, in the procurement of stores which is governed by the provisions of this Regulations \n");
+        Finance_Section section249 = new Finance_Section("Imprest holders responsibilities of","cat14","Imprest holders must duly observe all regulations regarding the control of expenditure and the disbursement of public money and are responsible for the correctness of vouchers signed by them (see Regulation 08009).  They are also responsible for ensuring the early submission of paid vouchers for reimbursement.  The imprest may be used only for the purpose for which it is issued.  Imprest holders may not use for imprest purposes other public moneys which may come into their possession.  Such moneys must be kept separate and be accounted for in full. The imprest holder is responsible for the safe custody of the money in his care.");
+        Finance_Section section250 = new Finance_Section("Replenishment of imprest","cat14",".   To obtain reimbursement of amounts paid from an imprest, the holder shall submit the properly completed and receipted payment vouchers for the amount expended to the Head of Accounts who issued the imprest.  The vouchers shall be classified direct to the expenditure heads concerned and not to ‘Imprests’.  The replenishment must not exceed the amount of the expenditure vouchers submitted.  Replenishment of amount paid from imprest shall be effected at least once a month.");
+        Finance_Section section251 = new Finance_Section("Retirement of imprest.","cat14","(a)    All standing imprests must be retired on or before the 31st Decembers of the financial year in which they are issued.  Special imprests shall be retired within the period allowed or immediately the reasons for which they were granted cease to exist, whichever is the earlier.  Retirement shall be effected by the production of vouchers and or cash for the full amount of the imprest.\n" +
+                "\n" +
+                "     (b)   Officers retiring imprests at the end of the financial year should apply in good time for the issue of any new imprest required for the ensuing year.\n");
+        Finance_Section section252 = new Finance_Section("Imprest accounted for after end of financial year.","cat14","Head of Accounts and Imprest Holders are required to see that all imprests are retired in accordance with Regulation 14008.  Suitable arrangement should be made to ensure that all vouchers submitted for reimbursement are passed before the end of the financial year.");
+        Finance_Section section253 = new Finance_Section("Inspection of imprest accounts","cat14","The accounts of Imprest Holders are subject to inspection by the Internal Auditor, the Accountant-General and the Auditor-General.");
+
+
+
+
+
+
+
+
+
+
+
+
+        Finance_Section section254 = new Finance_Section("Annual Board of Survey.","cat15","Board of Survey,  to be held before the commencement of business on the first day of the new financial year, shall be appointed by the Permanent Secretary, Ministry of Finance to examine the cash, and bank balances held by the Accountant-General and Head of Accounts/Treasury Cash Officers at headquarters and out-stations.");
+        Finance_Section section255 = new Finance_Section("Surprise Board of Survey.","cat15","Surprise Quarterly Boards shall be appointed by the Permanent Secretary, Ministry of Finance to hold surveys of the cash, bank balances etc, in the custody of the Accountant-General and Head of Accounts/Treasury Cash Officers.  The appointment of Surprise Boards must be kept secret.");
+        Finance_Section section256 = new Finance_Section("Surprise Cash Surveys.","cat15","Accounting Officers shall arrange for surprise cash surveys on all officers under their control, having custody of public money. These surveys should not be less frequent than once a quarter.  The appointment of all surprise surveys shall be kept secret.");
+        Finance_Section section257 = new Finance_Section("By who appointed","cat15","Boards shall be appointed by the Accounting Officer concerned.  In the case of Boards appointed outside Akure, the proceedings of the board should be sent by the President directly to the Accounting Officers concerned.  The appointment of Quarterly Boards of Survey must be kept secret.");
+        Finance_Section section258 = new Finance_Section("Constitution of Boards.","cat15","A Board should consist, where possible, of three officers (including the president).  The President should be as senior as possible and hold a post in grade level 10, or higher; the other members should not be lower than grade level 08.  The officer in charge of the cash, etc. should be present when the Survey is being held but may not serve on the Board.  At offices where it is not possible to assemble a Board satisfying the above conditions, a board of one officer only may be appointed.  An explanation of why a full Board could not be appointed should appear on the Board of Survey’ report.");
+        Finance_Section section259 = new Finance_Section("Members to report to officer Convening","cat15","Officers appointed to a Board of Survey must report immediately to the convening authority if they are unable to serve.");
+        Finance_Section section260 = new Finance_Section("Suspension of Business","cat15","No Cash transaction may take place between the close of business at the end of the financial year and the meeting of the Annual Board.  On other occasions cash transaction must cease until the Board has completed the survey.  Should the verification of cash, etc, last more than one day, the unverified portion must remain under the joint control of the Board and the officer-in-charge of the cash until completed.");
+        Finance_Section section261 = new Finance_Section("Duties of Boards and Surveying officers","cat15","Boards of Survey and Surveying Officers are required to check the cash book registers by casting the entries for the month actual cash etc.  The balances brought forward at the beginning of the month must also be checked by reference to the cash book of the previous month.  The cash-book folio and the stamp registers shall be certified accordingly.  If a bank account is kept, a certificate of the balance must be obtained from the Bank by the president of the Board or surveying officers and reconciled with the bank balance shown in the cash book.  A test check of entries in the cash book against vouchers should be made.");
+        Finance_Section section262 = new Finance_Section("Counting of Cash.","cat15","All currency notes must be counted in detail including sealed packages of notes from the Bank.");
+        Finance_Section section263 = new Finance_Section("Certification of Cash Book","cat15","The cash balance shall be certified by the Board on both the original and duplicate copies of the cash book.");
+        Finance_Section section264 = new Finance_Section("Surplus or shortage","cat15","Any surplus disclosed as a result of a Board of Survey or by a surveying officer must be brought to account in the Cash book as a Credit to revenue Head: Miscellaneous, Sub-Head:  Sundries. Any shortage must be made good by the officer responsible or charged to an advance account for investigation.  A serious shortage must be reported immediately to the Accountant-General with a copy to the Auditor-General in accordance with Chapter 16 of these Regulations.");
+        Finance_Section section265 = new Finance_Section("Return of proceedings","cat15","On completion of a survey, a report shall be rendered in triplicate on Treasury Form 42, the certificate being signed by all members of the Board. One copy shall be forwarded, by the president or surveying officer, not later than two weeks after the date of survey, to the Accountant-General who shall transmit one copy to the Auditor-General, and the third copy to the Accounting officer concerned.");
+        Finance_Section section266 = new Finance_Section("Surprise inspections","cat15","Accounting officers must issue instructions for systematic inspection at irregular intervals of the cash held by their subordinates.  A record of such inspections must be kept.");
+        Finance_Section section267 = new Finance_Section("Officers of Audit Department and Boards of Survey.","cat15","An officer of the Audit Department may not serve on a board of survey except on express instruction of the Auditor-General or after his permission has been obtained by the convening officer.");
+
+
+
+
+
+
+
+
+
+        Finance_Section section268 = new Finance_Section("Shortages in cash.","cat16",".   In all cases of shortages in cash, whether such losses arise from fraud, theft or irregular payments, the following procedure shall be complied with in the following sequence.");
+        Finance_Section section269 = new Finance_Section("(a) Officer in charge of the cash in which shortage is found.\n" +
+                "\n" +
+                "(b) The Most senior Officer of the Ministry,\n" +
+                "Department/\n" +
+                "Agency in the Station.\n","cat16","Shall report to his Head of Department immediately:\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "(i)\tReport to the Police immediately if there is the slightest possibility of fraud being involved.\n" +
+                "(N.B. – Officers in doubt should err on the side of suspicion, as failure to do so often hampers Police operations).\n" +
+                "\n" +
+                "(ii)\tForward particulars (including a statement as to whether the matter has or has not been reported to the police) to the Head of Department concerned and to the Accountant-General and Auditor-General.  A more explanatory letter is to follow immediately.\n" +
+                "\n" +
+                "(iii)\tInitiate and complete five copies of part 1 of form 146 and forward them to the Head of Department concerned.\n");
+        Finance_Section section270 = new Finance_Section("(c)  Accounting Officer.","cat16","(i)\tAs soon as the general circumstances of the loss are known, an interim report should be forwarded immediately to the Accountant-General with copies to the Permanent Secretary, Ministry of Finance and the Auditor-General.  He should also investigate fully, the whole incident and situation and convene a Board of Enquiry if he considers it necessary.\n" +
+                "\n" +
+                "(ii)\tComplete parts 2 and 3 of the Treasury Form 146 referred to at (b) (iii)   above and send copies to the Permanent Secretary, Ministry of Finance, the Auditor-General, the Accountant-General, and the Secretary, Civil Service Commission, within thirty days of the receipt of Treasury 146.\n" +
+                "\n");
+        Finance_Section section271 = new Finance_Section("(d) Secretary, Civil Service Commission.","cat16","(i)\tAdvise the Accountant-General, if he disagrees with recommendation not to convene a Board of Enquiry or with the terms of reference of the Board.\n" +
+                "\n" +
+                "(ii)\t   Place the recommendations of the Accountant- General and finding of the Board of Enquiry before the Commission for consideration and decision.\n");
+        Finance_Section section272 = new Finance_Section("(e) Accountant-General.","cat16","(i)\tEnsure that the correct procedure has been followed by the Department concerned, e.g. submission of Treasury Form 146, Board of Enquiry/Police report as may be necessary to guarantee that full information is available.\n" +
+                "\n" +
+                "(ii)\tExamine all evidence and reports available and call for further investigation locally if necessary.\n" +
+                "(iii)\tRequest the Permanent Board of Enquiry to convene a Board if he has a good reason to disagree with a decision not to call for one.\n");
+        Finance_Section section273 = new Finance_Section("(f)  Permanent Secretary, Ministry of Finance.","cat16","(iv)\tSend to the Permanent Secretary, Ministry of Finance, a report and make comprehensive recommendations.");
+        Finance_Section section274 = new Finance_Section("(g)  Accounting Officer.","cat16","(i)\tNotify the Accounting Officer, the Auditor-General and the Accountant-General, of the decision of the appropriate authority. The comments of the Auditor-General should be obtained before a final decision is taken.\n" +
+                "\n" +
+                "        Implement decision of the appropriate authority.\n");
+        Finance_Section section275 = new Finance_Section("(h)All Officers concerned.","cat16","     Prompt action at all stages is essential.  It must be borne in mind that in the event of a loss that might have been prevented through prompt action on an earlier loss, the officer(s) responsible for undue delay in taking action regarding the earlier loss may be held responsible in whole or in part for the later loss.");
+        Finance_Section section276 = new Finance_Section("Board of Enquiry","cat16",".   (a)   Any Board of Enquiry should include an accounts officer.  The Board of Enquiry convened to investigate a loss shall meet at times and places most suitable for efficient investigation but, where action by the Police is also being taken, the final deliberations and recommendation of the Board shall be deferred until the completion of Police action  and shall include consideration of any relative Police reports and/or Court proceedings.  The holding of the Board should not be deferred owing to the fact that criminal proceedings are pending in connection with the loss.  Although it would not be possible for the Board to examine any person against whom a criminal charge has been preferred, it is important that the Accountant-General should be placed in possession of all the facts relating to the circumstances of the loss with the least possible delay in order that any weakness in the accounting system which investigation of the loss may reveal, may be corrected immediately.  The Board should therefore, direct its enquiries towards discovering such weakness, and submit its report even though they are not able to include a recommendation as to the fixing of responsibility for the loss.\n" +
+                "\n" +
+                "(b)     Where it is impracticable to record evidence verbatim, it shall be summarized by the Board in such a manner as to facilitate examination and deductions.  The Board’s report should include:\n" +
+                "   \n" +
+                "(i)\tAn opinion as to whether the system or personal operation thereof was at fault, and suggestions as to any remedy which may appear to be practicable in view of local conditions.\n" +
+                "\n" +
+                "(ii)\tA recommendation as to fixing of responsibility for the loss in whole or in part; and\n" +
+                "\n" +
+                "(iii)\tThe degree of apportionment, if it is considered that there is collective responsibility.\n" +
+                "\n" +
+                "(c)     Five copies of the proceedings and report of the Board shall be sent to the Accounting Officer who shall attach his comments and forward copies to the Permanent Secretary, Ministry of Finance, the Auditor-General and the Accountant-General.\n");
+        Finance_Section section277 = new Finance_Section("Civil Action after Conviction.","cat16","Where criminal proceedings are instituted, leading to a conviction, the Accounting Officer should immediately investigate the prospects of recovery by means of a Civil action from the assets of the convicted person or persons, and the result of such investigation should be communicated to the Permanent Secretary, Ministry of Finance, Auditor-General and the Accountant-General.");
+        Finance_Section section278 = new Finance_Section("Deficiencies found by Board","cat16","Details of any deficiency disclosed as the result of a Board of Survey on cash shall be included in the report of such Board, together with a statement that the Board has satisfied itself that the officer immediately in charge of the cash has duly taken the initial action required by Financial Regulations.");
+        Finance_Section section279 = new Finance_Section("Officer interdicted:  emoluments of.","cat16","When an officer has been interdicted from duty such proportion of his emoluments as the Civil Service Commission allows him to receive shall not be impounded or subjected to any reduction or abatement in respect of any claim which Government may have against him in connection with the reason for his interdiction.");
+        Finance_Section section280 = new Finance_Section("Emoluments to cease after criminal conviction","cat16","The proportion of emoluments allowed to be received during a period of interdiction shall cease as from the date of criminal conviction.");
+        Finance_Section section281 = new Finance_Section("Losses where no fraud or theft is involved.  Accounting Officer’s personal power to surcharge.  Accounting Officer to inform Civil Service Commission, Auditor-General and Accountant-General when power of surcharge is use","cat16","(a)    Where a cash loss has occurred without fraud or theft being involved, Accounting Officers are personally empowered to surcharge the officer or officers responsible up to the full amount of the loss, provided the officer’s salary is not above level 06 but officers on level 07 and above should be referred to the Civil Service Commission.  Accounting Officers are personally responsible for ensuring that any surcharges they authorise are duly recovered.  Where  a loss is treated under this Regulation, the Accounting Officer must immediately send a brief report of the circumstances including the value of the loss and the name(s) of the officer(s) he has surcharged, together with the amounts of the surcharge in each case, to the Secretary,\n" +
+                "Civil Service Commission, Auditor-General and the Accountant-General.  On receipt of this report and after consideration and acceptance of it write-off approval, if still required, shall be conveyed to the Accounting Officer by the Accountant- General.\n" +
+                "\n" +
+                "   (b)    A shortage treated under this Regulation shall be charged as a personal advance against the officer responsible for the cash, pending a decision.\n");
+        Finance_Section section282 = new Finance_Section("Recoveries and surcharges.","cat16","A surcharge is not a disciplinary measure and it can be made at any time whether or not disciplinary proceedings are being taken in respect of the circumstances leading to the surcharge. A surcharge can be justified whenever there is a degree of culpability, even though the same degree of culpability would not support the disciplinary charge for negligence or in-efficiency.  A degree of negligence which though proved does not in fact contribute to a loss or to its non-detection cannot support a surcharge in respect of that loss.  For a surcharge to be made there should be some degree of negligence or culpability on the part of the officer concerned which contributed to the loss positively or negatively.\n" +
+                "\n" +
+                "16008.  Recoveries made or surcharges imposed shall be credited to the Ministry/Department suffering the loss.\n");
+        Finance_Section section283 = new Finance_Section("Doubtful cases.","cat16","In cases of doubt or where losses do not clearly fall into the above categories each case shall be decided on its merits.");
+        Finance_Section section284 = new Finance_Section("Account to be charged.","cat16","On the discovery of a loss of funds, the amount of the loss shall normally be charged to a Non-Personal Advance Account of the Ministry or Unit concerned pending the investigation of the loss.");
+        Finance_Section section285 = new Finance_Section("Accounting entries.","cat16","The type of the accounting entry required to charge a loss to the Advance Account shall depend upon the nature of the loss and the date of the original transactions when payments are involved, thus:\n" +
+                "\n" +
+                "Types of Loss                                                      Accounting Entry Required\n" +
+                "\n" +
+                "a.    Loss of Cash                                               Charge the loss to the advance\n" +
+                "                                                                            account under the authority of \n" +
+                "                                                                           a payment voucher.\n" +
+                "\n" +
+                "b.    Fraudulent or over-payments                 Transfer the amount by raising\n" +
+                "       made and discovered within                    adjustment voucher debiting\n" +
+                "       the same financial year.                            Advances accounts, and crediting\n" +
+                "                                                                            the account originally debited.\n" +
+                "\n" +
+                "d.     Fraudulent payments made                   Transfer the amount by adjustment \n" +
+                "       in a previous financial year                     voucher, debiting advances account   \n" +
+                "       charged against the  Consolidated            and crediting Revenue Miscellaneous\n" +
+                "      Revenue Fund, or the Development        Head “Sundries” Sub-head of the \n" +
+                "      Fund.                                                           current years Estimate.\n" +
+                "\n" +
+                "e.    Unrecovered over-payment,                    No adjustment is necessary, but the \n" +
+                "       not involving fraud, made in a                 abandonment of the recovery must \n" +
+                "       previous financial year charged              of the recovery must be registered \n" +
+                "       against the Consolidated Revenue          by the Accountant-General as a loss.\n" +
+                "      Fund or the Development Fund.\n" +
+                "\n" +
+                "f.     Abandonment of the recovery               No adjustment is necessary, but the \n" +
+                "       of a Bicycle Advance issued                    abandonment of the recovery must \n" +
+                "       Initially from Recurrent                           be Registered by the Accountant-\n" +
+                "       From Recurrent Expenditure.                 General as a loss.\n" +
+                "\n" +
+                "g.     Abandonment of the recovery                 On availability of funds from Ministry\n" +
+                "       of an amount of advance charged         of Finance, transfer the amount by\n" +
+                "       initially on advances account.                 Adjustment Voucher, debiting Loss\n" +
+                "                                                                          of funds and crediting Advances \n" +
+                "                                                                          Accounts.\n" +
+                "                                                                      \n" +
+                "h.   Abandonment of the recovery of          No adjustment is necessary but \n" +
+                "                                                                                          abandonment of the Accountant-\n" +
+                "                                                                                          General as a loss.\n");
+        Finance_Section section286 = new Finance_Section("Officers to initiate\n" +
+                "Accounting\n" +
+                " entries.\n","cat16","The Head of Accounts/Treasury Cash Officer or the Officer Controlling Expenditure concerned in a loss shall initiate the accounting entries required under Financial Regulation 16011 and shall ensure that an additional copy of the accounting document is forwarded to the Accountant-General attached to the report on the loss on Treasury Form 146. If the adjustment for a loss originates within a Ministry the adjustment shall be passed through the accounts.");
+        Finance_Section section287 = new Finance_Section("Recovery of the loss.","cat16","The recovery of the amount of a loss, whether in part or the whole by physical recovery or by repayment, shall be credited to the Non-personal Advance Account initially, charged under Financial Regulation 16010, but be credited directly to the miscellaneous Head of the Current Estimates, Sub-Head ‘Sundries’.");
+        Finance_Section section288 = new Finance_Section("Surcharge Classification of.","cat16","The receipt of a surcharge, whether in whole, or by installment, shall be credited to the Miscellaneous Revenue Head of the Current Estimates, sub-head ‘Sundries’");
+        Finance_Section section289 = new Finance_Section("Loss written-off , Classification of.","cat16","Losses when written-off shall be charged to the loss of funds sub-head of the current head of Expenditure of the Ministry, Department or Agency.");
+        Finance_Section section290 = new Finance_Section("Application for funds to cover losses.","cat16","When funds under the loss of funds sub-head of Expenditure are insufficient to meet the amount of a loss to be written-off, the Accounting Officer concerned must apply for additional funds, by application for a supplementary provision under Financial Regulation 07014.");
+        Finance_Section section291 = new Finance_Section("Convening of Board of Enquiry.","cat16","The Accountant-General shall order the Secretary, Permanent Board of Enquiry to convene a Board of Enquiry at the request of the Accounting Officer or Secretary, Civil Service Commission, or when he, the Accountant-General deems it necessary for one to be convened. The Board of enquiry shall investigate the circumstances of the loss of funds (excluding losses dealt with in financial Regulation 16007). The Secretary in convening the Board shall incorporate in the convening order any special terms of reference for the Board as may be required by the Accountant-General.");
+        Finance_Section section292 = new Finance_Section("Convening Notice: Distribution of.","cat16",".   The officer convening a Board of Enquiry shall forward a copy of the convening order with full terms of reference to:\n" +
+                "\n" +
+                "    (a)    Accounting Officer,\n" +
+                "    (b)    Accountant-General of the State\n" +
+                "    (c)    Auditor-General of the State\n" +
+                "    (d)    Secretary, Civil Service Commission.\n");
+
+
+        Finance_Section section293 = new Finance_Section("","cat16","");
+        Finance_Section section294 = new Finance_Section("","cat16","");
+        Finance_Section section295 = new Finance_Section("","cat16","");
+        Finance_Section section296 = new Finance_Section("","cat16","");
 
 
 
