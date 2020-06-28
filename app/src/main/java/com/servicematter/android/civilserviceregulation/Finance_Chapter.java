@@ -92,6 +92,25 @@ public class Finance_Chapter extends AppCompatActivity {
         List<Finance_Section> section11 = appdatabase.finance_dao().FindSectionByCategory("cat11");
 
 
+        List<Finance_Section> section12 = appdatabase.finance_dao().FindSectionByCategory("cat12");
+        List<Finance_Section> section13 = appdatabase.finance_dao().FindSectionByCategory("cat13");
+
+        List<Finance_Section> section14 = appdatabase.finance_dao().FindSectionByCategory("cat14");
+        List<Finance_Section> section15 = appdatabase.finance_dao().FindSectionByCategory("cat15");
+
+        List<Finance_Section> section16 = appdatabase.finance_dao().FindSectionByCategory("cat16");
+        List<Finance_Section> section17 = appdatabase.finance_dao().FindSectionByCategory("cat17");
+
+
+
+        List<Finance_Section> section18 = appdatabase.finance_dao().FindSectionByCategory("cat18");
+
+        List<Finance_Section> section19 = appdatabase.finance_dao().FindSectionByCategory("cat19");
+        List<Finance_Section> section20 = appdatabase.finance_dao().FindSectionByCategory("cat20");
+
+
+
+
 
 
         Finance_Articles article1 = new Finance_Articles("Article 1","INTRODUCTION",section1);
@@ -113,6 +132,25 @@ public class Finance_Chapter extends AppCompatActivity {
         Finance_Articles article11 = new Finance_Articles("Article 11","BANK ACCOUNTS AND CHEQUES, ETC",section11);
 
 
+
+
+        Finance_Articles article12 = new Finance_Articles("Article 12","CUSTODY OF PUBLIC MONEY, REVENUE RECEIPT, COUNTERFOILS, SECURITY BOOKS AND DOCUMENTS, ETC\n",section12);
+
+        Finance_Articles article13 = new Finance_Articles("Article 13","RECEIPT AND LICENCE BOOKS",section13);
+        Finance_Articles article14 = new Finance_Articles("Article 14","IMPRESTS",section14);
+
+        Finance_Articles article15 = new Finance_Articles("Article 15","BOARD OF SURVEY:  CASH ",section15);
+        Finance_Articles article16 = new Finance_Articles("Article 16","LOSSES AND SHORTAGES IN PUBLIC FUNDS",section16);
+
+        Finance_Articles article17 = new Finance_Articles("Article 17","DEPOSITS",section17);
+
+
+        Finance_Articles article18 = new Finance_Articles("Article 18","ADVANCES",section18);
+        Finance_Articles article19 = new Finance_Articles("Article 19","SALARIES, PAYROLL: PREPARATION AND CONTROL",section19);
+
+        Finance_Articles article20 = new Finance_Articles("Article 20","LAST PAY CERTIFICATE AND PAY ADVICE",section20);
+
+
         ArrayList<Finance_Articles> makeArticle = new ArrayList<>();
 
 
@@ -127,6 +165,15 @@ public class Finance_Chapter extends AppCompatActivity {
         makeArticle.add(article9);
         makeArticle.add(article10);
         makeArticle.add(article11);
+        makeArticle.add(article12);
+        makeArticle.add(article13);
+        makeArticle.add(article14);
+        makeArticle.add(article15);
+        makeArticle.add(article16);
+        makeArticle.add(article17);
+        makeArticle.add(article18);
+        makeArticle.add(article19);
+        makeArticle.add(article20);
 
         return  makeArticle;
     }

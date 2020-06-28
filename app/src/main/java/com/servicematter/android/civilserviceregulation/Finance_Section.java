@@ -1412,10 +1412,265 @@ public class Finance_Section implements Parcelable {
                 "    (d)    Secretary, Civil Service Commission.\n");
 
 
-        Finance_Section section293 = new Finance_Section("","cat16","");
-        Finance_Section section294 = new Finance_Section("","cat16","");
-        Finance_Section section295 = new Finance_Section("","cat16","");
-        Finance_Section section296 = new Finance_Section("","cat16","");
+        Finance_Section section293 = new Finance_Section("Justification for Deposit.","cat17","Deposits should not be accepted unless thoroughly justified.  In particular, monies may not be received from members of the public merely for safe custody and should normally be accepted by Government officers only in the course of their official duties. Unclaimed salaries, wages, pensions, or other payments may not be placed on deposit.  Except with the approval of the Accountant-General, a deposit account may not be used as a means of transferring payments or remitting money.  Revenue may not be placed on deposit.  Officers are forbidden to place on deposit any unexpended balance of any vote for the purpose of meeting impending payments.");
+        Finance_Section section294 = new Finance_Section("Deposit Register.","cat17","A Deposit Register shall be maintained by all officers receiving deposits, and in it particulars of all deposits made or withdraw shall be recorded under the name of the depositor.  Deposits and withdrawals shall be posted daily from the cash book.");
+        Finance_Section section295 = new Finance_Section("Reconciliation with the Treasury.","cat17","Detailed accounts of deposit shall be maintained by Accounting Officers and the balances in those accounts shall be reconciled at quarterly intervals with the control accounts kept by the Accountant-General.  Where Deposit Registers are kept at outstations of a Department it shall be the responsibility of the Accounting Officer to ensure that these registers agree with his records.");
+        Finance_Section section296 = new Finance_Section("Miscellaneous Deposits.","cat17","Minor or temporary deposits should be recorded in a general Station Deposit account.  It is important that sufficient details of each deposit should be given to ensure recognition of withdrawals.");
+        Finance_Section section297 = new Finance_Section("Receivable Orders.","cat17",".   Receipt Vouchers relating to deposits should clearly indicate:\n" +
+                "\n" +
+                "         (1)   the person(s) on whose behalf the deposit is made;\n" +
+                "         (2)   the nature of the transaction; and\n" +
+                "         (3)   the necessity for placing the sum on deposit.\n");
+        Finance_Section section298 = new Finance_Section("Withdrawals from Deposit.","cat17","Withdrawals from deposit should be supported, whenever possible by the receipt issued when the money was placed on deposit.  When the withdrawal is for the whole amount of the deposit, the receipt shall be marked ‘REPAID’ and attached to the withdrawal voucher.  In the case of partial withdrawals the receipt, if available, should be endorsed with the amount withdrawn, the number, month and station of the withdrawal voucher.  In all cases the receipt voucher number, month and station of account should be shown on withdrawal vouchers.  Before signing withdrawal vouchers, Heads of Accounts must satisfy themselves that the money is actually on deposit.  The vouchers must be receipted by the payee.");
+        Finance_Section section299 = new Finance_Section("Repayment of Deposits of other Stations.","cat17","A deposit shall not be repaid at a station other than at which it was received except on a payment voucher endorsed by the Head of Accounts at the receiving station ‘Checked and Passed for payment at…………………………….only’ ");
+        Finance_Section section300 = new Finance_Section("Deposits of over two years ","cat17","The voucher shall be sent to the Accounts Officer at the payment station and not to the payee");
+        Finance_Section section301 = new Finance_Section("Deposits of over two years standing.\n" +
+                "Deposit of five years standing and over.\n","cat17","Moneys which have been on deposit for over two years may not be repaid without prior reference to the Accountant-General.");
+        Finance_Section section302 = new Finance_Section("Deposits of Forest Royalties.","cat17","Deposits which have remained unclaimed for five years or more should be reported to the Accountant-General by the officer responsible for the deposit Account.  If at any time the Accountant-General considers that a deposit is unlikely to be reclaimed, he may transfer it to revenue.  This action should be taken only when a deposit has not been reclaimed after five years.  Sufficient detail should be furnished to enable a decision to be taken as to whether a deposit or deposits should be transferred to revenue.  On receipt of notification of transfer to revenue, the officer responsible for the deposit or deposits and the Accounts Officer concerned shall record the transactions in their deposit ledgers.");
+        Finance_Section section303 = new Finance_Section("Moneys not to be deposited.","cat17","Receipt vouchers relating to Forest Royalties should quote the number and date of the licence or timber permit to which they relate.");
+        Finance_Section section304 = new Finance_Section("Special Instructions to be approved by the Accountant-General.","cat17","Salaries, wages, and sums due to merchants, etc, may not be placed on deposit at one station for payment at another.");
+        Finance_Section section305 = new Finance_Section("Annual Balances.","cat17","\n" +
+                "  17012.  Accounting Officers shall draw up a code of instructions for the operation of deposit accounts peculiar to their Ministry/Departments.  These instructions shall be subject to approval by the Accountant-General in consultation with the Auditor-General.\n" +
+                "\n" +
+                " 17013.   Deposit Registers must be balanced and ruled off at the end of each financial year and all outstanding balances bought down in detail.  All entries must be adequately cross referenced.\n");
+
+
+
+
+
+
+
+
+
+
+        Finance_Section section306 = new Finance_Section("Personal Advances;  authority for","cat18","Personal advances (i.e. advances of cash to individual officers in the employment of the State Government) may only be granted on the authority of these Regulations, of Civil Service Rules or, in special circumstances, the specific authority of the Commissioner for Finance.");
+        Finance_Section section307 = new Finance_Section("Non-personal Advance:  authority to be given by.","cat18","Advances of a non-personal character shall be authorized by the Commissioner for Finance except advances created under the authority of Financial Regulation 16010.  Applications for non-personal advances must state the reason for the account, the method of clearance and the person to be held responsible for clearing the advance.");
+        Finance_Section section309 = new Finance_Section("Particulars to be given on payment vouchers.","cat18","Vouchers relating to advances must indicate:\n" +
+                "(a)\t  The account number and the person or the   name of the account chargeable.\n" +
+                "\n" +
+                "                (b)    The nature of the advance.\n" +
+                " \n" +
+                "                (c)    The terms of recovery\n" +
+                "     \n" +
+                "                (d)     The authority for the advance.\n");
+        Finance_Section section310 = new Finance_Section("Advances record for advances charge “below-the-line”.","cat18","The Accounting Officer of a Ministry/Department/Agency shall ensure that an indexed Advance Account Record for advances ‘below-the-line’ is maintained to record therein each advance issued and all the recoveries made.  Transactions must be posted punctually and the sum total outstanding at the end of each month must be reconciled with the Accountant-General’s Control Account.  Officers responsible for the advance accounts record must examine such record each month and are also responsible for bringing to the notice of the Accounting Officer any items which are overdue for settlement.");
+        Finance_Section section311 = new Finance_Section("Accounting Officers:  Responsibility of.","cat18","Accounting Officers are responsible for ensuring the prompt repayment by instalments or otherwise, of all advance made by them.");
+        Finance_Section section312 = new Finance_Section("Salary Advances.","cat18","An advance not exceeding one month’s salary may, with the sanction of the Accounting Officer be made to an officer who, on first appointment or on proceeding on transfer, has to bear wholly or, partly the cost of his own or his family’s transport. All such advances must be paid in six equal and consecutive monthly instalments starting from the month in which full pay is next earned.");
+        Finance_Section section313 = new Finance_Section("Advance to Officer:  Rent of accommodation for.","cat18","An officer proceeding on transfer to a new station, or an officer on first appointment who is not living in Government residential quarters may receive an advance of not more than two month’s salary on production of proof that he has or had to pay rent in advance for accommodation.  Such an advance shall not be granted on the expiration of twelve months from the effective date of the transfer or the first appointment.");
+        Finance_Section section314 = new Finance_Section("Second Advance not permitted except after clearance of first advance","cat18","Except in the case of an officer subsequently qualifying for a second advance under Financial Regulation 18007 having previously been granted an advance under Financial Regulation 18006, a second advance of salary may not be drawn until any previous advance of salary has been fully repaid.");
+        Finance_Section section315 = new Finance_Section("Salary Advances:  Classification of","cat18"," Advances of salary and recoveries thereof must be classified to an advance account in the officer’s name, and not in any circumstances to a personal emoluments vote.");
+        Finance_Section section316 = new Finance_Section("Conditions of granting the advance:  motor vehicle.","cat18","Officers may be recommended to the Accountant-General for advances to purchase motor cars only if they are eligible under the rules which may be prescribed from time to time.  Where an advance is granted, the officer shall be required to enter into an agreement with Accountant-General for its repayment.");
+        Finance_Section section317 = new Finance_Section("Officers’ financial  circumstances.","cat18"," An officer may not be considered for an advance when the cost of maintaining a motor-vehicle and repaying the instalments are liable to cause him financial embarrassment.  Full account shall be taken of an applicant’s emoluments and deductions from there including any outstanding loans.\n" +
+                "\n" +
+                "     Advances other than advances of salary may be granted to officers for the purposes and subject to the conditions indicated in the Chapter, provided that the total of an officer’s monthly repayments of such advances does not exceed one-third of his gross monthly salary. \n");
+        Finance_Section section318 = new Finance_Section("Officers eligible for vehicle Advances","cat18","(a)   All officers on salary grade levels 07 and above are eligible for motor vehicle advance.\n" +
+                "\n" +
+                "      (b)   All officers on salary Grade levels 03 to 06 are eligible for motor cycle advance.\n");
+        Finance_Section section319 = new Finance_Section("No new advance until previous advance paid.","cat18",".   No officers shall be eligible for an advance until the previous advance has been fully repaid.");
+        Finance_Section section320 = new Finance_Section("Maximum advance.","cat18","The amount of vehicle advance shall be as determined by the State Government from time to time.");
+        Finance_Section section321 = new Finance_Section("Application procedure.","cat18","Officers seeking motor vehicle advance shall complete application Form ODS. 15 in five copies and submit to the Accounting Officer of their Ministry/Department for consideration.\n" +
+                "\n" +
+                "     (ii)    When an advance has been recommended, it shall be passed to the Ministry of Finance for approval after completion of Part III of Form. ODS. 15 by the Accountant-General.  Four copies of the same form shall be passed to the Ministry/Department for preparation of payment voucher.  The payment Voucher shall then be forwarded to the Treasury Cash Office for payment.\n" +
+                "\n" +
+                "   (iii)    An officer to whom an advance is granted for the purchase of a motor vehicle shall be required to enter into an agreement with the Accountant-General on Agreement Form A/Cs. Gen.27.\n" +
+                "\n");
+        Finance_Section section322 = new Finance_Section("Insurance for Motor Vehicles.","cat18","An officer to whom an advance is given to purchase a motor vehicle shall be required to insure the vehicle comprehensively with an Insurance Company on the approved Government List during the period of repayment of the advance.  The amount for which the vehicle is insured must not be less than the aggregate amount of the principal or the balance of the principal and interest thereon for the ensuing twelve months.  Head of Ministries/Departments shall verify annually that such comprehensive insurance has been taken out.  For this purpose, Ministries/Departments are required to maintain a Motor Vehicle Advance Insurance Register.");
+        Finance_Section section323 = new Finance_Section("Repayment of advance.","cat18","The interest payable on an advance granted to an officer shall be calculated as in the Treasury Interest Table.\n" +
+                "\n" +
+                "  18018.    The advance together with interest, which shall be at the rate approved by the appropriate authority shall be repaid by equal monthly instalments calculated to cover both principal and interest, and deducted from the officer’s salary commencing with the salary of the month following that in which the advance is granted.  Repayment shall not exceed a maximum period of five years.\n");
+        Finance_Section section324 = new Finance_Section("Calculation of interest.","cat18","The interest payable on an advance granted to an officer, shall be calculated as in the Treasury Interest Table.");
+        Finance_Section section325 = new Finance_Section("Reduced Interest Calculation of.","cat18","An officer to whom an advance has been granted may at any time during the continuance of the original agreement, elect to refund the advance in full.  In such a case, the outstanding interest payable on the advance shall be recalculated in accordance with the Treasury Interest Table.  The total amount payable by the officer shall then be the outstanding principal of the advance plus the reduced interest.");
+        Finance_Section section326 = new Finance_Section("Settlement of advance on transfer to other State Civil Service.","cat18","When an officer is transferred to the Civil Service of another State, arrangements shall be made to transfer the outstanding balance of his advance to such a State for recovery.");
+        Finance_Section section327 = new Finance_Section("Settlement of advance on transfer to Statutory Corporation, etc.","cat18","When an officer with an outstanding advance transfers to a Statutory Corporation or quasi-Government Establishment, the Statutory Corporation and Ministry/Department shall be required to take over the liability, balance of principal and accrued interest.  When all attempts to recover such an outstanding loan fail, immediate action shall be taken to repossess the vehicle and to sell it, if necessary.");
+        Finance_Section section328 = new Finance_Section("Recovery of Advance on termination or on resignation of appointment","cat18","If an officer resigns his appointment or leaves the service by termination of appointment or dismissal without liquidating his advance, unless the officer enters into an acceptable agreement for the liquidation of the outstanding balance, the Accounting Officer or any officer duly authorized by him shall seize and sell the motor vehicle purchased with the advance and any monies realized from the sales shall be applied towards payment of the outstanding balance of the advance together with the interest thereon.");
+        Finance_Section section329 = new Finance_Section("Recovery of advance on retirement.","cat18","The outstanding balance of an advance is recoverable in full from the last salary and gratuity of an officer who leaves the service on retirement. Where these retiring benefits are insufficient to cover the outstanding balance of the advance, action shall be taken to repossess the vehicle and to sell it, if necessary.");
+        Finance_Section section330 = new Finance_Section("Estate of Deceased Officer.","cat18","The outstanding balance of an advance is recoverable in full from the estate of a deceased officer.");
+
+
+        Finance_Section section331 = new Finance_Section("Proceeds after sale of repossessed vehicles.","cat18"," (a)    Where the proceeds of the sale resulting in circumstances outlined in Financial Regulation 18023 to 18025 are less than the outstanding balance of an advance together with interest thereon the shortfall shall be recovered from the estate of the officer. \n" +
+                "\n" +
+                "   (b)    Where the proceeds of the sale as stipulated in (a) above are more than the outstanding balance of an advance together with interest thereon, the difference shall be paid to the officer or his estate after deduction of the administrative expenses incurred.\n");
+        Finance_Section section332 = new Finance_Section("Advances Ledger cards.","cat18","Separate ledger cards must be maintained in  respect of individual advance issued.  The ledger cards must be posted and balanced each month.  A control account showing total payments and total refunds for each month must also be maintained.  The control account balances shall be reconciled monthly with the individual ledger balances.");
+        Finance_Section section333 = new Finance_Section("Proper account and of records to be kept.","cat18","Proper accounts and records shall be kept in respect of all advances issued and repayments thereof.");
+        Finance_Section section334 = new Finance_Section("Correspondence Courses: advance for.","cat18","Advances for Corresponding courses may be authorized by an Accounting Officer subject to the following conditions:\n" +
+                "\n" +
+                "(a)\tThat the ability and efficiency of the officer warrants his taking the course;\n" +
+                "(b)\tThat the subjects are related to his work;\n" +
+                "(c)\tThat the study is likely to increase his efficiency;\n" +
+                "(d)\tThat the course is with a reputable College or Establishment;\n" +
+                "(e)\tThat the officer will be required to produce receipts to show that the whole advance has been used for the purpose intended;\n" +
+                "(f)\tThat the officer understands that successful completion of the course will not by itself constitute grounds for advancements;\n" +
+                "(g)\tThat the officer will enter into an agreement (Treasury Form 51) for repayment and if the officer has less than two year’s service he will produce an acceptable surety who will enter into a bound for the amount advanced;\n" +
+                "(h)\tThat the advance shall be granted interest free; and \n" +
+                "(i)\tThat the advance does not include an element for postage, stationery, examination or other fees, etc.\n");
+        Finance_Section section335 = new Finance_Section("Outstanding balance  reco- verable from salary of officer\n" +
+                "Leaving service.\n" +
+                "Deceased Officers: When balance of advance is not recoverable in full. \n","cat18"," The outstanding balance of any advance is recoverable in full from the last payment of salary of an officer who leaves the service on retirement, resignation, termination of appointment, or dismissal.\n" +
+                "\n" +
+                "     18031.  The outstanding balance of an advance of salary shall not be recovered from the estate of a deceased officer who received no gratuity from government funds.  Government accepts liability for the irrecoverable balance in these circumstances\n");
+        Finance_Section section336 = new Finance_Section("Officers on Transfer; details of outstanding advances to be advised.","cat18","In the event of an officer being transferred to another Ministry or paying station before an advance is recovered, the amount of the advance and recoveries up to the date of transfer must be stated on the copy of the officer’s Last Pay Certificate forwarded to the new Ministry or paying station (see Financial Regulation 19015).  The Head of Account of the station at which the officer will in future draw his pay shall note the outstanding balance of the advance in his advances Ledger (or Last Pay Certificate), as the case may be and effect recoveries accordingly.");
+        Finance_Section section337 = new Finance_Section("Officer responsible for making repayment.","cat18","The lack of any advice regarding repayment of any installments of an advance does not absolve an officer from repaying an advance in accordance with the terms of the Regulations.  Any installments missed for this reason shall be recoverable in full on receipt of these documents.");
+        Finance_Section section338 = new Finance_Section("Accounting Officers responsible for recovery","cat18","It is the responsibility of the Accounting Officer to ensure that the whole of any advance is fully recovered by the due dates.");
+
+
+
+
+
+
+
+        Finance_Section section339 = new Finance_Section("Authority for salary payment","cat19","(i)   When an officer is first appointed, the authority for payment of his salary to commence and the rate of salary to be paid shall be a notification from the Secretary, Civil Service Commission, to the Head of Department of the officer’s Ministry or Department copied to the Accountant-General and the Auditor-General, except that, where powers of appointment have been delegated by the Civil Service Commission to a Head of Department, the authority is a notification from the Head of Department to the Accountant-General, copied to the Auditor-General.\n" +
+                "  \n" +
+                "    (ii)  The authority for any change in salary resulting from an officer’s promotion or transfer is a notification as in (i) above.\n" +
+                "\n" +
+                "    (iii)  The authority for increments of salary is contained in the offer of appointment made to and accepted by an officer, subject to any subsequent duly authorized notification. \n");
+        Finance_Section section340 = new Finance_Section("Payment through a bank","cat19","(i)  All officers shall have their salaries and allowances paid through a bank of their choice.\n" +
+                "\n" +
+                "    (ii)   An officer serving at a station where there are no banking facilities may have his salary, etc. paid to the nearest bank in the State.\n");
+        Finance_Section section341 = new Finance_Section("Calculation method of","cat19","Salaries and allowances which are based on an annual rate shall be paid by monthly instalments of one-twelfth of the annual rate.  On retirement or termination of appointment, payment for part of a month shall be calculated according on pro-rata basis.");
+        Finance_Section section342 = new Finance_Section("Not to be paid in advance.","cat19",".  Salaries, allowances and pensions must not be paid in advance of the due date, except as provided for in Chapter 18.");
+        Finance_Section section343 = new Finance_Section("Accounting  Officer Responsibility to keep records.","cat19","The Accounting Officer must ensure that Personal Emolument Records are maintained on the prescribed forms to ensure that payments are made when they are due, that over-payments are not made and that all the required deductions are made at the correct time.");
+        Finance_Section section344 = new Finance_Section("Advice to withhold pay.","cat19"," (i)    The Officer controlling expenditure must be informed at the earliest possible moment of any contingency likely to affect an officer’s salary (such as death, interdiction, suspension or liability to dismissal etc) in order that instructions to with-hold pay may be issued without delay.");
+        Finance_Section section345 = new Finance_Section("Failure to pass information on withholding of payment: Offence","cat19","(ii)    An Officer who first receives information about the resignation, determination, dismissal, death, withdrawal or retirement of another officer shall pass the information promptly, by submitting a copy of such letter/notice to the Accounts Department for the salary of the officer to be stopped.  The original letter/notice of such information shall be endorsed to the effect that a copy has been sent to the Accounts Department.");
+        Finance_Section section346 = new Finance_Section("Payment of salary during interdiction.","cat19","The Officer  who first received the information and failed to pass a copy of it promptly to the Head of Accounts and any other officer who defaults or contributes in any way whatsoever in communicating a decision to withhold payment of salary shall be liable to surcharge and discipline for negligence and dereliction of duty.\n" +
+                "\n" +
+                "     19007.   When an officer has been interdicted, he is not entitled to full salary except with the approval of the Civil Service Commission. If no instructions have been received as to the rate of salary to be paid, Heads of Departments should apply to the Civil Service Commission for instructions.\n");
+        Finance_Section section347 = new Finance_Section("Increments: notice of.","cat19","The Auditor-General does not need to be advised to the grant of a normal increment, but he must be advised when an increment is with-held or deferred and subsequently restored.");
+        Finance_Section section348 = new Finance_Section("Cessation or termination, etc.","cat19","On dismissal from the Service or on termination of appointment or on resignation, the salary of an officer shall be payable up to and including the day prior to that on which the dismissal, termination, or resignation becomes effective.");
+        Finance_Section section349 = new Finance_Section("With-holding of","cat19",".  Any balance of salary or other moneys due to an officer who has been convicted of misappropriation of Government funds or theft of Government property, or who has been dismissed and is indebted to government, may not be paid without the authority of the Accountant-General.");
+
+
+        Finance_Section section350 = new Finance_Section("Delay in payment  unclaimed salaries etc.","cat19"," Any undue delay in the application for payment of a pension or salary, or any other regular recurrent payment must be investigated by the Head of Accounts and when appropriate, the circumstances must be reported to the officer controlling expenditure and to the Accounting Officer.");
+        Finance_Section section351 = new Finance_Section("Unclaimed salaries etc","cat19"," (i)  Unclaimed salaries, allowances and pensions shall be repaid to the Treasury within seven days from the date of the withdrawal of the cash and shall normally be classified as an expenditure credit to the vote originally debited.  All repayments made in accordance with this paragraph must be effected before the end of the financial year in which the salaries, allowances or pensions were drawn.  The Accounts Officer shall issue a Treasury Receipt for each individual in-payment.  A subsequent out-payment of an amount paid into the Treasury shall be debited to the appropriate current-vote, of charge under the supporting cover of a payment voucher Treasury form 1 with the cancelled Treasury Receipt attached.\n" +
+                "\n" +
+                "   (ii)   Any unclaimed amounts at the end of the financial year repaid in the following financial year shall be credited to revenue.\n");
+        Finance_Section section352 = new Finance_Section("Leave salary: when paid to a bank.","cat19","The payment of a leave salary of an officer when the salary is normally paid to a bank shall continue to be paid to the bank of the officer’s choice at his duty station or at the station where the payroll is prepared.\n" +
+                " \n");
+        Finance_Section section353 = new Finance_Section("Transfer of officers","cat19","When an officer is transferred from one Ministry, Department or Agency to another, the authority for the payment of the salary and the continuance of the deductions there from, shall be conveyed to the new pay station on the prescribed Treasury Form 13 (Last Pay Certificate) enclosing a certified true copy of the personal emoluments record (see Financial Regulation 19006 and 19018) and both the letter and the record must show the date which the last payment of salary has been made.  The record must show full details of the deductions which have been made and which must continue to be made.  With the employment of a system other than the standard system, which does not require the personal emoluments card, the dispatching office must complete, by hand, a standard personal emoluments records for issue to the new office (see Financial Regulation 19018 (a) (b) and (c).");
+        Finance_Section section354 = new Finance_Section("Accounting procedure for deductions from emoluments.","cat19","The gross amount of the emoluments must be charged against the relative personal emoluments sub-head of the Current Estimates.  The paying officer (i.e. the Accounts Officer), shall enter the total of each type of amount of the emoluments as a payment.");
+        Finance_Section section355 = new Finance_Section("Procedure Approval by Accountant-General.","cat19","The procedure and method to be employed by the Ministries, Departments or Agencies for the recording and the calculation of personal emoluments must be approved by the Accountant-General.");
+
+        Finance_Section section356 = new Finance_Section("Standard system.","cat19"," The standard payroll system to be employed in all offices, unless otherwise provided shall be as laid down or prescribed by the Ministry of Finance.");
+        Finance_Section section357 = new Finance_Section("Personal Emoluments Record:  form of","cat19",".   The officer controlling expenditure shall ensure that the standard Personal Emoluments Card (A/Cs, Gen.20) shows:\n" +
+                "\n" +
+                "(a)\t In the top section of the front of the card, inter alia:\n" +
+                "Standard rate of pay of the officer\n" +
+                "Incremental date,\n" +
+                "              Standard allowances,\n" +
+                "              Salary and advances issued, \n" +
+                "              Standard deductions to be recovered from the emoluments\n" +
+                "              Income tax P.A.Y.E. Free Pay Allowances.\n" +
+                "\n" +
+                "(b)     In the lower section of the front of the entries in the monthly \n" +
+                "    Payroll, to show, inter alia:\n");
+
+
+        Finance_Section section358 = new Finance_Section("Custody of Personal Emoluments Records.","cat19","Aggregate gross emoluments, including separately taxable\n" +
+                "              allowances,\n" +
+                "              Income Tax P.A.Y.E. assessments,\n" +
+                "              Standard deductions from emoluments,\n" +
+                "              Net Emoluments payable.\n");
+        Finance_Section section359 = new Finance_Section("Variation control Record of Personal Emoluments.","cat19","On the reverse side of the card inter alia:\n" +
+                "  Record of taxable allowance due.\n" +
+                "  Record of Gazette notices of promotion, acting appointments or \n" +
+                "  other notification of a material variation in the emoluments of\n" +
+                "   the officer. \n" +
+                "       \n" +
+                "\n" +
+                " 19019.  The officer controlling expenditure shall ensure that the Personal Emoluments cards are kept under strict security arrangements, and that when they are not in use they are lodged in a fire-resistant cabinet, safe, or strong-room (see Financial Regulation 12034 of period of \n" +
+                "retention).   \n" +
+                "\n" +
+                "19020.   The officer controlling expenditure shall ensure that a Variation Control Record on A/Cs. Gen. 25 is maintained to show each variation in the month under review, of emoluments, taxable allowances, and the standard deductions from emoluments for each officer.  The sum total of these variations shall be added to or subtracted from the relative total of the previous month, and from this shall be calculated the totals of emoluments, taxable allowances, gross taxable emoluments, and each type of standard deduction, for the current month.  The officer controlling expenditure shall ensure that:\n" +
+                "\n" +
+                "       (a)   The total of the various columns of the payroll for the month\n" +
+                "               agree with the respective pre-determined totals of the\n" +
+                "               Variations Control;\n" +
+                " \n" +
+                "       (b)   the officer directly in charge of the variation control is an officer not normally\n" +
+                "                below the rank of an Accountant I or Senior Executive Officer (Accounts) and must not   be the officer directly in charge of the preparation of   the payroll.\n");
+        Finance_Section section360 = new Finance_Section("Submission of Payroll to the Paying officer.","cat19","The monthly payroll shall be submitted to the paying officer (as follows).\n" +
+                "\n" +
+                "(a)\t         Salary List, (A/Cs, Gen. 21/21A) in original to contain    \n" +
+                "\n" +
+                "details of  the salary computation, duly grouped    \n" +
+                "         according to separate  pay point or separate bank  \n" +
+                "         branch involved.\n" +
+                "\n" +
+                "(b)\t  Salary List Summary, (A/Cs, Gen. 26) in duplicate to summarise  to totals of the various columns of the separate payrolls and to  provide the covering certificate of the officers employed in the   preparation and internal check of the payrolls, and also to  constitute the authorisation of the officer controlling the  expenditure for the payment.\n" +
+                "\n" +
+                "(c)\t  Variation Control of Emolument and Deduction (A/Cs, Gen.25) for each deduction sub-heal of account, in duplicate to show the total of the appropriate deduction on the Salary List Summary and to show when required by the Accountant-General, the full detail of the deduction made from the emoluments of each officer.\n" +
+                "\n" +
+                "(d)\t  Bank Payment Advice Slip, in original, together with Treasury Form 133 in original.\n" +
+                "\n" +
+                "(e)\t  Payment Vouchers, Treasury Form 1, in duplicate, to support the payment to the appropriate receiving authority of the deductions from payrolls, together with supporting copies of A/Cs, Gen. 25.\n");
+        Finance_Section section361 = new Finance_Section("Classification of deduction","cat19","The classification of the deductions on the Variation Control of Emoluments and Deductions shall depend upon the type and nature of the deduction, as follows:\n" +
+                "\n" +
+                "(a)\t  Deductions from emoluments which are on-paid to a receiving authority (e.g Income Tax P.A.Y.E., Co-operative Thrift and Credit Society Deductions).  The classification of the deduction shall be as an expenditure credit to the vote charged with the relative gross emoluments.\n" +
+                "\n" +
+                "(b)\tThe classification of deductions from emoluments which are NOT on-paid e.g. Rent, Staff Housing Fund repayments, etc.  shall be according to the relative sub-head of Revenue or the below-the-line account concerned\n");
+        Finance_Section section362 = new Finance_Section("Deductions on-payment of, to the  Receiving Authority.","cat19","The on-payments of the deductions made under Financial Regulation 19022 (a) shall be made to the receiving authority at the same time as the payment of the net emoluments, and the payment to the authority shall be made with a payment voucher Treasury Form 1 in support (see Financial Regulation 19021 (e).  The payments shall be classified according to Financial Regulation 19022 (a) and the officer controlling expenditure shall ensure that a separate section of the relative personal emoluments votes’ book is maintained to record the details of the on-payments, the details of the totals of the deductions, and to show the link between the relative entries.\n" +
+                "\n");
+        Finance_Section section363 = new Finance_Section("Internal Check","cat19","Officers controlling expenditure shall ensure that a complete and detailed internal check (not to be confused with an Internal Audit) is executed on each payroll before payment, and that the officers employed on the internal check are officers other than those who have been currently employed on the preparation of the payroll.  The voucher certificate on the Salary List Summary A/Cs. Gen. 26, under the title of ‘Checked by’ shall be signed by the officer directly in charge of the internal check.");
+        Finance_Section section364 = new Finance_Section("Duties of officers to ensure that correct payments are made.","cat19",".   (I)   It is the duty of an officer authorising or making any payment to ensure that it is made in accordance with any general or particular instructions issued by the appropriate authority, and that the payment is actually due when made.\n" +
+                "\n" +
+                "   (ii)    It is the duty of an officer to ascertain so far as he is able, that no amount is paid to him which exceeds his entitlement.  In any case where an officer has reason to believe or suspect that an over-payment has been made to him, he must report the fact immediately to his superior officer.\n" +
+                " \n" +
+                " (iii)   It is the duty of an officer who has any reason for believing or suspecting that any over-payment has been made to a subordinate officer to investigate the matter at once.\n");
+        Finance_Section section366 = new Finance_Section("Doubts concerning rates of payment.","cat19","Where there is doubt concerning the correctness of any rate of salary or allowance and payment cannot be deferred until a ruling is obtained, the lowest applicable rate should be authorized pending receipt of a decision.  Even if the officer making actual payments considers that there are in fact grounds for payments at a rate which has been queried, payments must be made at the lowest rate until a definite ruling has been given.\n" +
+                "  \n");
+        Finance_Section section367 = new Finance_Section("Adjustment of rates of payment.","cat19","Where a rate of salary or allowance has been found to be incorrect, immediate steps must be taken to notify the officer who arranges actual payments and the rate must be corrected before any further payment is made.");
+        Finance_Section section368 = new Finance_Section("Report to the Accounting Officer of Ministry/Department","cat19","All cases of apparent over-payment to an officer must be reported forthwith to\n" +
+                " the Accounting Officer.  This report must show:\n" +
+                "    (a). Full details, including the nature, amount and method of   calculation of the over-payment;\n" +
+                "    (b) .   the circumstances in which it occurred, in so far as these can be ascertained;\n" +
+                "   (c)     the date the error was discovered and by whom;\n" +
+                "   (d)     the date from which the correct rate has been paid;\n" +
+                "   (e)     the name and rank of the officer who authorized the over-payment, and of any other officer whose actions contributed to the error, if these facts can be determined; and\n" +
+                "(f)\trecommendations regarding the recovery of the over-payment.  It is important that this report should be submitted without delay.\n");
+        Finance_Section section369 = new Finance_Section("Recovery of overpayments","cat19","(i)   On receipt of a report as in Financial Regulation 19028, the Accounting Officer shall normally call on the officer who has received the overpayment to refund the amount in full forthwith.  The Accounting Officer may, however, authorize recovery by instalments, in cases where he considers that to call on the officer to refund in a single payment would cause undue hardship or financial embarrassment.  In all cases the Accounting Officer should report his decision to the Accountant-General and the Auditor-General.\n" +
+                "   (ii)   If the Accounting Officer considers that:\n" +
+                "(a)\t  the over-payment was made as a result of a      mistake of law;  or\n" +
+                "(b)\tPayment was made in accordance with the contract entered into by Government with an officer on contract terms of service; or\n" +
+                "(c)\tIn all circumstances of the case, the payee had reasonable grounds for believing that he had been correctly paid; or\n" +
+                "(d) Owing to the length of time since the over-payment commenced, or to the\n" +
+                " amount, undue hardship or financial embarrassment would be caused to the officer concerned; he shall refer the matter to the Permanent Secretary, Ministry of Finance with a report as in Financial Regulation 19028. \n" +
+                "\n" +
+                "In a case confirmed as falling under (a), (b) or (c) above, the Permanent Secretary, Ministry of Finance shall authorize that the over-payment should be waived.  In cases falling under (d) above the Accounting Officer  should include in his report to the Permanent Secretary, Ministry  of Finance a recommendation as to whether the over-payment should be waived in part or in whole.\n");
+        Finance_Section section370 = new Finance_Section("Fault in system.","cat19","On receipt of a report submitted to him in accordance with Financial Regulation 19028, the Accounting Officer shall consider whether the over-payment arose from any fault in the system of authorizing or making payments in his Ministry/Department and, if, so, he shall take action to rectify the fault.");
+        Finance_Section section371 = new Finance_Section("Disciplinary action.","cat19","An Accounting Officer should, in all cases of over-payment, irrespective of whether recovery is effected or not, consider whether the circumstances disclosed any disregard of instructions or neglect of duty on the part of any officer, of sufficient gravity to warrant disciplinary action being instituted. If the Accounting Officer decides that disciplinary action including recovering of the whole, or part of the over-payment where appropriate, should be taken, and only an officer/officers within his own Department is/are concerned, he shall initiate proceedings in accordance with the provisions of the Civil Service Commission Regulations.");
+        Finance_Section section372 = new Finance_Section("Liability for continued over-payment.","cat19","On receipt of a report submitted to him in accordance with Financial Regulation 19028, an Accounting Officer shall consider whether any officer has, by act of omission, caused the overpayment to continue after it ought to have been rectified, and may recommend to the Permanent Secretary, Ministry of Finance that the officer responsible should be called upon to make good to Government the whole or a part of the resultant loss to public funds.");
+        Finance_Section section373 = new Finance_Section("Report to be submitted to the Treasury","cat19","In any case of an overpayment, where:\n" +
+                "\n" +
+                "(a)\trecovery is being made in full from the  payee; and\n" +
+                "(b)\tno fault which might give ground for disciplinary action against any officer has been disclosed; and\n" +
+                "(c)\tno avoidable delay has occurred in rectifying the overpayment; and \n" +
+                "(d)\tno fault in the system has been disclosed; the Accounting Officer need not submit a report to the Permanent Secretary, Ministry of Finance but shall inform the  Accountant General and the Auditor-General of the action taken by him.  \n");
+        Finance_Section section374 = new Finance_Section("Contents of report.","cat19",".  (a)  Any report submitted by an Accounting Officer in accordance with Financial Regulation 19028 should contain full particulars of the over-payment including:\n" +
+                "(i)\t  the nature and amount of the over-payment, and how it is calculated;\n" +
+                "(ii)\t the circumstances in which it occurred, in so far as these can be ascertained;\n" +
+                "(iii)\tthe date the error was discovered and by whom;\n" +
+                "(iv)\tthe date from which the correct rate has been paid;\n" +
+                "(v)\tthe name and rank of any officer or officers whose actions appear to have resulted in the overpayments being made, and what disciplinary action is being initiated by the Accounting Officer against any such officer in his own Ministry or Department;\n" +
+                "(vi)\ta statement of the action taken under Financial regulation 19031.\n" +
+                "(b)    The report should also contain the Accounting Officer’s recommendations concerning:\n" +
+                " (i)    the amount of the recovery, if any to be made from the payee and, if full recovery is not recommended, the reasons for so recommending; and \n" +
+                "(ii)  the recovery, if any, to be made from any officer considered to be liable under Financial Regulation 19032.  If some particulars are not obtainable, it is important that an interim report should be submitted. Without delay.\n");
+        Finance_Section section375 = new Finance_Section("Accounting procedure for recoveries","cat19","The accounting procedure for the recovery of overpayments is set out in Financial Regulations, Chapter 23.");
+
+
+
+
+
+        Finance_Section section376 = new Finance_Section("Nature of Certificate","cat20","A Last Pay Certificate is the only authority for the payment of an officer’s salary when he is posted or transferred to another station or Department.  The Certificate shall contain full particulars of the officer’s name, rank, personal emoluments, Sub-head number, Department, Salary and allowances and the date up to which he has been paid.  The Certificate shall also give full details of the recoveries and deductions to be made from his salary at the new paying station.");
+        Finance_Section section377 = new Finance_Section("Disposal of Last Pay Certificate","cat20",".  When an officer is  posted or transferred to another station or Department, the following must be done:\n" +
+                "(a)\t   Original to be handed to officer himself\n" +
+                "(b)\t   Duplicate to be sent by the Head of Accounts of the old    paying station to the Head of Accounts of the new station.\n" +
+                "(c)\t    Triplicate to be retained at the old paying station.\n");
+        Finance_Section section378 = new Finance_Section("Use of Original Last Pay Certificate","cat20","At the new paying station the officer himself shall hand the original Certificate to the officer responsible for the preparation of his salary and allowance vouchers who shall attach it to the officer’s first personal emoluments payment voucher sent to the new paying Accounts Officer.  It is the duty of the new paying Head of Accounts to ensure that the original Certificate is attached to the first salary voucher paid by him, and that it agrees in detail with the duplicate copy received from the former Head of Accounts who countersigned the original. If the duplicate copy has not been received, the new paying Head of Accounts shall defer payment until he has received it, or obtained the authority of the Accountant-General to pay.");
+        Finance_Section section379 = new Finance_Section("Cessation of Salary locally","cat20","After the Head of Accounts has been notified of the last date up to which an officer shall draw his salary locally, no further salary may be paid by that Head of Accounts under any circumstances without references to the Accountant-General. If a Last Pay Certificate is cancelled, no further payment of salary shall be made to the officer concerned without the sanction of the Accountant-General.");
+        Finance_Section section380 = new Finance_Section("Liability of officers signing Last pay Certificate","cat20","Officers signing last pay certificates may be held responsible if any loss of Government funds is occasioned by incorrect information on a Last Pay Certificate signed and authorized by them.");
+ //       Finance_Section section381 = new Finance_Section("","cat20","");
+   //     Finance_Section section382 = new Finance_Section("","cat20","");
+     //   Finance_Section section383 = new Finance_Section("","cat20","");
 
 
 
@@ -1445,9 +1700,53 @@ public class Finance_Section implements Parcelable {
                 section158,section159,section160,section161,section162,section163,section164,section165,section166,section167,
                 section168,section169,section170,section171,section172,section173,section174,section175,
                 section176,section177,section178,section179,section180,section181,section182,section182,section183,section184,
-                section185,section186,section187
+                section185,section186,section187,
 
 
+
+
+                section188,section189,section190,section191,section192,section193,section194,section195,section196,section197,
+                section198,section199,section200,section201,section202,section203,section204,section205,
+
+
+                section206,section207,section208,section209,section210,section211,section212,section213,section214,section215,
+                section216,section217,section218,section219,section220,section221,
+                section222,section223,section224,section225,section226,section227,section228,section229,section230,section231,
+
+
+                section232,section233,section234,section235,section236,section237,section238,section239,section240,section241,
+                section242,section243,section245,section246,section247,
+                section248,section249,section250,section251,section252,section253,section254,section255,section256,section257,
+
+
+                section258,section259,section260,section261,section262,section263,
+                section264,section265,section266,section267,section268,section269,section270,section271,section272,section273,
+
+
+                section274,section275,section276,section277,section278,section279,section280,section281,section282,section283,
+                section284,section285,section286,section287,section288,
+                section289,section290,section291,section292,section293,section294,section295,section296,section297,section298,section299,section300,
+
+
+
+                section301,section302,section303,section304,section305,
+
+
+                section306,section307,section309,section310,section311,section312,section313,section314,section315,
+                section316,section317,section318,section319,section320,section321,
+                section322,section323,section324,section325,section326,section327,section328,section329,section330,section331,
+
+
+                section332,section333,section334,section335,section336,section337,section338,section339,section340,section341,
+                section342,section343,section345,section346,section347,
+                section348,section349,section350,section351,section352,section353,section354,section355,section356,section357,
+
+
+                section358,section359,section360,section361,section362,section363,
+                section364,section366,section367,section368,section369,section370,section371,section372,section373,
+
+
+                section374,section375,section376,section377,section378,section379,section380
         };
 
         return sections;
