@@ -1668,9 +1668,444 @@ public class Finance_Section implements Parcelable {
         Finance_Section section378 = new Finance_Section("Use of Original Last Pay Certificate","cat20","At the new paying station the officer himself shall hand the original Certificate to the officer responsible for the preparation of his salary and allowance vouchers who shall attach it to the officer’s first personal emoluments payment voucher sent to the new paying Accounts Officer.  It is the duty of the new paying Head of Accounts to ensure that the original Certificate is attached to the first salary voucher paid by him, and that it agrees in detail with the duplicate copy received from the former Head of Accounts who countersigned the original. If the duplicate copy has not been received, the new paying Head of Accounts shall defer payment until he has received it, or obtained the authority of the Accountant-General to pay.");
         Finance_Section section379 = new Finance_Section("Cessation of Salary locally","cat20","After the Head of Accounts has been notified of the last date up to which an officer shall draw his salary locally, no further salary may be paid by that Head of Accounts under any circumstances without references to the Accountant-General. If a Last Pay Certificate is cancelled, no further payment of salary shall be made to the officer concerned without the sanction of the Accountant-General.");
         Finance_Section section380 = new Finance_Section("Liability of officers signing Last pay Certificate","cat20","Officers signing last pay certificates may be held responsible if any loss of Government funds is occasioned by incorrect information on a Last Pay Certificate signed and authorized by them.");
- //       Finance_Section section381 = new Finance_Section("","cat20","");
-   //     Finance_Section section382 = new Finance_Section("","cat20","");
-     //   Finance_Section section383 = new Finance_Section("","cat20","");
+
+
+
+
+        Finance_Section section381 = new Finance_Section("Regulations.","cat21","When an officer dies in Ondo State, the Medical Officer last in attendance on him shall immediately notify the deceased’s Department through the issuance of Death Certificate.  The Accounting Officer of the deceased’s Ministry, Department/Agency shall in turn pass the same information to the Permanent Secretary, for Establishments, the Administrator-General, the Accountant-General and the Auditor-General.");
+        Finance_Section section382 = new Finance_Section("Procedure.","cat21","The Office of Establishments shall then compute and take steps to pay any gratuity due to the officer’s legal personal representative on receipt of Form ODS Estab. 12 (or if appropriate, Form ODS. Estab. 12.A) from the appropriate officer.");
+        Finance_Section section383 = new Finance_Section("Accounts.","cat21","The Administrator-General is required to keep a Cash Book, Treasury Receipt Books, and a Ledger, to be used solely in connection with the estate administered.  A separate account should be opened, in the ledger for each estate, with appropriate references to his cash book entries and to his receipt number against each item therein.");
+        Finance_Section section384 = new Finance_Section("Bank Account.","cat21","(a)  The Administrator-General is required to keep a Cash Book, Treasury Receipt Books, and a Ledger, to be used solely in connection with the estate administered.  A separate account should be opened, in the ledger for each estate, with appropriate references to his cash book entries and to his receipt numbers against each item therein.\n" +
+                "   (b)   This bank account must be reconciled with his cash book every month in accordance with Financial Regulations 11010, and every month the total of the balance due to the several estates as recorded in the ledger should be compared with the bank statement and any differences accounted for by reconciliation.\n");
+        Finance_Section section385 = new Finance_Section("Procedure on completion of Administration of Estate.","cat21","The Administrator-General, upon completion of the administration of an estate, is required to submit a sworn report of his proceedings and the estate accounts, supported by vouchers to the Chief Registrar, High Court, Akure.");
+        Finance_Section section386 = new Finance_Section("Procedure after receiving discharge from the High Court.","cat21","The Administrator-General, after receiving his discharge from the High Court, is required to forward a copy each of the proceedings, accounts and orders to the Permanent Secretary for Establishments and the Auditor-General.");
+        Finance_Section section387 = new Finance_Section("Deposit of Estate with Accountant-General.","cat21",".  The balance due to the estate of deceased officer must be deposited with the Accountant-General and it is payable only to the legal personal representative of the deceased.");
+        Finance_Section section388 = new Finance_Section("Duties of Heads of Departments Payment of. \n","cat21","Accounting Officers are responsible for rendering to the Administrator-General completed vouchers in respect of all sums due from Government to the estate of the deceased officers of their Departments, such as salaries and allowances.  At the same time they should inform both the Accountant-General and the Administrator-General of any amounts due from the estate to Government, such as Widows and Orphans Pensions Scheme contributions, light dues, hospital bills and funeral expenses.");
+        Finance_Section section389 = new Finance_Section("Salaries and pensions to Estate.","cat21","Personal emoluments and pensions are payable up to and inclusive of the date of death of Government official or pensioners.");
+        Finance_Section section390 = new Finance_Section("Advances Recoverable Funeral Expenses.","cat21"," Advances outstanding against deceased officers are recoverable in full (see Financial Regulation 18026).\n" +
+                "\n" +
+                " 21011.  The funeral expenses of deceased officers must be borne by their respective Ministry, Department/Agency as provided in the Civil Service Rules.\n");
+        Finance_Section section391 = new Finance_Section("Estate of Officials.","cat21","When estates of deceased officers are administered by the Administrator-General, the proceeds of administration may be deposited with the Accountant-General, and if the balance is to be remitted to a relative or to a legal personal representative outside the Federation of Nigeria, the Accountant-General should be asked to make the remittance through the accounts of the Government of the country/territory concerned.\n");
+        Finance_Section section392 = new Finance_Section("Estate of Officials subject to the jurisdiction of customary Court.","cat21","Where an officer dies intestate and was subject to the jurisdiction of a Customary Court, it shall be lawful for the Customary Court to administer his estate, provided the gross capital value does not exceed N100,000.00 and to distribute among his relatives the balance in the estate in such order and proportion as may seem desirable, regard being had to the law and custom of community of the deceased.");
+        Finance_Section section393 = new Finance_Section("Ex-gratia Gratuity.","cat21","Where an officer or employee of the Government dies before an exgratia gratuity awarded to him is paid, the amount should be paid through the Accounting Officer of the Department concerned for the benefit of the bonafide dependant of the deceased officer or employee.");
+        Finance_Section section394 = new Finance_Section("Payments of Estate of Nigerian Officials: General.","cat21","Except as provided for in Regulation 21012 to 21014, no sum due to the legal personal representative of a deceased officer shall be paid without a certificate written on the payment voucher and signed by the paying officer to the effect that a letter of Administration or probate of will has actually been shown to him.");
+        Finance_Section section395 = new Finance_Section("Vouchers.","cat21","All moneys due to estates of deceased officers intended to be paid to the Administrator-General should be paid directly into the Administrator-General’s bank account and the Administrator-General informed accordingly.");
+
+
+
+
+
+
+
+
+        Finance_Section section396 = new Finance_Section("Definition.","cat22","For the purpose of this Chapter, a seconded Officer is a Government Officer who is seconded for duty with any other Government of the Federation (Federal or State), or a Local Government, or Statutory Corporation or any other non-Government body.");
+        Finance_Section section397 = new Finance_Section("Reimbursement Charge.","cat22","A body to which a public officer is seconded for duty shall pay to the Government a reimbursement charge to cover the cost of the officer’s salary and of his other expenses to Government.  Reimbursement Charges are made at the following rates: \n" +
+                "\n" +
+                "        Officers’ Pensionable                            Percentage of the officer’s\n" +
+                "        Emoluments                                         Pensionable emoluments\n" +
+                "        \n" +
+                "(a)\t  Officers holding posts\n" +
+                "  Graded Level 7-Grade Level 16………………………….148 per cent\n" +
+                "\n" +
+                "(b)\t   Other  Officers………………………………………………….135 per cent\n");
+        Finance_Section section398 = new Finance_Section("Responsibility for submitting claim for reimbursement.","cat22","The responsibility for submitting claims for re-imbursement rests upon the Accounting Officer of the Department from which the officer is seconded.");
+        Finance_Section section399 = new Finance_Section("Payments of salary and allowances to seconded officer.","cat22","In the absence of any specific arrangement to the contrary, which must be approved by the Permanent Secretary, Ministry of Finance, a seconded officer’s salary, Inducement Addition, Leave Basic Allowance, and Pension remain a liability of Government and should be paid through the officer’s Departmental drawing account and charged to the Departmental vote in the normal way.");
+        Finance_Section section400 = new Finance_Section("Procedure to be followed by Head of Department when an office is seconded.","cat22","When an officer has been seconded, the Accounting Officer of his Department shall proceed as follows:\n" +
+                "\n" +
+                "(a)\t  Notify the Accountant-General of the date of the beginning and in due course, the termination of the secondment;\n" +
+                "(b)\tEnsure that Salary, Inducement Addition, and Leave Basic Allowance are paid through the Departmental Drawing Account in the normal way.\n" +
+                "(c)\tEnsure that allowances such as transport allowance, hotel accommodation, refunds, etc. not covered by the re-imbursement charges, are paid by the borrowing authority;\n" +
+                "(d)\tAt the end of each quarter during the period of secondment, forward to the borrowing authority an account of the re-imbursement charges payable (forwarding a copy to the Accountant-General), with a request for  payment to be made direct to the seconding Department.  Upon receipt of a settlement cheque, the Accounting Officer shall;\n" +
+                "(i)\tPay the amount into the Akure Treasury Cash Office under cover of Receipt Voucher classified to:  Revenue Head:  Re-imbursements Sub-head:  Re-imbursement in respect of officers seconded to Non-Governmental Departments and other governments; and \n" +
+                "(ii)\tNotify the Accountant-General, in writing that this has been effected;\n" +
+                " (e)   Submit a quarterly return (31st March, 30th June, 30th September and 31st December) to the Accountant-General showing the names of officers, seconded and the recoveries effected in each case.\n");
+
+
+
+
+
+
+
+
+        Finance_Section section401 = new Finance_Section("Classes of refund of revenue and authorization","cat23",". (i)   Refund of revenue falls into three classes:\n" +
+                "(a)\t  Those in respect of revenue correctly collected, in accordance with the Laws, and subsequently reclaimed under conditions prescribed by the Laws;\n" +
+                "(b)\tThose which result from erroneous collection;\n" +
+                "(c)\tAll other cases- except those which concern the courts.\n" +
+                "(ii)   Refunds under (a) require authorization by the officer prescribed by the Laws or any officer to whom his powers have been delegated.  Refunds under (b) shall be authorized by the Accountant-General where a Treasury Receipt has been issued for the original collection, and by the Accounting Officer where the collection has been accounted for on Transfer Voucher.  Those under (c) require authorization by the Permanent secretary, Ministry of Finance.\n");
+        Finance_Section section402 = new Finance_Section("Allocation of refunds of revenue.","cat23","Refunds in respect of revenue collected in the same financial year shall be debited to the revenue sub-head to which the receipt was originally classified. Refunds in respect of revenue collected in previous years shall be dealt with as follows:\n" +
+                "\n" +
+                "(a)\t  Where a ‘Refunds General’ Sub-head exists within a Head of Expenditure of a fund into which the revenue was initially received, refunds shall be charged thereto.\n" +
+                "(b)\t Refunds made from funds having no’ Refunds-General’ sub-head of expenditure but for which expenditure there-from is subject to the passing of an Annual Appropriation Law, shall be debited to a specific expenditure sub- head for each refund.\n" +
+                "(c)\tRefunds made from funds/other than those mentioned in (a) and (b) above, shall be treated in accordance with the rules of the funds.\n" +
+                "(d)\tIncome Tax, Sales Tax, Import, Export Excise Duties and over-collections of Administration charges on Loans shall be charged as ‘Revenue Refunded’\n");
+        Finance_Section section403 = new Finance_Section("Overpayment recovered allocation of.","cat23","(i)   when an over-payment of expenditure charged to a Head in the Recurrent Estimates of Expenditure is recovered in the same financial year as that in which it was incurred, it shall be credited to the expenditure Head and Sub-head to which it was originally debited.  When the recovery is in respect of expenditure incurred in previous financial year, it shall be credited to Revenue Head Miscellaneous: Sub-Head: Overpayment Refunded.\n" +
+                "\n" +
+                "   (ii)   When an overpayment of expenditure charged to a Head of the Capital Estimates of Expenditure is recovered in the same financial year as that in which it was incurred, it shall be credited to the expenditure Head and Sub-head to which it was originally debited.  When the recovery is in respect of expenditure incurred in a previous financial year, it shall be credited to Revenue Head-Capital Expenditure and Development Fund Receipts:  sub-head-Overpayments refunded.\n" +
+                "   (iii)   In all other cases, such as expenditure which is re-imbursed by any other government or agency the recovery shall be credited to the Head and sub-head concerned irrespective of the financial year in which the overpayment was made.\n");
+        Finance_Section section404 = new Finance_Section("Overpayment: Recovery of.\n","cat23","Payment vouchers queried after payment for an overpayment should have this fact clearly endorsed thereon in red ink.  The number, date and station of the Receivable Order or Receipt Voucher (not Treasury Receipt) on which the recovery has been effected, and the amount recovered, should also be shown thereon.  In all cases of recoveries of overpayments or refunds of revenue, the relative voucher should clearly indicate the number and date of the original voucher concerned.");
+        Finance_Section section405 = new Finance_Section("Overpayments charged as Advances.","cat23","(i)  When unauthorized payments, overpayments and excess transport or other charges have been debited to a personal advance account of the officers concerned, steps should be taken by the Accounting Officer to recover the amounts and to clear the advance immediately.\n" +
+                "    (ii)   The practice of charging overpayments as advances against the certifying officers should be adopted only when prompt recovery is impossible.\n");
+
+
+
+
+
+
+        Finance_Section section406 = new Finance_Section("Insurable interests.","cat24","Property in which Government has an insurable interests may be classified as follows:\n" +
+                "(a)\t  Private property, in which Government is temporarily interested; e.g. a motor car bought or a house erected from advance funds;\n" +
+                "(b)\tGovernment property, in which private persons are temporarily interested; e.g. a public building leased;\n" +
+                "(c)\tGovernment property remaining in Government possession and used solely on public service.\n");
+        Finance_Section section407 = new Finance_Section("Property insurable ","cat24",".   In cases falling under (a) the property must be insured during the continuance of the advance or loan agreement. Accordingly :\n" +
+                "\n" +
+                "(i)\t  An officer to whom an advance is given for the purchases of a motor vehicle shall be required to enter into an agreement with the Accountant-General for its repayment and to insure the vehicle until the advance is repaid under a comprehensive policy for sum equal to the original cost of the vehicle, or for a sum not less than the unpaid balance of the loan together with any administration charge or interest outstanding thereon, whichever is the less.\n" +
+                "(ii)\t   A house built with a loan from the Government Staff Housing Fund shall be insured with an approved company for not less than the full amount of the outstanding advance, as required by the Government Staff Housing Regulations.  The insurance policy shall be drawn in favour of the Accountant-General and be maintained during the period of the repayment of the advance.  The premium shall be paid in advance by the recipient of the advance.\n" +
+                "24003.  In cases falling under Financial Regulation 24001 (b), the property must be insured at the expense of the person making use of it.  Accordingly, when government buildings or equipment are leased for private occupation or use, they must be insured by the leasee and provisions for such insurance should be made in the lease or agreement.\n" +
+                "\n" +
+                "24004.  In cases falling under Financial Regulation 24001 (c), the property must not be insured, except stores in transit from and to countries outside the Federation of Nigeria.\n");
+        Finance_Section section408 = new Finance_Section("Marine Insurance of Stores.","cat24","All goods ordered from overseas sources must be insured by the Ordering Department.");
+
+
+
+
+        Finance_Section section409 = new Finance_Section("Design, Purpose and Scope of Estimates","cat25","The Annual Estimates, and the corresponding Appropriation Law, limit and arrange the expenditure of the government for the fiscal year to which they relate.  It follows, therefore, that the greatest care and attention to detail must be observed in their preparation and submission.  The purpose of this Chapter is to lay down rules and procedure for their preparation and submission.\n" +
+                "\n" +
+                "25002.  The Annual Estimates are designed to show clearly the form of and the amount of money to be spent on each individual service, estimate and define the scope of each service, and prescribe the authorized establishment.  They are intended to cover all foreseeable expenditure, but to make no provision for contingencies. At present there are two types of Budgets – zero and incremental budgeting. Zero budgeting [Programme Performance Budgeting System (PPBS)] is a budgeting process based on the evaluation of the sectors and their expenditure need and assumes that the sectors under consideration require a new budget outlays in the medium term based on the identified programmes that suits into the overall state policy and the development targets in that sector.  Incremental budgeting on the other hand allocates budgets to sectors as a function of the previous budgetary allocation hence an increment based on the last budget estimate of the sectors. \n");
+        Finance_Section section410 = new Finance_Section("Medium Terms Sector Strategies (MTSS) and Medium Term Expenditure Framework (MTEF) as requirements for budgeting\n" +
+                "\n","cat25",".  Ondo state is to follow the zero budgeting practice where budgeting is in line with identified programmes that suits into the overall state policy and the development target of that sector. The budget of the state should be drawn from the approved Medium Term Sectors Strategies (MTSS) and the Medium Term Expenditure Framework (MTEF). The process of preparing the MTSS and the MTEF should be highly participatory with different stakeholders in the state including Civil Society Organisations (CSOs) involved. The process and fact of consultations required by law should be documented in the annex of the MTEF while it should contain the sectoral envelopes which will show government’s priorities and the reasons informing those priorities in the revenue and expenditure frameworks. ");
+        Finance_Section section411 = new Finance_Section("Duty of complying with time-table and Financial Procedure","cat25","The preparation of the Annual Estimates is an involved process which has to be undertaken within strict time limits and proper analysis of the macroeconomic conditions.  It throws a very heavy burden both upon the Ministry of Economic Planning and Budget as well as the Ministry of Finance. It is therefore essential; in order to lighten that burden as far as possible, that the state budget calendar should be circulated at the beginning of the year indicating the time for every meeting and submissions which must be rigidly observed and that the procedure contained in this Chapter should be faithfully followed.");
+
+
+        Finance_Section section412 = new Finance_Section("Ministry of Economic Planning and Budget Call Circular.","cat25","In July, each year, the Ministry of Economic Planning and Budget issues a circular letter giving the time-table for the submission of Advance Proposals and Draft Estimates based on the approved MTSS. Accounting Officers are expected to issue departmental instructions, in anticipation of the Call Circular, so as to put themselves in a position to comply with the time-table and to ensure that they have ample opportunity of carefully examining the proposals put forward by Heads of Departments.  Following the Ministry of Finance Call Circular Letter, the Office of Establishments issue another Call Circular Letter for Advance Proposals in respect of changes in authorized Establishments.");
+        Finance_Section section413 = new Finance_Section("Definitions","cat25","The following terms used in this Chapter carry the meanings assigned to them as follows: \n" +
+                "\n" +
+                "       Accounting Officer              Head of Ministry/non-Ministerial\n" +
+                "                                                         Department/Agency \n" +
+                "\n" +
+                "      Advance  Proposal               A proposal for inclusion in the \n" +
+                "                                                         Draft Estimates of provision for\n" +
+                "                                                         a change in any establishment\n" +
+                "                                                         or salary scale; or involving \n" +
+                "                                                         expenditure substantially greater\n" +
+                "                                                         than that provided for an existing \n" +
+                "                                                         service in the current estimates or \n" +
+                "                                                         for any new Government activity.\n" +
+                "\n" +
+                "Current year                                 The financial year to which the \n" +
+                "                                                          Latest printed Approved Estimates\n" +
+                "                                                          apply.\n" +
+                "     \n" +
+                "     Vote                                             A sub-head or an item of the \n" +
+                "                                                          Expenditure Estimates in line with the approved programme \n" +
+                "\n" +
+                "     Year of Estimates              The financial year in respect of which Estimate are being prepared.\n");
+        Finance_Section section414 = new Finance_Section("Time- Table.","cat25","Subject to variations which shall be announced in the Ministry of Economic Planning and Budget Call Circular Letter (Vide Regulation 25005), the following time-table for the submission of Advance Proposals and Draft Estimates must be strictly adhered to. Every effort should be made to submit the Advance Proposals and Draft Estimates before the dates indicated.\n" +
+                "(a)\t To the Office of Establishments. Proposal involving numerical changes in authorized Establishments and those involving issues of policy for which approval has been obtained……………..31st July.\n" +
+                "(b)\tTo the Ministry of Economic Planning and Budget\n" +
+                "(i)\t       Advance Proposals of Recurrent Expenditure for the year of Estimates, including proposals under (a) above………15th August.\n" +
+                "(ii)\t       Draft Estimates of Revenue, for the year of Estimates (including revised Estimates of revenue for current year) …..15th September. \n" +
+                "(iii)\tAdvance Proposals for Capital Expenditure for the year of Estimates ………..1st October.\n" +
+                "(iv)\tDraft Estimates of Recurrent and Capital Expenditure for the year ………1st November.\n" +
+                "(v)\t      PPBS Estimates …………1st November.\n" +
+                "(vi)\tRevised Estimates of Recurrent and Capital Expenditure for the current year…………..15th November.\n" +
+                "      Delay in submission of Advance Proposals may result in the rejection of an expenditure proposal because sufficient time for its proper consideration is not given.\n");
+        Finance_Section section415 = new Finance_Section("Responsibility for submitting Estimates.\n" +
+                "Numbering of Proposals.\n","cat25","The responsibility for submitting Estimates under the respective Heads and Sub-heads of Revenues rests with officers shown in Appendix ‘A’ of the current year Estimates.  Estimates of Revenue should be submitted on Form Est.7. A separate Estimates Form must be submitted in respect of each head of Revenue by each submitting officer.");
+        Finance_Section section416 = new Finance_Section("Expenditure Advance proposals.","cat25","The appropriate printed forms must be used for Personal Emoluments and other Charges Proposals, and particular care should be taken to ensure that proposals are numbered serially throughout, the first proposal under Other Charges carrying the next serial number after the last proposal under Personal Emoluments.  Two copies of the Schedules are required in the Ministry of Economic Planning and Budget.");
+        Finance_Section section417 = new Finance_Section("Expenditure Advance Proposal.\n","cat25","The numbering of proposals in the PPBS Budget should follow the standard classification of the Budget into Programmes and Sub-Programmes, Projects and Sub-Projects.");
+        Finance_Section section418 = new Finance_Section("Establishment Advance Proposal\n","cat25","The procedure for Advance proposals shall be as follows: with the exception or significant changes which should; in any case, have been referred in advance to the Executive Council, or the Treasury Board for decision, all advance proposals submitted by Department for inclusion in the Estimates shall be settled with the Ministry of Economic Planning and Budget at official level.  Submitting Ministry, Department/Agency shall later be informed of the details of the decisions reached and these details will provide a basis upon which their draft estimates will be prepared.  Any proposal which has not been previously agreed with the Ministry of Economic Planning and Budget shall be deleted, if included in the draft estimates. In the event of agreement not being reached at official level, departments will have an opportunity of stating their case when individual Heads of Draft Expenditure Estimates are considered by the Treasury Board.  \n" +
+                "\n" +
+                "25012.  All Establishment Proposals should be referred in writing to the Permanent Secretary for Establishments Matters not later than 31st July for clearance before Advance Proposals for Expenditure are submitted.  Such proposals may include new proposals for simple increases or decreases in the numbers of existing approved posts. They must also include any proposals involving issues of policy (e.g. the regrading of posts, the creation of new posts, or changes in title, cadre structure or the existing principle governing the disposition of the holders of a post) for which clearance has previously been obtained but must not include any other proposals involving such issues, in respect of which a clearance has not been previously obtained.  The reference number of the correspondence indicating the support of the Ministry of Finance and/or Office of Establishments for the inclusion of a proposal must be quoted.  Where there are changes in the establishment sanctioned in the current year, such changes should be reflected in the estimates proposals with a brief reference in every case to the relevant Treasury Board Conclusion or letter from the Ministry of Finance.\n" +
+                "\n" +
+                "25013.   Where Advance Proposals involve issues of policy, the approval of Executive Council or the Treasury Board must be obtained before they are submitted.  This means that prior to the usual time for the preparation of annual Estimates; departments must formulate their ideas on proposals involving issues of policy or significant changes in the provision in the current estimates.\n" +
+                "    The submission of additional proposals after the Ministry of Finance has dealt with Advance Proposals, or the introduction of amendments after draft Estimates have been forwarded to the Ministry of Economic Planning and Budget must be avoided.\n" +
+                "\n" +
+                "25014.   The schedule of Advance Proposals should cover every sub-head and item.  If any provision is required in the year of Estimates under a sub-head or item of expenditure created by Supplementary Estimates during the current year, the sub-head or item must be covered in Advance Proposals.  In submitting their proposals, Accounting Officers should endeavour to leave no communication gap between their Ministry and either the Office of Establishments or both. Where a vote is made up of more than one component element, as in the case of the Transport and Travelling Expenses Vote, proposals for such a vote must be supported by detailed calculations showing the Ministry’s requirements in respect of each component element.  To support their cases, Ministries and Departments should rely more on facts and figures and generally verifiable data than on abstract and subjective statements.  Where the prior approval of the Executive Council or the Treasury Board has been obtained, the reference number of the conclusion should, however, be quoted.\n" +
+                "\n" +
+                "      25015.   To enable the Ministry of Economic Planning and Budget and Ministry of Finance to make a fair assessment of the overall increase or decrease in estimated recurrent expenditure in the year of Estimates, compared with the current year, a summary in respect of each head should be submitted to that Ministry with schedules of Advance Proposal in the following form:\n" +
+                "\n" +
+                "\n" +
+                "SUMMARY\n" +
+                "\n" +
+                "(1)\t  Total Revised Estimates (whole Head)  for the current\n" +
+                "   Year for Personal Emoluments and Other Charges  =……………..\n" +
+                "\n" +
+                "(2)\t   Add additional expenditure in the year of the estimates \n" +
+                "   In respect of normal increments in salaries of staff    =…………..\n" +
+                " \n" +
+                "(3)\t   Add/Deduct total net increase/decrease as set out\n" +
+                "   in the schedule of Advance Proposals,  Proposed \n" +
+                "   total Estimates (whole head) for year of Estimates.  =   …………..\n" +
+                "      Increase/Decrease compared with the current year.             …………..\n" +
+                "\n" +
+                "  25016.   In compiling Draft Estimates of Expenditure, particular attention should be paid to the following points:\n" +
+                "(i)\t      Draft Estimates of Expenditure must be submitted in duplicate on Form Est. 5 or 6 as appropriate.\n" +
+                "(ii)\t    There should be double spacing between each line;\n" +
+                "(iii)\t     The description in the section headed ‘Details of Expenditure’ must be modelled exactly upon that shown in the Current Estimates;\n" +
+                "(iv)\t      No abbreviations whatsoever should be used except for salary gradings; \n" +
+                "(v)\t      All increases and decreases should as far as possible be explained by the use of signs listed below;\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "SIGNS AND THEIR SIGNIFICATIONS\n" +
+                "(REVENUE AND EXPENDITRE ESTIMATES)\n" +
+                "           * -   Pensionable officer(s)\n" +
+                "a  -  Increments\n" +
+                "b -  New holder(s)\n" +
+                "c  -  Previously over-estimated\n" +
+                "d –  Previously under-estimated\n" +
+                "e –  Token figure\n" +
+                "f -    See Memorandum\n" +
+                "g –   Increased output-production-consumption\n" +
+                "h –   Reduced output-production-consumption\n" +
+                "I –   Increase Demand\n" +
+                "              J-     Reduced Demand\n" +
+                "             k-    Increase Activities\n" +
+                "          I -   Decreased Activities\n" +
+                "         m-   Increased staff eligible\n" +
+                "          n-   Reduced staff eligible\n" +
+                "          o-   Post(s) abolished\n" +
+                "          P-  Change of title\n" +
+                "          q-   Incidence of leave\n" +
+                "          r -  Rise in prices\n" +
+                "          s-   Approved –created-increased-by Supplementary Estimates\n" +
+                "\n" +
+                "          t-    Revised rates\n" +
+                "          u-   See footnote\n" +
+                "          v-   Revote\n" +
+                "         w-   Regrading\n" +
+                "          x-   Part year provision\n" +
+                "          y-    Holder(s) on contract terms\n" +
+                "       (Z)-    Statutory Expenditure\n" +
+                "       (R)-     Reserved-Expenditure which may not be incurred unless and until authority has been given         by the Ministry of Finance.\n" +
+                "\n" +
+                "(vi)     Carefully worded footnotes should be provided (on a separate sheet for the whole Head) where variations cannot be adequately explained by the use of the signs.  Care should be taken to see that the sequence of footnotes corresponds with the order of the sub-heads or items to which the notes refer and that the footnote signs (other than ‘u’)run in the following order.\n" +
+                "(vii)         A note explaining the necessity for a new sub-head (or item) of significance or a major change in the Estimates should be submitted (in duplicate) for insertion in the Memorandum on the Estimates.  The note should be drafted in a form suitable for incorporation without further editing.\n" +
+                "(viii)       Supporting details should be provided in respect of all the votes which are of composited nature e.g. office and general;\n" +
+                "(ix)      The column for actual expenditure in the year immediately preceding the current year should be completed by the officer submitting Draft Estimates.  The figures in the column should be reconciled with the Appropriate Accounts before submission.\n" +
+                "(Note:   In respect of a Personal Emoluments Sub-head the total for the entire sub-head only should be shown)\n" +
+                "(x)      Financial provision for vacant posts must be calculated on the basis of the needs which can reasonably be foreseen, having regard to recruitment prospects; the appropriate sign x must be used to indicate cases where provision has been made for only part of the year.  In addition, officers responsible for submitting Draft Estimates should indicate the extent of savings which they consider will probably accrue as a result of delayed recruitment and staff turnover.  Explanation should be given for any reduction in the figure shown in the Current Estimates in this respect.\n" +
+                "(xi)      ‘Vanishing’ Items and sub-heads, i.e. those appearing in the Current Estimates for which no provision is required in the year of the Estimates, should appear, after the numbered items or sub-heads as the case may be.  They should be underlined to indicate that they are to be printed in italics.  \n" +
+                "   (xii) ‘Approved Estimate’ column of the draft Estimates should repeat exactly the figures in the Current year main Estimates.  No account should be taken of changes arising from Supplementary Estimates.\n" +
+                "       25017.  Draft Estimates should be accompanied by one copy of the staff nominal roll. This should be submitted on form EST.1. Where inducement Addition and/or Contract Addition is applicable to an item on the nominal roll, the estimate for this should be shown in brackets for the figure for salary in the penultimate column.\n" +
+                "\n" +
+                "25018.   Attention is drawn to the necessity for exercising the greatest care in the preparation of revised Estimates of Expenditure for the current year.  In order that the most accurate estimates of the out-turn for the year may be arrived at, submitting officers are required to ensure that the revised Estimates are the closest possible forecasts of actual expenditure in the current year.\n" +
+                "\n" +
+                "25019.  Revised Estimates should be calculated sub-head by sub-head, but a summary only is required to be submitted in the following form:\n" +
+                "\n");
+
+
+
+        Finance_Section section419 = new Finance_Section("EXPENDITURE: CAPITAL BUDGET","cat25","Any Expenditure which is of a non-recurrent nature should be provided for in the Capital Estimates, under one of the following Heads;\n" +
+                "(i)\tAgriculture \n" +
+                "(ii)\tLivestock and Veterinary                    Agricultural \n" +
+                "(iii)\tForestry                                              development\n" +
+                "(iv)\tFisheries\n" +
+                "(v)\tIndustry\n" +
+                "(vi)\tPower\n" +
+                "(vii)\tCommerce and Finance\n" +
+                "(viii)\tTransportation\n" +
+                "(ix)\tEducation\n" +
+                "(x)\tHealth and Medical Service\n" +
+                "(xi)\tInformation Services\n" +
+                "(xii)\tSocial Development and Sports\n" +
+                "(xiii)\tWater Supply\n" +
+                "(xiv)\tSewerage, Drainage and Refuse Disposal\n" +
+                "(xv)\tHousing\n" +
+                "(xvi)\tTown and Country Planning\n" +
+                "(xvii)\tCo-operative and Community Development\n" +
+                "(xviii)\tGeneral Administration\n" +
+                "\n" +
+                "     25021.   Advance Proposals are necessary in respect of all provisions required in the year of Estimates.  Projects which are already in progress and for which provision will be required in the year of Estimates must be included in Advance Proposals. Projects which are expected to have been completed by the end of the current year should not be shown in Advance Proposals.\n");
+        Finance_Section section420 = new Finance_Section("Draft Estimate","cat25",".   Attention is drawn to the following points;\n" +
+                "\n" +
+                "         (i)  Advance Proposals for the Capital Budget should be submitted in four copies to the            Ministry of Economic Planning and Budget. That Ministry will certify that a particular project in the Development plan and that the provision sought is commensurate with plan and that the provision sought is commensurate with plan allocation.  The Ministry of Economic Planning and Budget will also examine the proposals and arrange to submit them to the Treasury Board for a decision on which projects should be included in the Draft Estimates.\n" +
+                "\n" +
+                "(ii)           Advance Proposals under each Head must be serially numbered and supported by full explanatory notes which can be considered without reference to any other correspondence.\n" +
+                "\n" +
+                "(iii)       Separate submissions are required for Advanced Proposals under Heads of Other Non-Recurrent Expenditure.\n" +
+                "\n" +
+                "(iv)        The procedure outlined for Recurrent Budget Advance Proposals in Regulation 25011 also applies to Capital Budget Advance Proposals.\n");
+        Finance_Section section421 = new Finance_Section("Revised Estimates of Capital Expenditure for the Current year.","cat25",".  Advance Proposals in respect of all Capital Projects not under PPBS should be submitted on the Capital Programme Advance Proposals Form.  In the case of proposals for building projects which are intended to be executed by the Ministry of Works and Housing, the  originating Department will furnish the Ministry with the copy of the completed form\n" +
+                "\n" +
+                "25024.   In compiling draft Capital Budget Estimates, attention should also be paid to Regulation 25016.  The figures shown in the column for actual expenditure prior to the current year must reflect actual expenditures incurred to the nearest Naira and must be reconciled with the Appropriation Accounts.  Variation in the estimated total cost of a project for which approval has not previously been obtained will not be reflected in the Draft Estimates.\n" +
+                "\n" +
+                " 25025.   Similar considerations apply to revised Estimates of Capital Expenditure as to those for recurrent expenditure, and the closest possible forecast should be made of the expenditure likely to be incurred during the current year under each capital expenditure sub-head.\n" +
+                "\n" +
+                "\n" +
+                "25026.  Revised Estimates of capital expenditure (by Heads) should be submitted in the following form:\n");
+
+
+        Finance_Section section422 = new Finance_Section("Necessity for Supplementary Expenditure must be justified.","cat25",".  The necessity for supplementary provision (including changes in authorized establishment) should normally arise only where.\n" +
+                "\n" +
+                "(a)\tthe contingency for which it is required could not have been foreseen at the time of the preparation of the current Estimates; and\n" +
+                "(b)\tsuch provision is required on the grounds of urgent public interest.  Application for additional provision to augment an existing vote in the current estimates will not be entertained unless the need for such augmentation can be clearly shown.  Efforts must be made  to keep, as far as possible, within the limits of the original estimates under individual sub-heads so as to reduce to the minimum any divergence, overall, between the budget estimates and the actual expenditure.\n");
+        Finance_Section section423 = new Finance_Section("Authority for Supplementary expenditure.","cat25","Expenditure that has not been provided for in the annual estimates cannot be incurred without the prior approval of the Executive Council/the Legislature, except where the Commissioner of Finance is satisfied that it is appropriate in anticipation of the approval of the Executive Council/Legislature   and therefore authorizes an advance from the contingencies fund in accordance with Section 26 of the Public Administration Law.");
+        Finance_Section section424 = new Finance_Section("Supplementary expenditure involving change of policy.","cat25","Prior reference to the Executive Council or the Treasury Board is required where a new expenditure proposal involves any amendment of approved policy or the institution of a new policy.  Where no change in policy is involved; the Commissioner, Ministry of Economic Planning and Budget may, at his discretion and having regard to the magnitude of additional provision sought, direct that the proposal be referred either to the Executive Council or the Treasury Board before its acceptance for inclusion in Supplementary Estimates to be presented to the Legislature.");
+        Finance_Section section425 = new Finance_Section("Supplementary Capital Expenditure.","cat25","Requests for provision in respect of projects which had not previously featured in the Capital estimates or for the upward revision of the estimated total cost of an existing project must be accompanied by a certificate signed personally by the Accounting Officer, in the following terms: \n" +
+                "\n" +
+                "    *(a)    the project was envisaged in the Development Plan and the estimated total cost is within the allocations in the Plan;\n" +
+                "\n" +
+                "   *(b)    the Revised Estimated Total Cost is within the allocations in the Plan.\n" +
+                "\n" +
+                "   *(c)   the Estimated Total Cost/the increase in the Revised Estimated Total Cost is covered by Plan saving under…………….(name project), the Estimated Total Cost of which is hereby reduced by N……. \n" +
+                "\n" +
+                "A copy of any such application should be forwarded by the Ministry, Department/Agency concerned to the Permanent Secretary, Ministry of Finance.\n");
+        Finance_Section section426 = new Finance_Section("Excess Expenditure.","cat25","When an expenditure in excess of the total amount approved under any vote has occurred(i.e. when covering approval is being sought for an authorized excess either in the current or the previous financial year) a full explanation must be given why the system of control failed to operate satisfactorily, together with recommendations regarding the pecuniary liability if any, of any officers and details of steps, taken to prevent a recurrence.");
+        Finance_Section section427 = new Finance_Section("Revotes.","cat25",".  Only the provision in respect of items of Capital Expenditure can be revoted in the strict sense of the word.  A revote of unexpended provision form a previous financial year is ordinarily required:\n" +
+                "(a)\t   When goods are provided for and actually ordered in one year but are not delivered and paid for until the subsequent year.\n" +
+                "(b)\tWhen capital works are provided for and commenced in one year but are uncompleted at the end of that year;\n" +
+                "N.B.  Suitable records should be kept to ensure that expenditure in any one year under any sub-head/item of Capital Expenditure does not exceed either the voted provision for the year or the unspent balance of the approved total estimated cost of the project, whichever is less. All applications for revotes must reach the Ministry of Finance before the end of the first quarter of the financial year.\n");
+        Finance_Section section428 = new Finance_Section("Supplementary Expenditure:  Application form","cat25","In completing Application Form ODS. Gen.108 particular attention should be paid to the following points:\n" +
+                "\n" +
+                "(i)\t     Section E and F - Expenditure foreseen but not yet incurred or formally committed should be shown under F, and not E.\n" +
+                "(ii)\t     Applications for supplementary provision which is not offset by equivalent saving will normally, if accepted by the Ministry of Finance merely be noted for inclusion in the next Supplementary Estimates.\n" +
+                "        Where it is desired that the additional provision should be authorized in anticipation of the approval of the Legislature, the application should be signed personally by the Accounting Officer and should include a recommendation as follows:\n" +
+                "   \n" +
+                "  “I recommend that the Commissioner of Finance should be asked to exercise his powers under Section 26 of the Public Administration Law, and certify that this is most urgent, unforeseen, expenditure which cannot, without serious injury to the public interest, be postponed until adequate provision can be made by the Legislature’,\n" +
+                "\n" +
+                "(iii)    Applications for supplementary provision under Capital Expenditure Heads of the Estimates should provide a financial summary in each case as follows:\n");
+
+
+
+
+
+
+
+
+        Finance_Section section429 = new Finance_Section("Definition of Court Accounts.","cat26","Court Accounts shall include all accounts kept in the High Court and Magistrates’ Courts.");
+        Finance_Section section430 = new Finance_Section("Officers responsible for Court Accounts.","cat26",". (1)  The general responsibility for Court Accounts shall rest      upon the Chief Registrar of the High Court as the administrative head of the State Judiciary.\n" +
+                "\n" +
+                "(2)\tSubject to the general control of the Chief Registrar, responsibility for Court Accounts in each Judicial Division and in each Magisterial District shall rest upon the Registrar of each Division or District as the case may be.\n");
+        Finance_Section section431 = new Finance_Section("Authorities for Court fees and fines and payment into and out of Court.","cat26","The authorities for the imposition of Court Fees and Fines and for payments into and out of Court are as follows:\n" +
+                "\n" +
+                "High Court Law, (Cap.62) Laws of Ondo State of Nigeria, 2006; High Court (Civil Procedure) Rules; Ondo State Cap 62 Laws of Ondo State 2006; Criminal Code (Cap 30); Criminal Procedure Laws (Cap. 31) Laws of Ondo State of Nigeria, 1978; Sheriff, Civil Process  Act, Cap. S.36, Laws of Federal Republic of Nigeria, 1978; Judgment (Enforcement) Rules; Magistrates’ Courts Law, Laws of Ondo State of Nigeria, 1978; Criminal Sheriffs and Workmen’s Compensation Act, Laws of the Federation of Nigeria, 1990; Workmen’s Compensation (Rules of Court) Rules; Children and Young Persons Law (Cap.21) Laws of Ondo State of Nigeria, 1978.\n");
+        Finance_Section section432 = new Finance_Section("Cash Book.","cat26",". A Cash Book in the form applicable to Court transactions shall be kept by all Registrars and all receipts and payments shall be entered therein at the time of the transaction. All entries on the receipt side of the cash book shall be supported by the duplicates of the Revenue Collectors Receipt Books (Treasury Form 6A). All entries on the payment side shall be supported by Court Payment Vouchers or Treasury Receipt (Treasury Form 6).");
+        Finance_Section section433 = new Finance_Section("Cash in Hand.","cat26",". The cash in hand shall be checked daily with the cash book which shall be balanced and ruled off at least once a week and on the last day of each month. Every officer concerned shall pay into the nearest Treasury Cash Office at least once a week and on the last working day of each month all moneys for the time being remaining in his hands.");
+        Finance_Section section434 = new Finance_Section("Money paid to Treasury Cash Officer","cat26"," Upon payment of moneys to the Treasury Cash Office, Registrars shall produce their books, receipt books and Court Payment Vouchers for examination ");
+        Finance_Section section435 = new Finance_Section("Checking of books by Registrar","cat26","Registrars shall check the cash in the hands of the cashiers of their Court at least weekly with the Cash Book, Treasury Receipt Books, Court Payment Vouchers, Bank Paying-in Books, Court Process Books, Criminal Record Books, etc. in the current use.");
+        Finance_Section section436 = new Finance_Section("Convictions Register","cat26","Each Registrar shall maintain a register of all convictions which include the payment of a fine and shall record therein the Court Cash file number, the name of the convicted person, the amount of the fine and the prison sentence (if any) in lieu of payment thereof. The collection of fines shall at all times be kept in view and, when a sentence of imprisonment is served instead, the Registrar shall obtain proof from the Prison Authorities and shall record in the register accordingly. When a fine is paid, the number of the receipt issued shall be entered in the Register and in the Court Record Book where the order of sentence of fine was recorded. When checking Court Cash Books, Registrars shall also scrutinize the Convictions Register and shall enquire into any case in which a fine has not been paid without the prison sentence being served in lieu thereof.");
+        Finance_Section section437 = new Finance_Section("Receipt.","cat26","Registrars shall give a receipt (Treasury Form 6A) for all fees/fines payments into Court or other moneys received by virtue of their office.");
+        Finance_Section section438 = new Finance_Section("Revenue","cat26","All fees and fines, collected by the Court shall be paid to the Treasury and credited to revenue.");
+        Finance_Section section439 = new Finance_Section("Bailiffs’ fees.","cat26","Bailiffs’ fees, service, mileage and execution fees, are Court fees within the meaning of Financial Regulation 26011 and must be paid into revenue.");
+        Finance_Section section440 = new Finance_Section("Deposits.","cat26","(1) All moneys other than fees and fines collected by the Court and not paid out within forty-eight hours of the  time of receipt to the persons entitled to them shall be placed on deposit with the exception of those funds which may be dealt with in accordance with Financial Regulation 26017.\n" +
+                "\n" +
+                "     (2) Moneys placed on deposit with the Treasury in accordance with these Regulations shall be credited to one of the Court Deposit Accounts as directed by the Accountant-General. It is important that the details in the body of the Receipt Voucher shall include the name of the Court to which the deposit belongs and any Court receiving a deposit in respect of a suit belonging to another Court should at once advise that Court of the details of the Treasury Receipt Voucher.\n" +
+                "\n" +
+                "     26014.  Registrars shall obtain from the Treasury a receipt for all moneys paid in by them. Treasury receipts for Revenue shall be retained by the Registrar in support of his accounts.\n");
+        Finance_Section section441 = new Finance_Section("Money Paid into Court","cat26",".  Treasury receipts for moneys placed on deposit with the Treasury shall be produced to the Treasury when it is desired to withdraw any sum of money from the deposit. The receipts should be kept in a guard book, and every care should be exercised to ensure their safe custody.");
+        Finance_Section section442 = new Finance_Section("Money paid into court and deposited in the Treasury for the benefit of judgement creditor","cat26",".  Money paid into Court by an Order of the Court or of a Judge shall not be paid out except in pursuance of an order of the Court or of a Judge. Treasury payment vouchers for the withdrawal of such money from deposit shall be supported by a certified copy of the order of the Court or of a Judge, in addition to being supported by the relevant Treasury Receipt.");
+        Finance_Section section443 = new Finance_Section("Payment out of court","cat26","Money paid into court and deposited with the Treasury but payable to a judgement creditor on account of a writ of execution may be withdrawn from the Treasury upon the authority of the Registrar. The relevant Treasury Receipt shall be attached to the Payment Voucher in respect of which the deposit is withdrawn.");
+        Finance_Section section444 = new Finance_Section("Details required on counterfoils receipts","cat26",".  Payment vouchers shall be made payable to the Registrar of the relevant Court, and the Registrar shall give a receipt for the sum withdrawn and shall bring the amount to account as a receipt in his cash book. This receipt shall be attached to the payment voucher in addition to the Treasury receipt referred to in Financial Regulations 26015 and 26016.\n" +
+                "\n" +
+                "     26019.  (1)  When money is paid out of Court to any party, the Registrar shall forthwith enter the payment in his cash book and he shall require the party to complete the receipt portion of the Court payment voucher and he shall certify the accuracy of all details including signature entered on the Court payment voucher which shall be retained in support of his accounts.\n" +
+                "\n" +
+                "     (2)  The following particulars should be shown on receipts and Counterfoils for fees payable in Judicial proceedings:\n" +
+                "\n" +
+                "(a)\t Fees in civil cases……………….. The amount              involved, where the fee depends thereon, the nature of Petition, claim or writ in all other cases.\n" +
+                "\n" +
+                "(b)\t  Hearing Fees. …………………….The reasons for charging an additional fee and the original  fee paid for the summons.\n" +
+                "   \n" +
+                "(c)\tSubpoenas ………………………… Number of case and names of witness.\n" +
+                "\n" +
+                "(d)\tProbate and Administration…………The value of the property and the services rendered.\n" +
+                "\n" +
+                "(e)\tDivorce and Matrimonial Cases……..The petition or citation.\n" +
+                "\n" +
+                "(f)\tCriminal Matters……………………The summons or warrant issued.\n" +
+                "\n" +
+                "(g)\tExecution Fees……………………… The service rendered, the number of days, the goods remained in possession of the bailiff and the cost of keeping the goods safe.\n" +
+                "\n" +
+                "(h)\tTransport Fees……………………….The number of kilometers embraced.\n" +
+                "\n" +
+                "(i)\tSearching Archives ………………….The period.\n" +
+                "\n" +
+                "(j)\tFor drawing Bill of Costs…………….The number of words.\n" +
+                "\n" +
+                "(k)\tFor taking Costs……………………  The amount of the bill.\n" +
+                "\n" +
+                "(l)\tFor copying documents………………The number of words and whether the copy is certified.    \n" +
+                "\n" +
+                "(m)\tOther copying documents ……………The nature of the services\n");
+        Finance_Section section445 = new Finance_Section("Payments at other stations.","cat26","(i)  When Court money is placed on deposit with the Treasury at one station and is required to be withdrawn and paid to a Court at another station, the remittance shall be effected by the transmission of a checked and passed Treasury Payment Voucher (Treasury Form 1) which can be presented for payment at the distant station. Such payment vouchers shall be classified as chargeable to the Court Deposit Account for the Court which is making the remittance, that is, to the Account to which the amount was credited when originally placed on deposit.\n" +
+                "     (ii)  Court fees and fines shall on no account be remitted in this manner. They must be credited to Revenue in the first instance as provided in Financial Regulation 26011.\n");
+        Finance_Section section446 = new Finance_Section("Court deposit ledgers.","cat26","(1)  All Courts shall keep Deposits Ledgers in which shall be entered all sums deposited with or withdrawn from the Treasury. Reference to Treasury Voucher numbers and to the corresponding entries in the Judicial cash books should be shown against each transaction recorded in these ledgers.     \n" +
+                "\n" +
+                "     (2)  For the purpose of reconciliation, each Court shall send to the Treasury concerned immediately after the 31st December and the 30th June of each year, a list of credit balances in the deposit ledgers as at the close of business on those two dates together with details of relevant receipt vouchers.\n" +
+                "\n");
+        Finance_Section section447 = new Finance_Section("Trust funds estates.","cat26","(1)  Trust funds, estates of minors and other estates which officers of the Court may be directed by the Court to administer shall be dealt with separately from the Treasury Court accounts.\n" +
+                "\n" +
+                "     (2)  Officers administering such funds shall keep a cash book, ledger and Treasury receipt books relating to these transactions alone, and those books shall be subject to Treasury and Audit examination. Funds so held may be deposited with a bank and need not be paid to the Treasury\n");
+
+
+
+        Finance_Section section448 = new Finance_Section("Custody of books.","cat26","(1)  The Chief Registrar shall keep a Stock Register and a Distribution Register of all the Receipt Books and Process Court Books for the Custody and distribution of which he is responsible.\n" +
+                "\n" +
+                "     (2)  All Registrars shall keep a receipt book register in which should be entered a record of all Receipt and Process Books issued to them.\n" +
+                "\n" +
+                "     (3) Receipt Books shall be locked up and the key shall be kept by the Registrar. Any officer to whom books are issued for daily use shall be responsible for them during that time but the books shall be locked up by the Registrar at the close of the day’s work.\n");
+        Finance_Section section449 = new Finance_Section("Definition of Sheriffs.","cat26","The term sheriff, herein, includes the Duties Sheriff and all Assistant Sheriffs. (see Section 2 of the Sheriffs and Civil Process Act Cap. S.6 Laws of Federal Republic of Nigeria 2004).");
+        Finance_Section section450 = new Finance_Section("Cash Book.","cat26","(1)  A Cash Book shall be kept by all sheriffs, into which shall be entered all receipts and payments at the time of their transactions. The cash book shall be kept in the Sheriff’s Office and not by the Bailiff.\n" +
+                "\n" +
+                "     (2)  The cash in hand shall be checked daily and compared with the cash book which shall be balanced and ruled off at least once a week and also on the last day of each month.\n");
+        Finance_Section section451 = new Finance_Section("Bank Account.","cat26","(1)  If the sheriff has a bank account, he must observe the rules enumerated in Chapter 11 of these Regulations and he must keep a ledger in which he shall record transactions relating to the collecting of money by bailiffs by installments.\n" +
+                "\n" +
+                "     (2)  An account in the ledger shall be opened for each suit, in which shall be recorded all collections credited to the bank account and the ultimate deposit in the Treasury of the total amount realized in respect of each suit. The balance appearing in the ledger must be reconciled with the balance in the Sheriff’s bank account every three months.\n");
+        Finance_Section section452 = new Finance_Section("Bailiff’s receipt books. Bailiff’s Return of writ\n","cat26",".  Every bailiff must be provided with two receipt books by the sheriff from which he must give a receipt for any sum of money collected by virtue of his office.\n" +
+                "\n" +
+                "     26028.  All moneys collected by bailiffs shall be paid to the sheriff who shall give a receipt (Treasury Form 6) for the sum of money so received.\n" +
+                "\n" +
+                "     26029.  (1)  At the close of every month, each bailiff shall make a full return to the sheriff on all writs in his possession and of all sums of money collected by him during the month.\n" +
+                "\n" +
+                "     (2)  The Sheriff shall after due examination and comparison with the counterfoils of the bailiff’s register retain the bailiff’s return in support of his account. He shall certify thereon that the returns have been examined in accordance with the law\n");
+        Finance_Section section453 = new Finance_Section("Sheriff’s payment into court.","cat26","Sheriff’s payments into Court must be effected by deposit at the Treasury in favour of the Court Registrar. The Sheriff shall give the relevant Treasury receipt to the Registrar who shall issue a Court receipt for a like amount in exchange. The Sheriff shall quote the number of the court receipt in his cash book against the entry of the payment into the Treasury. The Registrar shall enter on the receipt side of his cash book the amount represented by the Court receipt issued to the sheriff and on the payment side, he shall enter a similar amount as having been paid into the Treasury quoting the number of the Treasury receipt given him by the sheriff. When the deposit is withdrawn from the Treasury by the Registrar the amount shall be brought to account on the receipt side of the cash book, and when payment is made by him to the suitor to whom it is due, it shall be entered on the payment side of the cash book and reference made to the court payment voucher on which the suitor signs for the money");
+        Finance_Section section454 = new Finance_Section("Account of sale.","cat26","When paying money to the Court, Sheriffs shall submit an account of any sale effected. This amount, which must be signed by the Sheriff, should accompany the writ of execution or be endorsed on the back thereof. The account must also show details of all deductions for the amount realized to facilitate audit. The writ shall be retained by the Court for filing in the respective suit jacket.");
+        Finance_Section section455 = new Finance_Section("Payments made by Sheriffs.","cat26","Sheriffs must obtain receipt for payments made other than to the Treasury. Details of such payments must be entered in the Sheriff’s cash book.");
+        Finance_Section section456 = new Finance_Section("Stations served by bank.","cat26","At stations where there is a branch of bank in which Government account is kept, payment of money to the Treasury through the bank shall be in accordance with the conditions laid down under Financial Regulation 06018.\n" +
+                "\n" +
+                "     26035.  Sheriffs shall pay all moneys received to the Treasury at least twice a week and where payment is made into a Treasury Cash Office, they shall like all other Revenue Collectors, produce their cash and receipt books for the examination of the Treasury Cash Officer. (see Financial Regulations 06010 and 06011).\n");
+        Finance_Section section457 = new Finance_Section("Payments at or for other stations","cat26","Money payable by sheriffs to the Court at another station must be paid to the Treasury to the credit of the appropriate deposit account in accordance with paragraph (2) of Financial Regulation 26013. The deposit receipt may then be transmitted to the Registrar of the court concerned. Fees payable at other stations shall be paid by voucher in the ordinary way.\n" +
+                "\n");
+        Finance_Section section458 = new Finance_Section("Payment to judgment creditor after","cat26","On no account shall any money realized on any execution writ or warrant be paid by the sheriff or by a bailiff direct to the judgement creditor or to his lawyer or agent. Payment shall be made in accordance with Financial Regulation 26017.");
+        Finance_Section section459 = new Finance_Section("Transport and other allowances to public subpoena as state witness.","cat26","The cost of the transport and other allowances to a public officer subpoenaed as a State Witness shall be paid by the Judicial Department. Where warrants are necessary, the officer will, if possible, obtain them from the Court concerned. If it is not possible to obtain a warrant from the court in advance, the officer shall obtain one from his own Department and notify the Court of the particulars of it. All vouchers in respect of allowances must be submitted to the Court concerned for acceptance and signature.");
+
+
+        Finance_Section section460 = new Finance_Section("Scales of transport: cheapest method and route to be used.","cat27","The circumstances in which a public officer is eligible for transport at Government expenses, and the scale of such transport are prescribed in the Civil Service Rules. Where alternative transport service are available, the cheapest must be used if satisfactory.  A Department’s vehicle (or vehicles from the Government Transport Pool if available) should be used for the transport of officers on transfer, etc. and of Government stores where the use of such transport, taking all factors into account, is the most economical method available.");
+        Finance_Section section461 = new Finance_Section("Cash payments when warrants not used.","cat27","When an officer is eligible for transport at Government expense, otherwise than in his own car or by Government vehicle, and no transport allowance can be used, he may receive a cash payment for his transport expenses.");
+        Finance_Section section462 = new Finance_Section("Transport expenses of Government Officers Allocation of.","cat27",".  An officer travelling on duty, otherwise than in his own car or by Government vehicle,  may receive a cash payment in respect of his transport expenses under the following conditions:\n" +
+                "\n" +
+                "(a)\t He will be paid an amount which represents the cost of passenger fares and transport of baggage within the limits prescribed by Public Service Manual at the time the journey is made. Payment may be made to the officer when the officer’s family proceeds or follows him, in accordance with the Civil Service Rules.\n" +
+                "\n" +
+                "(b)\tPayment may be made before the journey is undertaken and in the case of a return journey payment may be made for both the journey away from and back to his station before he leaves his station. Similarly in the case of an officer who is due to be transferred to a new station after the expiry of his leave, and who shall not be returning to his old station, payment may be made for both journeys before the commencement of the first journey.  Before approving the payment to the travelling officer, the authorizing officer shall obtain an application signed by the travelling officer.\n" +
+                "\n");
+        Finance_Section section463 = new Finance_Section("Transport expenses of State Witnesses outside Ondo State.","cat27","The Transport and Travelling Expenses’ sub-head of a Ministry or Department is intended to meet the cost of transport and travelling expenses of the officers whose salaries are charged to the Personal Emoluments Vote of that Ministry or Department, irrespective of the nature of the duties actually carried out by the officers when they performed the journey except that:\n" +
+                "\n" +
+                "(a)\tOfficers travelling in connection with elections are to charge their expenses to the sub-head provided for election expenses.\n" +
+                "\n" +
+                "(b)\tOfficers travelling in connection with Committees and Commissions appointed by the Government are to charge their expenses to the sub-head ‘Committees and Commissions’ of the Miscellaneous Head, unless a special sub-head is opened for the expenses of a particular committee or commission.\n" +
+                "\n" +
+                "     27005.     Seconded officers shall be regarded as officers of the Department to which they are seconded, for the purpose of the payment of transport expenses.\n" +
+                "\n" +
+                "\n" +
+                "     27006.  Persons residing in Ondo State of Nigeria who are subpoenaed as State witnesses to attend a Court in another State shall be given the necessary travelling allowance by the Registrar of the Court nearest to their place of residence. The cost of such journeys shall be charged to the appropriate Heads and sub-heads, of the Judicial Department in the State in which their evidence is to be given. The Chief Registrar shall notify each Registrar at the commencement of each financial year of the appropriate Head and sub-head numbers of other States.\n");
+
+
+
+        Finance_Section section464 = new Finance_Section("","cat27","");
+        Finance_Section section465 = new Finance_Section("","cat27","");
+        Finance_Section section466 = new Finance_Section("","cat27","");
+        Finance_Section section467 = new Finance_Section("","cat27","");
+        Finance_Section section468 = new Finance_Section("","cat27","");
+        Finance_Section section469 = new Finance_Section("","cat27","");
+        Finance_Section section470 = new Finance_Section("","cat27","");
+        Finance_Section section471 = new Finance_Section("","cat27","");
+        Finance_Section section472 = new Finance_Section("","cat27","");
+        Finance_Section section473 = new Finance_Section("","cat27","");
+        Finance_Section section474 = new Finance_Section("","cat27","");
+        Finance_Section section475 = new Finance_Section("","cat27","");
+        Finance_Section section476 = new Finance_Section("","cat27","");
+        Finance_Section section477 = new Finance_Section("","cat27","");
+        Finance_Section section478 = new Finance_Section("","cat27","");
+        Finance_Section section479 = new Finance_Section("","cat27","");
 
 
 
@@ -1738,7 +2173,7 @@ public class Finance_Section implements Parcelable {
 
 
                 section332,section333,section334,section335,section336,section337,section338,section339,section340,section341,
-                section342,section343,section345,section346,section347,
+                section342,section343,section344,section345,section346,section347,
                 section348,section349,section350,section351,section352,section353,section354,section355,section356,section357,
 
 
@@ -1746,8 +2181,40 @@ public class Finance_Section implements Parcelable {
                 section364,section366,section367,section368,section369,section370,section371,section372,section373,
 
 
-                section374,section375,section376,section377,section378,section379,section380
+                section374,section375,section376,section377,section378,section379,section380,
+
+
+
+
+
+
+
+
+                section381,section382,section383,
+                section384,section385,section386,section387,section388,
+                section389,section390,section391,section392,section393,section394,section395,section396,section397,section398,section399,section400,
+
+
+
+                section401,section402,section403,section404,section405,
+
+
+                section406,section407,section408,section409,section410,section411,section412,section413,section414,section415,
+                section416,section417,section418,section419,section420,section421,
+                section422,section423,section424,section425,section426,section427,section428,section429,section430,section431,
+
+
+                section432,section433,section434,section435,section436,section437,section438,section439,section440,section441,
+                section442,section443,section444,section445,section446,section447,
+                section448,section449,section450,section451,section452,section453,section454,section455,section456,section457,
+
+
+                section458,section459,section460,section461,section462,section463
+
         };
+
+
+        
 
         return sections;
     }

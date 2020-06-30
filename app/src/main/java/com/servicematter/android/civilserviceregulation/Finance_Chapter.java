@@ -110,6 +110,19 @@ public class Finance_Chapter extends AppCompatActivity {
 
 
 
+        List<Finance_Section> section21 = appdatabase.finance_dao().FindSectionByCategory("cat21");
+        List<Finance_Section> section22 = appdatabase.finance_dao().FindSectionByCategory("cat22");
+
+        List<Finance_Section> section23 = appdatabase.finance_dao().FindSectionByCategory("cat23");
+        List<Finance_Section> section24 = appdatabase.finance_dao().FindSectionByCategory("cat24");
+
+
+
+        List<Finance_Section> section25 = appdatabase.finance_dao().FindSectionByCategory("cat25");
+
+        List<Finance_Section> section26 = appdatabase.finance_dao().FindSectionByCategory("cat26");
+        List<Finance_Section> section27 = appdatabase.finance_dao().FindSectionByCategory("cat27");
+
 
 
 
@@ -151,6 +164,22 @@ public class Finance_Chapter extends AppCompatActivity {
         Finance_Articles article20 = new Finance_Articles("Article 20","LAST PAY CERTIFICATE AND PAY ADVICE",section20);
 
 
+
+
+        Finance_Articles article21 = new Finance_Articles("Article 21","ESTATES OF DECEASED OFFICERS",section21);
+
+        Finance_Articles article22 = new Finance_Articles("Article 22","SECONDED OFFICERS",section22);
+        Finance_Articles article23 = new Finance_Articles("Article 23","REVENUE REFUNDS, OVERPAYMENTS AND RECOVERIES",section23);
+
+        Finance_Articles article24 = new Finance_Articles("Article 24","INSURANCE",section24);
+
+
+        Finance_Articles article25 = new Finance_Articles("Article 25","PROCEDURE FOR THE PREPARATION OF ANNUAL ESTIMATES",section25);
+        Finance_Articles article26 = new Finance_Articles("Article 26","COURT ACCOUNTS AND SHERIFF ACCOUNTS",section26);
+
+        Finance_Articles article27 = new Finance_Articles("Article 27","TRANSPORT, FREIGHT CHARGES AND PASSAGES",section27);
+
+
         ArrayList<Finance_Articles> makeArticle = new ArrayList<>();
 
 
@@ -174,6 +203,13 @@ public class Finance_Chapter extends AppCompatActivity {
         makeArticle.add(article18);
         makeArticle.add(article19);
         makeArticle.add(article20);
+        makeArticle.add(article21);
+        makeArticle.add(article22);
+        makeArticle.add(article23);
+        makeArticle.add(article24);
+        makeArticle.add(article25);
+        makeArticle.add(article26);
+        makeArticle.add(article27);
 
         return  makeArticle;
     }
