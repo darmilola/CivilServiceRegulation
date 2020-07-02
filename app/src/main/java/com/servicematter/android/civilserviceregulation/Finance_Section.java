@@ -2090,22 +2090,283 @@ public class Finance_Section implements Parcelable {
 
 
 
-        Finance_Section section464 = new Finance_Section("","cat27","");
-        Finance_Section section465 = new Finance_Section("","cat27","");
-        Finance_Section section466 = new Finance_Section("","cat27","");
-        Finance_Section section467 = new Finance_Section("","cat27","");
-        Finance_Section section468 = new Finance_Section("","cat27","");
-        Finance_Section section469 = new Finance_Section("","cat27","");
-        Finance_Section section470 = new Finance_Section("","cat27","");
-        Finance_Section section471 = new Finance_Section("","cat27","");
-        Finance_Section section472 = new Finance_Section("","cat27","");
-        Finance_Section section473 = new Finance_Section("","cat27","");
-        Finance_Section section474 = new Finance_Section("","cat27","");
-        Finance_Section section475 = new Finance_Section("","cat27","");
-        Finance_Section section476 = new Finance_Section("","cat27","");
-        Finance_Section section477 = new Finance_Section("","cat27","");
-        Finance_Section section478 = new Finance_Section("","cat27","");
-        Finance_Section section479 = new Finance_Section("","cat27","");
+        Finance_Section section464 = new Finance_Section("Responsibility for Vehicles","cat28","The Accounting Officer shall be responsible for ensuring that there is effective control in the use of Government vehicles. For that purpose, he shall ensure that the following records are maintained:\n" +
+                "\n" +
+                "(a)\t Vehicle Control Register,\n" +
+                "(b)\tRequisition/Approval for journey,\n" +
+                "(c)\tVehicle Log Book/Work Ticket (Gen. 59),\n" +
+                "(d)\tVehicle Maintenance Register,\n" +
+                "(e)\tTransport Diaries.\n");
+        Finance_Section section465 = new Finance_Section("When official transport should be used.","cat28",".  Official transport is to be used on all occasions to facilitate Government business. Official transport shall not be used for private journey except:\n" +
+                "\n" +
+                "(i)\twhen the officer is on salary Grade Level 16 and above or a Head of Department; \n" +
+                "(ii)\tfor house to office running;\n" +
+                "(iii)\tfor collection of such officers’ children to and from school.\n" +
+                "\n" +
+                "     28003.  (a)  Private cars and other vehicles may not be hired for the purpose of conducting normal government business.\n" +
+                "\n" +
+                "(b)\t  In such circumstances warranting the hiring of private vehicles, the Accounting Officer of the Ministry, Department or Agency shall give approval.\n" +
+                "\n" +
+                "(c)\tThe limitation above shall not apply to contracts for the transportation of goods in the public interest, provided such contracts are dealt with in accordance with approved tender procedures.\n");
+        Finance_Section section466 = new Finance_Section("Responsibilities of  officers in charge of Government motor vehicles.\n","cat28","An Accounting Officer shall appoint such officers as may be necessary to be in charge of the motor vehicles of his Department, and only these officers may authorize the use of a Government motor vehicle. Officers in-charge of Government motor vehicles are responsible for the immediate control of all vehicle under their charge, and for ensuring that the provisions of these Regulations are adhered to.");
+        Finance_Section section467 = new Finance_Section("Marking of Government motor vehicles","cat28",".  Every Government motor vehicle must be identified by a Department number, preceded by the code letters of the Ministry, Department/Agency painted on or stamped into the structure. Normally these identification labels of Ondo State Government shall be engraved on the body of the vehicle");
+        Finance_Section section468 = new Finance_Section("Speedometers to be in working order","cat28","An officer in charge of motor vehicles shall ensure that the speedometers of all motor vehicles under his charge are in working order at all times. In the event of a speedometer being temporarily out of order, distance covered must be estimated for the purpose of entry in the Transport Diary.");
+        Finance_Section section469 = new Finance_Section("Driving of official vehicles","cat28","Government vehicles must be driven by official drivers and not by officers travelling therein. Exceptionally, provided that he holds a current Nigeria driving licence valid for the class of vehicle in question, an officer may drive in the following circumstances only:\n" +
+                "\n" +
+                "(a)\t In an emergency (which must be reported to the officer in–charge of transport immediately on conclusion of the journey) when an official driver is incapacitated or not available.\n" +
+                "\n" +
+                "(b)\tOn a long journey (exceeding 400 kilometers in one day), provided that specified authorization has been given in writing by the Accounting Officer;\n" +
+                "\n" +
+                "(c)\tWhen a duly authorized officer is conducting an essential mechanical test or road test.  Civil Servants who fail to adhere to the above provisions shall be sanctioned by suspension for two weeks without pay.\n");
+        Finance_Section section470 = new Finance_Section("Transport Diaries.","cat28","A Transport Diary shall be kept by the driver of each Government motor vehicle, in which the purpose of every journey must be clearly indicated. The speedometer reading shall be recorded in the distance column of the diary at the end of each day’s running, and the distance covered on each separate journey shown in the same column. Entries in the transport diary shall be made at the completion of each journey, and the completed entry initialed personally by the officer making the journey, or, if goods only are carried, by the officer authorizing the journey. All petrol and lubricating oil purchased for or issued to a vehicle shall be recorded in the transport diary of the vehicle, the source and date of supply and reference to the relative voucher being given. The monthly totals of distance covered and consumption of petrol, oil and lubricants are to be carried over to the Motor Vehicle Maintenance Log-Book for that vehicle.");
+        Finance_Section section471 = new Finance_Section("Transport Orders.","cat28",".  Transport Order shall be issued by the officer-in-charge of transport in respect of every journey to be undertaken by an official vehicle. Transport Orders shall be filed by vehicle control officers and preserved for audit inspection.");
+        Finance_Section section472 = new Finance_Section("Transport Orders maintenance log book","cat28",".  A Motor Vehicle Maintenance Log Book shall be kept for every Government motor vehicle, in which shall be recorded monthly summaries of distance covered, run of petrol and lubricating oil  purchased for or issued to the vehicle (see Financial Regulation 28008), and particulars of all maintenance and repairs. Instructions for the Log Book are contained therein.");
+        Finance_Section section473 = new Finance_Section("Use of official vehicles on duty, etc.","cat28","An officer requiring a motor vehicle, for official purposes or in which he is entitled to free transport facilities as specified in Civil Service Rules, may use an official vehicle without payment for such purposes only, under such conditions as may be laid down by his Accounting Officer.");
+        Finance_Section section474 = new Finance_Section("Use of Official Vehicle on duty etc. by officer in receipt of motor basic allowance","cat28",".  An officer in receipt of transport allowance shall not be permitted to use an official vehicle for his own movements.");
+        Finance_Section section475 = new Finance_Section("General Procedure.","cat28","In addition to any action which may be required to be taken in accordance with the provisions of the Road Traffic Law Cap. 136 of the Laws of Ondo State, 2006, the procedure prescribed in this Chapter must be observed when an accident involving a Government vehicle occurs.");
+        Finance_Section section476 = new Finance_Section("Driver: Action by","cat28","The driver, or the person in-charge of the vehicle, must immediately report the accident to his Head of Unit or Department. At the scene of the accident he shall supply only to a police officer, or to the owner of the property to which injury has been caused, details of:\n" +
+                "\n" +
+                "(a)\t his name and  address;\n" +
+                "(b)\tThe name and address of the owner of the vehicle;\n" +
+                "(c)\tThe identification mark of his vehicle.\n" +
+                "\n" +
+                "     He shall in no way admit liability to any member of the public, or make any statement other than those above, to the Police, or to the owner of the property.\n");
+        Finance_Section section477 = new Finance_Section("Head of Unit or Department Action by","cat28","The Head of Unit or Department shall take immediate steps to obtain statements of what took place from the driver, the passengers and any witnesses whose names and addresses are known.");
+        Finance_Section section478 = new Finance_Section("Inspection by Mechanical Engineer.","cat28","The Head of Unit or Department shall request the Permanent Secretary, Ministry of Works to send an officer to inspect the damage to the Government vehicle or property (in this connection inspection of non-Government property should not be carried out except in circumstances as described in Financial Regulation 28020, since an unsolicited inspection might be held to amount to an admission of liability)");
+        Finance_Section section479 = new Finance_Section("Accounting Officer: Authorized to deal with.","cat28","The representative of the Permanent Secretary, Ministry of Works should be a person whose evidence in the event of a dispute would carry weight with the Court. He should take his own notes at the time of inspection, from which he can refresh his memory if, sometime later, he should be called upon to give evidence. He should take care to observe anything which may help to show how the accident occurred. In some cases, for example, the part of the vehicle which came into contact with the other vehicle or object shall indicate the angle of impact. He should, whenever possible, test the efficiency of the steering and the brakes.");
+        Finance_Section section480 = new Finance_Section("Claim against Government","cat28","If a claim for compensation for damage or injury out of an accident is received, the Head of Unit or Department shall give, initially, only a formal acknowledgement of the receipt of the claim.");
+        Finance_Section section481 = new Finance_Section("Inspection following receipt of a claim against Government","cat28","On receipt of a claim under Financial Regulation 28018 and provided the consent of the owner of the vehicle or property or his representative, has been obtained, the Head of Unit or Department shall request the Permanent Secretary, Ministry of Works to send a competent person to inspect the damage to a vehicle or property in respect of which the claim is made. The same points for guidance included in Financial Regulation 28017 should be borne in mind during this inspection.");
+        Finance_Section section482 = new Finance_Section("Police action information.","cat28","In those cases which are brought to the notice of the Nigeria Police, in accordance with the Road Traffic Laws Cap. 136 of the Laws of Ondo State, 2006, the Head of Unit or Section shall obtain from the Local Police Authorities a Police Report, together with a statement as to whether any person is being prosecuted as a result of the accident. The Police authorities shall also be requested to give the result of such prosecution where available");
+        Finance_Section section483 = new Finance_Section("Head of Unit or Department: Report by","cat28","The Head of Unit or Department shall forward in duplicate to his Accounting Officer, a report on the circumstances of the accident. The report, which must contain full details of how the accident occurred; shall include, among others, the following:\n" +
+                "\n" +
+                "(a)\t Details of any claim which has been received for damage or for injury arising from the accident.\n" +
+                "(b)\tThe original of any such claim.\n" +
+                "(c)\tFor the purposes of assessing the legal position, an opinion whether or not the Government driver was acting in the course of his employment, and if it is considered that he was not, then full particulars must be given. (As a general rule a driver on an authorized journey is presumed to be acting in the curse of his employment, even if he makes an unauthorized detour, or drive at a speed in a manner which the superior officer has forbidden).\n" +
+                "(d)\tDetails of the damage to Government vehicles and property, including the cost of repairs, and details of any evidence tending to show how the accident occurred.\n" +
+                "(e)\tDetails of the damage or injury in respect of which any claim has been made.\n" +
+                "(f)\tCopies of any reports provided by the Police.  \n" +
+                "(g)\tCopies of the statement of the driver.\n" +
+                "(h)\tA sketch plan of the scene of the accident, if this is likely to assist in the assessment of the case.\n" +
+                "(i)\tAn opinion of the degree of negligence of each of the parties involved\n");
+        Finance_Section section484 = new Finance_Section("Circumstance that may warrants the convening of Board of Enquiry.","cat28","The Accounting Officer must decide whether the circumstances of the accident disclosed by the report of the Head of Unit or Section warrant the convening of a Board of Enquiry, and, if they do, he shall apply for such a Board under the provisions of Chapter 16 of Financial Regulations on the subject of Boards of Enquiry on losses.");
+        Finance_Section section485 = new Finance_Section("Accounting Officer: Authorized to deal with","cat28"," The Accounting Officer may dispose of an accident report, and order the repair of the Government vehicle when:\n" +
+                "\n" +
+                "(a)\t A civil claim against government, has not been received, or is not likely to be received.\n" +
+                "(b)\tThe Accounting Officer is of the opinion that Government should not institute a civil claim against any person.\n" +
+                "(c)\tThe disciplinary action against any officer involved is within the discretion of the Accounting Officer.\n" +
+                "(d)\tSufficient funds are available to meet the cost of repair to the government vehicle and/or the government property.\n");
+
+
+        Finance_Section section486 = new Finance_Section("Accounting Officers to report to Ministry of Finance.","cat28","The Accounting Officer shall submit a report to the Permanent Secretary, Ministry of Finance on the circumstances of those accidents where:\n" +
+                "\n" +
+                "(a)\t A civil claim against Government has been received or is likely to be received, or\n" +
+                "(b)\tWhere in the opinion of the Accounting Officer, government should institute a claim against any person, and/or\n" +
+                "(c)\tWhere there are allegations of negligence causing the accident which may involve disciplinary action against an officer over whom powers of discipline have not been delegated\n");
+        Finance_Section section487 = new Finance_Section("Report of Accounting Officer: Form of.","cat28",".  The report to be submitted under Financial Regulation 28024 must contain among others, details of:\n" +
+                "\n" +
+                "(a)\t The opinion of the Accounting Officer as to the degree of negligence of each of the parties involved in the accident.\n" +
+                "(b)\tA recommendation as to disciplinary action, including surcharge, which should be taken against any officer over whom powers of discipline have not been delegated to the Accounting Officer.\n" +
+                "(c)\tThe disciplinary action, including surcharges, and cessation of “No Accident” bonus which has been taken, or is proposed to be taken in cases where there is delegation of this disciplinary power. (see Financial Regulation 28026 if criminal prosecution is involved).\n" +
+                "(d)\tDetails of instances of any unauthorized use of Government Vehicles which may have been disclosed as a result of the accident, together with recommendation to prevent a re-occurrence.\n" +
+                "\n" +
+                "Attached to the report must be:\n" +
+                "(e)\tA copy of the report with the attachments from the Head of Unit or Section, as required by Financial Regulation 28021.\n" +
+                "(f)\tThe report of the Board of Enquiry, where applicable\n");
+        Finance_Section section488 = new Finance_Section("Disciplinary action may be taken before conclusion of criminal prosecution","cat28","If a criminal prosecution is pending against a Government employee arising from an accident involving a Government vehicle, the departmental disciplinary action may be taken simultaneously along with the criminal prosecution in accordance with the Civil Service Commission Regulations.");
+        Finance_Section section489 = new Finance_Section("Permanent Secretary, Ministry of Finance: Action by.","cat28","On receipt of the report of the Accounting Officer, the Permanent Secretary, Ministry of Finance shall be responsible for all subsequent actions on civil claims and he shall seek from the legal officer the advice as to whether Government should institute a claim against any person, or admit any claim which may be made against Government in respect of the damage or injury caused by the accident.");
+        Finance_Section section490 = new Finance_Section("Civil Service Commission: Action by.","cat28","The Permanent Secretary, Ministry of Finance shall refer the papers to the Secretary of the Civil Service Commission in those cases where a charge of negligence against an officer is not within the competence of the delegated powers of the Accounting Officer.");
+        Finance_Section section491 = new Finance_Section("Write off of the vehicle.","cat28","If, as a result of the accident, the Government vehicle is considered to be beyond economic repair, the Accounting Officer shall, on the conclusion of the criminal prosecution if any, apply for a Board of Survey on the vehicle under the provisions of Chapter 15 of Financial Regulations on the subject of Boards of Survey on Stores. Copies of the Accident Report shall be made available to the Board.");
+        Finance_Section section492 = new Finance_Section("Quarterly Return","cat28",".  Accounting Officers shall forward at quarterly intervals to the Permanent Secretary, Ministry of Finance with a copy to the Auditor-General, a return of all accidents to Government Motor Vehicles under their charge, to show:\n" +
+                "\n" +
+                "(a)\t Date of accident.\n" +
+                "(b)\tDetails of vehicle involved.\n" +
+                "(c)\tEstimate of the cost of repairs to the Government vehicle or property.\n" +
+                "(d)\tBrief details of accidents dealt with under Financial Regulation 28023 and details of disciplinary action taken.\n" +
+                "(e)\tBrief details of accidents dealt with under Financial Regulation 28024 and cross-references to the reports submitted under Financial Regulation 28025.\n" +
+                "\n" +
+                "     28031.  (i)  Government vehicles should not be used on Saturdays and Sundays except on strictly official duties.\n" +
+                "\n" +
+                "      (ii)  The use of Government vehicles beyond two  hours after the close of work should be restricted to official business.\n" +
+                "\n" +
+                "(iii)\t Officer on GL. 16 and above are empowered to stop any Government vehicle suspected to be on non-official business for explanation and the onus of proof of authority for use shall lie on the driver of the motor vehicle.\n");
+
+
+
+
+
+        Finance_Section section493 = new Finance_Section("Policy.","cat29","The Accounting Officer of a Ministry, Department or Agency will ensure that, an Internal Audit Unit is established to provide a complete and continuous audit of the accounts and records of revenue, expenditure, plant, allocated and un-allocated stores where applicable. The existence of an Internal Audit Unit shall not divest any member of the Ministry, Department or Agency of the individual responsibilities placed upon him, neither shall it obviate the necessity for normal department checks.");
+        Finance_Section section494 = new Finance_Section("Internal Audit Appointment of.","cat29","The Accountant-General shall ensure that a suitably competent accountant or auditor is placed directly in charge of the Internal Audit Unit in every Ministry and Non-Ministerial Department.");
+        Finance_Section section495 = new Finance_Section("Duties of Internal Auditor.","cat29",".  The Internal Auditor in charge shall be directly responsible to the Accounting Officer for a detailed audit of the accounts and records, and for the examination of the systems and procedures in force. Initially, he shall submit to the Accounting Officer for the attention of the Accountant-General a detailed programme of audit and, thereafter, he shall report quarterly to the Accountant-General, Auditor General, and the Accounting Officer on the progress of the Audit. He shall also issue special reports, if necessary when, in his opinion, the attention of the Accounting Officer and the Head of Accounts ought to be drawn to an irregularity in the accounting records, or to an apparent weakness in the accounting procedure, or to any apparent in-attention to the reports of the Auditor-General or to earlier internal audit reports issued by him. In those Ministries where a system of a stores stock verification is available, he shall assume the control of the stock verification staff and direct their programme of inspection (see Financial Regulation 29006).");
+        Finance_Section section496 = new Finance_Section("Programme.","cat29","The Internal Auditor-in-charge shall ensure that the programme of Audit  extend to cover all the records of the Ministry, Department or Agency, in order to satisfy himself that:\n" +
+                "\n" +
+                "(a)\t the safeguards for the prevention or the prompt detection of fraud and loss of cash or stores or plant are adequate. Normal safeguards include the observance of Government and Departmental regulation and instructions, and existence of internal checks.\n" +
+                "(b)\tthe system for the control of the collection of revenue is adequate, and that all monies received have been promptly brought to account, to the correct head and sub-head.\n" +
+                "(c)\tthe system for the control of expenditure is adequate and that all payments made are properly authorized and correct, they are paid to the right person, from the correct head and sub-head, and made, for the purpose for which they were authorized.\n" +
+                "(d)\tthe system of the control of the issue and consumption of stores is adequate, all issues are properly authorized and correct, issues are made to the right person and are used for the purpose for which they are authorized.\n" +
+                "(e)\tthere are adequate means for the verification by him of all cash, stores and plant held. Records in respect of the purchase of vehicles and their maintenance running costs, log-books and disposal must also be checked.\n" +
+                "(f)\tthe accounting records are accurate.\n" +
+                "(g)\tpre-payment and post-payment checks of payment vouchers are in force.\n" +
+                "(h)\tad-hoc investigations are carried out when necessary.\n" +
+                "(i)\tthe records in Financial Regulation 28001 are also checked.\n");
+
+        Finance_Section section497 = new Finance_Section("Progress Register","cat29","The Internal Auditor-in-charge shall maintain under his personal control, a register to record the progress of the audit. The register shall normally be in columnar form of not less than thirteen columns, to record the specific task to be undertaken in the course of the internal audit duties and the officer in charge of each task shall initial in the appropriate extension column against each task to indicate the completion of the specific task for each month. The inspection of Head-quarters accounts or Treasury Cash Offices shall normally be on a continuous basis throughout the year, whilst inspection of separate units might be on a periodical basis.");
+        Finance_Section section498 = new Finance_Section("Audit Guides","cat29","The Internal Auditor-in-charge shall draw up detailed internal audit guides for the use of the examination staff, setting out concisely the nature and extent of the checks to be applied to each account or record. The guide shall be comprehensive and shall be an amplification of the Audit Programme, and it will explain the general nature of the account, the relationship to the function of the Ministry, Department/Agency and contain references to the basis in Law, any relevant account instructions issued by the Accountant-General, or other instructions issued by the Government.");
+        Finance_Section section499 = new Finance_Section("Restriction in the duties of Internal Audit Staff","cat29","(i)  The staff of the Internal Audit Unit may not be employed within the Ministry, Department or Agency, on accounting duties or on the internal check  of accounting records. Further, an officer shall be precluded from taking up the duties of internal audit staff if he has previously been engaged on accounting or internal check duties within the Ministry, Department, or Agency over the period to be covered by the Internal Audit.");
+        Finance_Section section500 = new Finance_Section("Report of Internal Auditor","cat29","(ii) Under no circumstances shall members of Internal Auditor Staff attend or participate in replying Auditor-General’s queries sent to Ministries, Departments or Agencies.\n" +
+                "\n" +
+                "     29008.  The Internal Auditor-in-charge shall render a quarterly and annual reports to Accounting Officer with copies to the Auditor-General and the Accountant-General to certify to what degree he is satisfied with the safeguards against fraud, with the controls of the receipts and of payments, with the controls on the issues and consumption of stores, with the verification of cash and stores held, and with the accuracy of the accounting records.\n" +
+                "\n" +
+                "  29009.  The Head of Internal Audit in all MDAs and other arms of government shall ensure that 100% pre-payment audit of all checked and passed vouchers is carried out and the vouchers forwarded under security schedule direct to the appropriate central pay office for payment. Checked and passed vouchers received in the Internal Audit Unit must be promptly dealt with and, under no circumstance, shall a voucher be held in that unit for more than forty-eight (48) hours.\n");
+
+
+
+
+
+
+
+
+        Finance_Section section501 = new Finance_Section("Authority for writing off.","cat30","The writing off of losses and shortages of public money and stores requires the authority of the Treasury Board or the Commissioner, Ministry of Finance or an officer to whom the Commissioner has delegated powers of write-off, but in all cases in which substantial amounts or questions of principle are involved, prior reference shall be made to the Governor-in-Council.");
+        Finance_Section section502 = new Finance_Section("Write-off of public money etc. the Commissioner.","cat30","(i)  The Commissioner for Finance retains the power to write-off losses of public money and stores as follows:\n" +
+                "\n" +
+                "(a)\t Cash and stores where no question of fraud or negligence is involved; up to N50,000.00 in each individual case.\n" +
+                "(b)\tCash where fraud or negligence is involved; up to N20,000.00 in each individual case.\n" +
+                "(c)\tAllocated or unallocated stores where fraud or negligence is involved; stores which the original value did not exceed N2,000.00.\n");
+        Finance_Section section503 = new Finance_Section("Delegation of powers by Commissioner.","cat30",")  Losses in excess of the amounts stated shall be referred for approval of write-off to the Treasury Board.\n" +
+                "\n" +
+                "     30003.  The Commissioner, Ministry of Finance has delegated powers of write-off as follows:\n" +
+                "\n" +
+                "(j)\t Permanent Secretary, Ministry of Finance:\n" +
+                "(a)\t As in Financial Instruction 30002 (i) (a) and (b) provided, in the case of stores, the original value did not exceed N20,000.00, where fraud or negligence is involved.\n" +
+                "(b)\tAllocated or Unallocated Stores condemned as unserviceable by a Board of Survey, where there is no question of fraud or negligence.\n" +
+                "     (ii)          Accounting Officers:\n" +
+                "(a)\t Losses of Stores where there is no question of fraud or negligence up to N20,000.00, provided the original value did not exceed this amount.\n" +
+                "(b)\tStores condemned as unserviceable by a board of survey and where there is no question of fraud or negligence up to N20,000.00, provided the original value did not exceed that amount.\n");
+        Finance_Section section504 = new Finance_Section("Write-offs charging to vote.","cat30","Where a write-off has been approved and an accounting entry is necessary, the loss shall be charged to Head-Miscellaneous, Sub-head: Loss of Government Funds and Stores. Write-off of Stores or Funds may not be charged to the vote unless the value in the first instance has been charged to an advance account.");
+
+
+
+
+
+
+        Finance_Section section505 = new Finance_Section("Treasury Forms.","cat31","Accounting forms for general use bear Treasury numbers and are issued under the authority of the Accountant-General. Special Departmental accounting forms may not be used without the authority of the Accountant-General.");
+        Finance_Section section506 = new Finance_Section("Account Books: Pages to be numbered.","cat31","The pages of all account books must be numbered; if the numbers are not printed they must be inserted in non-washable ink or with a ball-point pen before the book is brought into use.");
+        Finance_Section section507 = new Finance_Section("Books of Account: How to be written.","cat31","All books of account must be written in non-washable ink with the exception of those kept on the carbon duplicate system which should be written with a ball-point pen or indelible pencil.");
+        Finance_Section section508 = new Finance_Section("Blue Pencil: restriction in the use of.","cat31","Except in the case of authorized public officers and officers in Drawing Offices, where they  may be required for the preparation of maps and plans, the use of Blue pencils by officers other than the members of the Audit Department is strictly forbidden.");
+        Finance_Section section509 = new Finance_Section("Correction of erroneous entries.","cat31","In no circumstances may erasures be made or figures altered in any account book or on any voucher. If, an alteration is necessary, the erroneous entry should be neatly ruled through and the correct figure inserted. All alterations must be initialed by the responsible officer. In the case of vouchers, this shall be the officer who certified the voucher");
+        Finance_Section section510 = new Finance_Section("Rent Registers.","cat31","A register of all Government quarters for which the occupancy pay rent (officers to whom Section 3 of Chapter 14 of the Civil Service Rules applies), must be kept by the Treasury Cash Officer at every station where there are Government quarter. The register shall be posted from salary vouchers on which the rent is deducted.");
+        Finance_Section section511 = new Finance_Section("Rent of Government Quarters.","cat31","Officers in charge of salary payrolls shall ensure that the appropriate rent is deducted from the salary of an officer who occupies a Government quarter. On a change of occupancy, rent shall be chargeable to the outgoing officer up to and including the day prior to the hand-over, and against the incoming officer from and including the day of the take-over.");
+
+
+
+
+        Finance_Section section512 = new Finance_Section("Pension, Gratuity and retirement benefits. Governing Authorities.","cat32","The circumstances in which a pensionable officer may be entitled to retiring benefits under the Defined Benefits Scheme are set out in the Pensions Act Cap.346 of the Laws of the Federal Republic of Nigeria, 1990. While those under contributory Pension Scheme are set out in Contributory Pension Act of 2004. The award of gratuity to a contract officer is determined by the provisions in the officer’s contract.");
+        Finance_Section section513 = new Finance_Section("Preliminary Information","cat32","Under the Defined Benefit Scheme, as soon as it is known that an officer is due for retirement or indicates an intention to retire, the Accounting Officer or Head of a non-Ministerial Department shall request the Officer concerned to complete form No. ODSTAB 12. The officer should state his address after retirement and where he wants payment of his pension and gratuity to be made to him. ");
+        Finance_Section section514 = new Finance_Section("Submission of Documents.","cat32","The following documents in respect of the retiring officer should be forwarded to the Secretary, Ondo State Pension Board not later than three months before the effective  date of retirement.\n" +
+                "\n" +
+                "(a)\tFour copies of the Pension Form (ODSTAB 12) duly completed;\n" +
+                "(b)\tFour copies of the Statement of Aggregate Pensionable Emoluments in respect of the Officer;\n" +
+                "(c)\tThe personal file of the Officer containing all leave particulars and an up-to-date Record of Service.\n");
+        Finance_Section section515 = new Finance_Section("Completion of Documents.","cat32","The following points must be borne in mind in connection with the completion of pensions documents:\n" +
+                "\n" +
+                "(a)\t Pension Form (ODSTAB 12)\n" +
+                "  (i)  the officer must have been confirmed.\n" +
+                "\n" +
+                "  (ii)  Leave without pay, leave on half pay, or service paid from an open vote must be shown in the appropriate columns;\n" +
+                "\n" +
+                "(iii) The dates of commencement of pensionable service, termination or retirement leave and commencement of pension must be established with certainty and be accurately stated.\n" +
+                "(b)\t Statement of Aggregate Pensionable Emoluments should agree with the Record of Service in the Pension Form. Acting and other non-pensionable allowances should not be included.\n" +
+                "\n");
+        Finance_Section section516 = new Finance_Section("Notification to revenue collecting Departments.","cat32","The Accounting Officer must notify all Departments which may have claims on an officer of an impending retirement, resignation, non-renewal of contract agreement or termination of appointment. In addition, notification should be sent to the appropriate offices of all Departments which collect revenue or which may have occasion to charge for services performed for the retiring officer.");
+        Finance_Section section517 = new Finance_Section("Action by the Secretary, State Pension Board","cat32",".  The Secretary, State Pension Board shall complete Part V of the Pension Form. \n" +
+                "\n" +
+                "     \n" +
+                "\n" +
+                "     32007.  The Secretary, State Pension Board, having satisfied himself that all documents have been correctly completed, shall:\n" +
+                "\n" +
+                "(a)\tcalculate the retiring benefits due to the officer;\n" +
+                "(b)\tforward the documents to the Auditor-General.\n");
+        Finance_Section section518 = new Finance_Section("Action by the Auditor-General","cat32","Having satisfied himself on the correctness of the calculation, the Auditor-General shall certify the retiring benefits and return the papers to the Secretary, State Pension Board.\n" +
+                "\n" +
+                "     32009.  The Secretary, State Pension Board shall retain one set of the pension papers and return the other three sets to the Accountant-General together with formal approval of the retirement benefits.\n");
+        Finance_Section section519 = new Finance_Section("Action by the Accountant-General.","cat32",".  The State Pension Board in collaboration with the office of the Accountant-General shall arrange the payment of any pension and gratuity that may be due.");
+        Finance_Section section520 = new Finance_Section("Recoveries from gratuity","cat32","The State Pension Board shall ensure that any debts due to Government are deducted from the gratuity. To this effect, the Payment Voucher must be made out in full for the gratuity payable. Details of the deductions shall be stated in the body of the voucher and Receipt Vouchers attached to the amount recovered");
+        Finance_Section section521 = new Finance_Section("Final Action by State Pension Board","cat32","The State Pension Board shall ensure that all indebtedness to Government are recovered in full. It shall send two sets of the pension papers to the Accounting Officer of the affected Ministry, Department/Agency for their concurrence");
+        Finance_Section section522 = new Finance_Section("Action by the Accounting Officer and the Secretary, State Pension Board","cat32","The Accounting Officer, State Pension Board and the Accountant-General shall take the same action as regards the officer’s service within Ondo State of Nigeria as for officers whose services are wholly in Ondo State");
+        Finance_Section section523 = new Finance_Section("Action by the Secretary, State Pension Board","cat32","The Secretary, State Pension Board shall calculate the retiring benefits. He shall check and certify the statement of aggregate Pensionable Emoluments and pass all the documents to the Auditor-General.");
+
+        Finance_Section section525 = new Finance_Section("Action by the Auditor-General","cat32","The Auditor-General shall certify the statement of Aggregate Pensionable Emoluments and return all the forms to the Accounting Officer of the Pensions Board, check and pass for payment appropriately.");
+        Finance_Section section526 = new Finance_Section("Take off of the Scheme","cat32","Contributory Pension Scheme came into effect in Nigeria with enactment by the National Assembly of the Pension Reform Act, 2004, of 25th June, 2004. The Act repeals the Pensions Act 102 of 1979 hitherto in force.");
+        Finance_Section section527 = new Finance_Section("Responsibility of the State Government under the Scheme","cat32","Under the Scheme, the State Government, as the ‘Employer’ shall contribute a minimum of 7.5% of Public Officers’ monthly emoluments towards the retirement benefits of its employees.");
+        Finance_Section section528 = new Finance_Section("Responsibility of each employee under the scheme.","cat32"," Each employee shall pay a maximum of 7.5% of his/her total monthly emolument towards his retirement benefit to any of the accredited Pension Fund Administrators in the State.");
+        Finance_Section section529 = new Finance_Section("State Government Contribution of 5% of the monthly Wage Bill of the (RBBRF)","cat32","The State Government is required to set aside 5% of the monthly wage bill payable to employees in the Public Service to fund the Retirement Benefit Bond Redemption Fund (RBBRF) for the past services of its employees under the old Defined Benefit Scheme.");
+        Finance_Section section530 = new Finance_Section("State Government to continue to service payment of old pension and Gratuity.","cat32","The State Government shall continue to make budgetary provision for the payment of Pension and Gratuity to existing pensioners and those exempted under the Scheme in accordance with relevant and applicable computation under the scheme.");
+        Finance_Section section531 = new Finance_Section("Those exempted from the scheme.","cat32","Those exempted from the Contributory Pension Scheme include those on consolidated salary and any employee who at the commencement of the Scheme is entitled to retirement benefit under any Pension Scheme but has three or less years to retire.");
+
+
+
+
+
+
+        Finance_Section section532 = new Finance_Section("Stores Definition.","cat33","Stores include all movable property purchased from public funds or otherwise acquired by Government.");
+        Finance_Section section533 = new Finance_Section("Classes of Stores.","cat33","For accounting purposes, stores are of two classes, namely Allocated Stores and Unallocated Stores. They are further divided into three categories, which  after issue, are dealt with according to the nature of the article, defined as follows:\n" +
+                "\n" +
+                "(j)\tNon-expendable stores e.g. plant and machinery,   motor vehicles, typewriters, scales, furniture, etc.\n" +
+                "\n" +
+                "(ii)  Expendable stores, e.g. shovels, machetes, paint brushes\n" +
+                "(iii) Consumable stores, e.g. paint, soap, foodstuffs, stationery, etc.\n");
+        Finance_Section section534 = new Finance_Section("Allocated Stores.","cat33","Allocated stores are stores, the cost of which is chargeable direct to, and remains a charge to, the sub-head of expenditure in which funds for their purchase are provided in the Estimates. These stores are taken on numerical charge and may be placed in an Allocated Stores or put into immediate use. They may be either purchased direct or obtained from the Unallocated Stores Stock.");
+        Finance_Section section535 = new Finance_Section("Unallocated Stores.","cat33","Unallocated Stores are those purchased for general stock rather than for a particular work or service, for which the final vote of charge cannot be stated at the time of purchase. Their cost is debited to an Unallocated Stores sub-head in the Expenditure Estimates. They are held on charge by both value and unit and when issued for use are charged to the appropriate sub-head of expenditure as an Allocated Store, and the corresponding credit is posted to the Unallocated Stores sub-head.");
+        Finance_Section section536 = new Finance_Section("Stores according to classifications.","cat33","Allocated and Unallocated Stores, should preferably be stored in separate premises. Where this is not possible, separate areas should be maintained within the store.");
+        Finance_Section section537 = new Finance_Section("Establishment of Store.","cat33","All Accounting Officers procuring stores up to the value of N10,000.00 and above annually must establish and maintain a proper store.");
+        Finance_Section section538 = new Finance_Section("Stores not to be kept by temporary employee.","cat33","Under no circumstance must a store, whether minor in value or otherwise, be kept by a temporary employee.");
+        Finance_Section section539 = new Finance_Section("Store Officers to be trained.","cat33","All Officers keeping the various stores must be given adequate training in store-keeping in accordance with the laid down procedures in these Financial Regulations on stores.");
+
+
+
+
+
+
+
+        Finance_Section section540 = new Finance_Section("Stores Ledger: Responsibility for maintenance","cat34","Every officer charged with responsibility as defined in Financial Regulations 35003 shall ensure that proper stores ledgers are maintained to record all receipts and issues from stores.");
+        Finance_Section section541 = new Finance_Section("Stores Ledger: Method of use","cat34","A separate ledger shall be maintained for each item of stores. As far as possible, records of articles of the same group shall be kept in one ledger, and items should be arranged in alphabetical order. The unit of quantity shall be shown and articles shall be taken on charge in that unit. Separate folios shall be assigned to the various articles in stock and the description shall, in every case, agree with that of the tally card kept in the store. All stores ledgers must be clearly indexed.");
+        Finance_Section section542 = new Finance_Section("Stores Ledgers: Control of pages.","cat34","(i)  All folios bound ledger shall be numbered consecutively. Sheets for loose-leaf binders should be controlled by register and issued against signature. The control register shall be maintained by a senior officer other than the Store-keeper, who shall be responsible either for ensuring that the loose-leaf sheets are properly and serially numbered on receipt from the printer, or for seeing that such sheets are numbered in his office, immediately on receipt, with a numbering stamp which he shall keep personally under lock and key. He shall also be responsible for issuing new sheets as required and recording in the control register the stores ledger folio number given to each on coming into use. Keys to loose-leaf ledgers and locking devices or card cabinets shall be kept personally by this officer.\n" +
+                "\n" +
+                "     (ii) Each sheet in use shall be given the same folio number on both sides and when a replacement sheet of any one item is inserted for one that is exhausted, the same folio number as the original shall be given, followed by the serial number in brackets e.g. 5(I) etc. Completed sheets when withdrawn from a loose-leaf ledger in current use shall be filed in numerical order in a separate binder.\n");
+        Finance_Section section543 = new Finance_Section("Ledger Cards","cat34","In place of a bound or loose-leaf ledger, a system of controlled cards may be used. Control of cards should follow the procedure of loose-leaf sheets as shown in Financial Regulation 34003.\n" +
+                "\n" +
+                "     34005.  A new ledger shall not be opened until the old one is exhausted.\n");
+        Finance_Section section544 = new Finance_Section("Stores Ledger: Replacement","cat34","The stores ledger or cards maintained in accordance with Financial Regulations 34002 and 34004 shall contain a complete record of the receipt and issue of all articles of Government property and stores, including livestock and bulk supply of petrol, but excluding consumable stores purchased for immediate use in accordance with Financial Regulation 37002 (ii). The ledgers shall be posted daily and every entry must be supported by a voucher, the number of which shall be recorded, against the entry (see Financial Regulation 37001). In the case of Unallocated Stores, the ledgers and vouchers shall record both quantity and value.");
+        Finance_Section section545 = new Finance_Section("Unserviceable and obsolete Stores.","cat34","Unserviceable and obsolete stores shall be posted in a separate ledger.");
+        Finance_Section section546 = new Finance_Section("Stores Ledger: Balance","cat34","Stores Ledgers shall be balanced at the end of each month and also when a Board of Survey is held or a stock verification takes place. Allocated stores shall be balanced when one officer hands over to another. Where a separate column for the purpose is provided in the stores ledger, the running balances shall be inserted after each transaction.");
+        Finance_Section section547 = new Finance_Section("Stores Ledger: Carrying forward balances.","cat34","When the last line but one on any folio of a ledger has been entered, the receipts and issues shall be totaled and carried forward to a new folio. The completed folio and the new one shall be cross-referenced (see Financial Regulation 34003). When ledger cards are in use, and totals are carried forward, both cards shall be similarly cross-referenced.");
+        Finance_Section section548 = new Finance_Section("Stores Ledger: End of Financial year","cat34",".  At the end of the financial year, a red line must be drawn immediately below the last entry on each page of the ledger, and totals obtained");
+        Finance_Section section549 = new Finance_Section("Receipt and issues","cat34","Receipt and issue vouchers shall be numbered consecutively for each financial year and shall be filed in numerical order.");
+        Finance_Section section550 = new Finance_Section("Receipt and issue cancellation","cat34",".  Should a receipt or issue voucher be cancelled, all copies except the last, which should remain in the book, shall be filed with the series to which they belong. Cancelled vouchers shall be clearly marked as such, and initialed by the responsible officer.");
+        Finance_Section section551 = new Finance_Section("Conversion and Adjustment Vouchers.","cat34","Conversion and adjustment vouchers of any description shall be in separate series, consecutively numbered for each financial year, and filed in numerical order.");
+        Finance_Section section552 = new Finance_Section("Stores Vouchers.","cat34","The number of the store ledger folio to which each item has been posted shall be recorded on all receipt, issue, or other vouchers. To prevent unauthorized additions on vouchers, a diagonal line shall be drawn immediately below the last entry and initialed by the officer raising the voucher");
+        Finance_Section section553 = new Finance_Section("Bin/Tally Cards General.","cat34",".  A separate tally card must be kept for each item in the store to correspond with item recorded in the stores ledger. The relevant ledger folio shall be quoted on the bin/tally card. Tally cards must be kept in the bin with the article to which they refer, except that where this is impracticable, they may be kept in suitable cabinets or drawers, provided they are immediately available for entering and checking. All receipts and issues shall be recorded on the tally cards, which shall be posted from the vouchers immediately the stores are physically received or issued.");
+        Finance_Section section554 = new Finance_Section("Tally Cards: Pre-posting prohibited","cat34","Posting of the tally card prior to receipt or issue is not permitted nor may entries be delayed until a full consignment is received or issued.");
+        Finance_Section section555 = new Finance_Section("Tally Cards Entries","cat34","Entries on tally cards must be made in ink or indelible pencil and shall be initialed by the store-keeper. Cards must not be ruled off and the balance of stock on hand must be shown in the proper column. If circumstances permit, the tally card should be entered by an officer other than the officer responsible for posting stores ledgers.");
+        Finance_Section section556 = new Finance_Section("Registers.","cat34","Registers should be kept to record the following:\n" +
+                "\n" +
+                "(i)\t All Short-landed, missing and damaged articles (claims Register, see Financial      Regulation 33006).\n" +
+                "(ii)\t  Issue of Allocated Stores on loan and their return (see Financial Regulation 32003. \n" +
+                "(iii)\t  All issue vouchers, showing the number, nature, requisitioning officer and date of acceptance, and return of the issue voucher signed by the consignee.\n" +
+                "\n" +
+                "     34019.  In addition to stores ledgers, inventories of non-expendable stores in use, such as office furniture, camp equipment, tools, machinery, etc. shall be maintained by each officer to whom such property has been issued. A duplicate copy of the inventory should be kept elsewhere in safe custody.\n");
+        Finance_Section section557 = new Finance_Section("Erasures","cat34","Erasures may not be made in any stores ledger, receipt or issue voucher, or other stores accounting documents. Corrections must be made by striking out the erroneous entry in red ink and inserting the correct entry. Corrections in ledgers shall be initialed by the responsible officer. Corrections on issue vouchers shall be signed in full by both the officer who authorized the issue as well as the recipient of the stores. The recipient of the stores may not make any corrections on the issue voucher");
+        Finance_Section section558 = new Finance_Section("Stores Documents Security.","cat34","All stores ledgers must be kept in safe custody as provided for in Financial Regulation");
+        Finance_Section section559 = new Finance_Section("Specimen Forms.","cat34","Specimen forms of ledgers and vouchers are given in the Appendix. Ministries, Departments/Agencies whose stores require specialized documents may design such forms but are required to submit them to the Accountant-General and the Auditor-General for approval.\n" +
+                "\n" +
+                "     34023.  Accounting Officers are responsible for formulating a Store Code for the guidance of their officers dealing with stores. Such code or other accounting instruction must conform with the main principles laid down in Financial Regulations and must have the prior approval of the Commissioner for Finance. Although the principles in these stores instructions shall apply irrespective of whether a special sectional/departmental Stores Code has been issued, but if there is a conflict of detail, the Code shall prevail.\n");
+        Finance_Section section560 = new Finance_Section("Unallocated Stores.","cat34","Further regulations concerning unallocated stores shall be found in Chapters 35 and 37.");
+
+
+        Finance_Section section561 = new Finance_Section("","cat34","");
+        Finance_Section section562 = new Finance_Section("","cat34","");
+        Finance_Section section563 = new Finance_Section("","cat34","");
+        Finance_Section section564 = new Finance_Section("","cat34","");
+
 
 
 
@@ -2214,7 +2475,7 @@ public class Finance_Section implements Parcelable {
         };
 
 
-        
+
 
         return sections;
     }
