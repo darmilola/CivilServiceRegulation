@@ -126,6 +126,55 @@ public class Finance_Chapter extends AppCompatActivity {
 
 
 
+
+
+
+
+
+
+
+
+        List<Finance_Section> section28 = appdatabase.finance_dao().FindSectionByCategory("cat28");
+
+        List<Finance_Section> section29 = appdatabase.finance_dao().FindSectionByCategory("cat29");
+        List<Finance_Section> section30 = appdatabase.finance_dao().FindSectionByCategory("cat30");
+
+        List<Finance_Section> section31 = appdatabase.finance_dao().FindSectionByCategory("cat31");
+
+
+        List<Finance_Section> section32 = appdatabase.finance_dao().FindSectionByCategory("cat32");
+        List<Finance_Section> section33 = appdatabase.finance_dao().FindSectionByCategory("cat33");
+
+        List<Finance_Section> section34 = appdatabase.finance_dao().FindSectionByCategory("cat34");
+        List<Finance_Section> section35 = appdatabase.finance_dao().FindSectionByCategory("cat35");
+
+        List<Finance_Section> section36 = appdatabase.finance_dao().FindSectionByCategory("cat36");
+        List<Finance_Section> section37 = appdatabase.finance_dao().FindSectionByCategory("cat37");
+
+
+
+        List<Finance_Section> section38 = appdatabase.finance_dao().FindSectionByCategory("cat38");
+
+        List<Finance_Section> section39 = appdatabase.finance_dao().FindSectionByCategory("cat39");
+        List<Finance_Section> section40 = appdatabase.finance_dao().FindSectionByCategory("cat40");
+
+
+
+        List<Finance_Section> section41 = appdatabase.finance_dao().FindSectionByCategory("cat41");
+        List<Finance_Section> section42 = appdatabase.finance_dao().FindSectionByCategory("cat42");
+
+        List<Finance_Section> section43 = appdatabase.finance_dao().FindSectionByCategory("cat43");
+        List<Finance_Section> section44 = appdatabase.finance_dao().FindSectionByCategory("cat44");
+
+
+
+        List<Finance_Section> section45 = appdatabase.finance_dao().FindSectionByCategory("cat45");
+
+        List<Finance_Section> section46 = appdatabase.finance_dao().FindSectionByCategory("cat46");
+        List<Finance_Section> section47 = appdatabase.finance_dao().FindSectionByCategory("cat47");
+
+
+
         Finance_Articles article1 = new Finance_Articles("Article 1","INTRODUCTION",section1);
         Finance_Articles article2 = new Finance_Articles("Article 2","FINANCIAL RESPONSIBLITIES OF PUBLIC OFFICERS",section2);
 
@@ -180,6 +229,55 @@ public class Finance_Chapter extends AppCompatActivity {
         Finance_Articles article27 = new Finance_Articles("Article 27","TRANSPORT, FREIGHT CHARGES AND PASSAGES",section27);
 
 
+
+
+
+
+
+
+
+        Finance_Articles article28 = new Finance_Articles("Article 28","Government Vehicles: Uses and Proper Control",section28);
+        Finance_Articles article29 = new Finance_Articles("Article 29","Internal Audit",section29);
+
+        Finance_Articles article30 = new Finance_Articles("Article 30","Losses:  Power of Write-Off",section30);
+        Finance_Articles article31 = new Finance_Articles("Article 31","Miscellaneous",section31);
+
+
+
+
+        Finance_Articles article32 = new Finance_Articles("Article 32","Pension Procedure",section32);
+
+        Finance_Articles article33 = new Finance_Articles("Article 33","Stores: Classification and General",section33);
+        Finance_Articles article34 = new Finance_Articles("Article 34","General Instructions:  Books and Forms of Account",section34);
+
+        Finance_Articles article35 = new Finance_Articles("Article 35","Supervision and Custody of Stores",section35);
+        Finance_Articles article36 = new Finance_Articles("Article 36","Acquisition of Stores: Local Purchase and Indents",section36);
+
+        Finance_Articles article37 = new Finance_Articles("Article 37","Receipt of Stores",section37);
+
+
+        Finance_Articles article38 = new Finance_Articles("Article 38","Issue of Stores",section38);
+        Finance_Articles article39 = new Finance_Articles("Article 39","Returned Stores",section39);
+
+        Finance_Articles article40 = new Finance_Articles("Article 40","Stores:  Miscellaneous",section40);
+
+
+
+
+        Finance_Articles article41 = new Finance_Articles("Article 41","Handing-Over : Stores",section41);
+
+        Finance_Articles article42 = new Finance_Articles("Article 42","Tenders Boards and Tenders Procedure",section42);
+        Finance_Articles article43 = new Finance_Articles("Article 43","Loss of Stores and Unserviceable Stores",section43);
+
+        Finance_Articles article44 = new Finance_Articles("Article 44","Stores Inspection by Board of Survey and Stock Verifiers",section44);
+
+
+        Finance_Articles article45 = new Finance_Articles("Article 45","Allocated Stores:  Tools, Plants and Furniture",section45);
+        Finance_Articles article46 = new Finance_Articles("Article 46","Unallocated Stores",section46);
+
+        Finance_Articles article47 = new Finance_Articles("Article 47","Public Procurement Contracts",section47);
+
+
         ArrayList<Finance_Articles> makeArticle = new ArrayList<>();
 
 
@@ -210,6 +308,26 @@ public class Finance_Chapter extends AppCompatActivity {
         makeArticle.add(article25);
         makeArticle.add(article26);
         makeArticle.add(article27);
+        makeArticle.add(article28);
+        makeArticle.add(article29);
+        makeArticle.add(article30);
+        makeArticle.add(article31);
+        makeArticle.add(article32);
+        makeArticle.add(article33);
+        makeArticle.add(article34);
+        makeArticle.add(article35);
+        makeArticle.add(article36);
+        makeArticle.add(article37);
+        makeArticle.add(article38);
+        makeArticle.add(article39);
+        makeArticle.add(article40);
+        makeArticle.add(article41);
+        makeArticle.add(article42);
+        makeArticle.add(article43);
+        makeArticle.add(article44);
+        makeArticle.add(article45);
+        makeArticle.add(article46);
+        makeArticle.add(article47);
 
         return  makeArticle;
     }

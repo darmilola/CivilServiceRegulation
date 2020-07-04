@@ -2362,10 +2362,687 @@ public class Finance_Section implements Parcelable {
         Finance_Section section560 = new Finance_Section("Unallocated Stores.","cat34","Further regulations concerning unallocated stores shall be found in Chapters 35 and 37.");
 
 
-        Finance_Section section561 = new Finance_Section("","cat34","");
-        Finance_Section section562 = new Finance_Section("","cat34","");
-        Finance_Section section563 = new Finance_Section("","cat34","");
-        Finance_Section section564 = new Finance_Section("","cat34","");
+        Finance_Section section561 = new Finance_Section("Responsibility: General","cat35","Every Government officer is personally and pecuniarily responsible for government property under his control and/or in his custody.");
+        Finance_Section section562 = new Finance_Section("Responsibility: Head of Department","cat35","Every Head of Department acting under his Accounting Officer, is responsible for the general supervision and control of stores and stores accounts of his section or department and for the due performance by his staff of their duties.");
+        Finance_Section section563 = new Finance_Section("Responsibility: Branch Officer","cat35","Every officer in –charge of a branch, section, or station is responsible for the general supervision and control of the stores and stores accounts of his branch, section or station, and for the due performance by his staff of their duties.");
+        Finance_Section section564 = new Finance_Section("Responsibility: Store-keepers.","cat35","The Store-keeper, or Officer in-charge of a store or section of a store who shall in each case be specifically nominated in writing is personally responsible for:\n" +
+                "\n" +
+                "(a)\t checking, handling and storage of stores received;\n" +
+                "(b)\tcare of stores, including proper stacking and storage according to the nature of the stores with due observation of safety precautions;\n" +
+                "(c)\tissue of stores supported by authorizing vouchers and ensuring such issues are checked and properly packed;\n" +
+                "(d)\tprogression of stores issues so that items of old stock are issued before new stock (first in, first out);\n" +
+                "(e)\tmaintenance of stocks within the prescribed maximum and minimum limits (economic order quantity);\n" +
+                "(f)\tavoidance of waster of stores and irregular issues;\n" +
+                "(g)\tperiodical verification of stock balances with tally cards and ledger balances, and for reporting any discrepancies revealed, including damaged or deteriorated stores, excess stores, or obsolete stores.\n");
+        Finance_Section section565 = new Finance_Section("Responsibility of Store-keepers: Security and Maintenance of Stores","cat35",".  (i)  The Store-keeper, or Officer in-charge of a store, or section of a store, is personally responsible for:\n" +
+                "\n" +
+                "(a)\t the existence and observation of security regulations, which should include prevention of unauthorized access;\n" +
+                "\n" +
+                "(b)\tfrequent inspection of the store-room giving special attention to the prevention of illegal entry;\n" +
+                "\n" +
+                "(c)\tensuring that the store-room is clean and properly ventilated;\n" +
+                "\n" +
+                "(d)\treporting when the store-room is not in good condition.\n" +
+                "\n" +
+                "     (ii)  The Store-keeper, or Officer in-charge of a store, or section of a store, is required to be present when the storerooms are opened. He must also visit the storerooms daily. He is solely responsible for the keys and no delegation of the duties of locking up is permitted, except in the special circumstances which may require more than one officer to be specifically authorized, or when more than one lock is in use for security, all such officers being responsible in equal degree. In such circumstances, special instructions are required, which must be approved after consultation with the Auditor-General.\n");
+        Finance_Section section566 = new Finance_Section("Inspections.","cat35","All stores are subject to the following inspections:\n" +
+                "(a)\t Accounting Officers are responsible for appointing officers to inspect all stores within their divisions, whether at headquarters or elsewhere. These inspections should be carried out at least twice yearly at irregular intervals, and reports submitted:\n" +
+                "(b)\tChief Stores Officers are responsible for appointing officers to inspect all unallocated stores under their control at least twice yearly at irregular intervals, and to submit reports:\n" +
+                "(c)\tWhere Stock Verifiers are employed, they shall be responsible to the Internal Auditor (or the Accounting Officer where no Internal Audit section exists), for checking every item of stock at least once a year. Stock verifiers shall report all discrepancies and the existence of damaged or deteriorated stores and stores in excess of requirements (see Chapter 44):\n" +
+                "(d)\tBoards of Survey, held annually or at such other times as may be necessary (see Chapter 44).\n");
+        Finance_Section section567 = new Finance_Section("Inspections Reports.","cat35","(i) Reports of inspections arranged in conformity with Financial Regulations 35006 (a) and (b) shall provide the result of the following checks:\n" +
+                "\n" +
+                "(a)\t a test verification of the additions and subtractions in the store ledger and a test comparison of the ledger entries with receipt and issue voucher;\n" +
+                "(b)\ta test comparison of the ledger balances with the actual stock and tally cards;\n" +
+                "(c)\tan examination of the condition of the stock and manner of storage;\n" +
+                "(d)\ta scrutiny of the books and registers in use, which should be up-to-date and the relevant vouchers properly filed;\n" +
+                "(e)\tan examination of security measures, to include comment when stores or excess stores are held, together with any necessary recommendations.\n" +
+                "     (ii)  Reports of Stock Verifiers and Boards of Survey shall be submitted in accordance with Financial Regulation 35006.\n");
+        Finance_Section section568 = new Finance_Section("Plants and Tools.","cat35","Officers to whom plant and tools have been issued for current use, shall make periodical checks to ensure that no shortages exist. Any discrepancy should be reported to the Head of Sections/Departments");
+        Finance_Section section569 = new Finance_Section("Fire Precautions.","cat35","All stores premises must have adequate fire fighting appliances provided, and maintained in a serviceable condition.");
+        Finance_Section section570 = new Finance_Section("Loan from unallocated stores.","cat35","(ii)  Articles may be issued on loan from an Allocated Stores, but prior written approval must be obtained from the responsible officer.\n" +
+                "\n" +
+                "     35011.  Adequate number of watchmen should be employed whenever the stores are of sufficient importance and/or value.\n");
+        Finance_Section section571 = new Finance_Section("Security.","cat35","35012. Store-keeper, or Officer in-charge of a store, or section of a store, in consultation where necessary with the Head of Internal Audit, shall be responsible for ensuring that secure arrangements are made for the safe custody of plant, equipment and any other property under their control");
+
+
+
+
+
+
+
+        Finance_Section section572 = new Finance_Section("Derivation of  Stores.","cat36","Stores may be obtained in Nigeria by local purchase or by orders from overseas suppliers. All Ministries/Departments of the Government are required to purchase stores from Nigerian industries or firms in preference to placing orders for imported goods.");
+        Finance_Section section573 = new Finance_Section("Local Purchase of Stores: Classification.","cat36","Stores which may be purchased in Nigeria are classified as follows:\n" +
+                "(a)\t goods produced or manufactured in Nigeria (see Financial Regulation 36004).\n" +
+                "(b)\tOther imported goods.\n");
+        Finance_Section section574 = new Finance_Section("Local Purchase of Stores: Limitation.","cat36","Stores purchased in Nigeria, cost of which exceeds N50,000 must be obtained by contract after public tender, except as otherwise specifically authorized by the Commissioner for Finance. Circumvention of this Regulation must not be attempted by breaking a single order exceeding this limit into several orders for lesser amounts.");
+        Finance_Section section575 = new Finance_Section("Local Purchase of Stores: Reputable Manufacturers","cat36","Goods referred to in Financial Regulation 36002 (a), the cost of which does not exceed N250,000 must be purchased from reputable manufacturers or their accredited agents. When goods are obtained through an agent, the purchasing officer shall satisfy himself that the goods are of authentic local origin.");
+        Finance_Section section576 = new Finance_Section("Local Purchase of Stores: Authorizing Officer.","cat36","All local purchases of, or orders for stores must be authorized by the officer controlling expenditure, and the Local Purchase Order or indent must be signed by him and countersigned by the Head of Accounts of the Ministry, Department/Agency concerned. \n" +
+                "\n" +
+                "( i ) The Head of Accounts in each Ministry, Department/Agency should be responsible for keeping the Local Purchase Orders as he is the officer who would normally have the fullest knowledge of the position with regard to availability of funds.\n" +
+                "\n" +
+                "(ii)  Provided all the documents relating to the ordering of particular goods etc. are in order and certified to be so by the Internal Auditor, the supplier’s claims should be settled as soon as possible\n");
+        Finance_Section section577 = new Finance_Section("Local Purchase of Stores: Preparation of Local Purchase Order.","cat36","(i)  Local Purchase Orders shall be prepared in four copies. The quantities shall be entered in words and figure, and the order shall be ruled off after the last item. The original and duplicate of the order shall be submitted to the supplier who shall return the original with the invoice or bill. When payment is made the original of the order together with the invoice or bill shall be attached to the payment voucher.\n" +
+                "\n" +
+                "     (ii)  The triplicate copy shall be sent to the Store-keeper if the goods are to be taken on charge. The fourth copy will be retained in the book.\n" +
+                "\n" +
+                "     (iii) Any alteration to the wordings on a Local Purchase Order must be signed by the officer authorizing the Order.   \n" +
+                "\n");
+        Finance_Section section578 = new Finance_Section("Local Purchase of Stores: Loss of Local Purchase Order.","cat36","(i)  If the original and/ or duplicate of a Local Purchase Order is lost before delivery of the goods and this fact has been brought to the knowledge of the issuing officer by the supplier. The issuing officer shall cancel the Local Purchase Order and immediately inform the supplier of cancellation. The triplicate copy of the order must be recovered from the store-keeper, replaced in the Order Book, and the triplicate and fourth copy suitably endorsed. A fresh Local Purchase Order may then be issued. A report should be made to the Head of Department and to the Accountant-General who shall arrange for a notice of loss to be published in the State’s Official Gazette. A copy of such a notice shall be forwarded to the Auditor-General.  \n" +
+                "\n" +
+                "     (ii) If a Local Purchase Order is lost after the goods have been delivered, the supplier may obtain payment after signing on the payment voucher, a form of indemnity protecting Government in the event of any other payment for the same delivery.\n");
+        Finance_Section section579 = new Finance_Section("Local Purchase Order: Books to be treated as Security Document.","cat36","All unused and partly used Local Purchase Order books shall be kept under lock and key and suitable precautions shall be taken at all times to prevent them from getting into unauthorized hands.");
+        Finance_Section section580 = new Finance_Section("Local Purchase of Stores: Tenders","cat36","Tenders invited in accordance with Financial Regulation 36003 shall be considered by Tenders Board (see Financial Regulation 42002). In the case of goods classed under Financial Regulation 36002 (a) if the conditions pertaining to quality and price are satisfied, and quantities can be supplied in full by the required delivery date, the Board shall recommend the award of the contract to the successful tenderer.");
+        Finance_Section section581 = new Finance_Section("Order for Store: Preparation of indent","cat36","Orders for stores to be obtained through Overseas Agents shall be submitted to the Accountant-General in five copies. When the order has been approved and dispatched to Oversea Agents, the Accountant-General shall enter the number allocated to the order and return it to the ordering officer. Ministries which have been specifically authorized by the Accountant-General to submit orders direct to the Overseas Agents shall forward a copy to the Accountant-General except when such Ministries operate an approved Oversea Agents sub-account.");
+        Finance_Section section582 = new Finance_Section("Order for Stores: References for Preparation. ","cat36","Officers preparing orders shall be guided by Financial Regulation 37007");
+        Finance_Section section583 = new Finance_Section("Order for Stores: Accounting for charges.","cat36","(i)  The cost of marine insurance, Overseas Agents Commission and Inspection Charges and other associated fees shall be met from a vote for the purpose controlled by the Ministry of Finance or as otherwise provided.\n" +
+                "     \n" +
+                "     (ii) All associated cost and relevant taxes and fees shall be debited to the vote to which the indent is to be charged.\n");
+        Finance_Section section584 = new Finance_Section("Order for Stores: General","cat36","In order that the cost of orders may be met within the financial year for which provision is made, the orders should be submitted as soon as practicable after the Estimates have been approved.");
+
+
+
+
+
+
+        Finance_Section section585 = new Finance_Section("Payment voucher for Stores: Certificates","cat37","(i) On all payment vouchers for the purchase of stores, except as provided in sub-paragraph (ii) of this Regulation, the Store-keeper must certify that the stores have been received and taken on charge in the stores ledger and shall quote the stores receipt voucher number (see also Financial Regulation 34014).\n" +
+                "\n" +
+                "     (ii) Expendable and consumable stores obtained in small quantities for immediate use (i.e. not for stock) e.g. uniforms, soap, brooms, dusters, etc. should not be taken on charge in ledgers, but a certificate should be inserted in the payment voucher as follows: “Required for immediate use and not taken on Ledger Charge”\n");
+        Finance_Section section586 = new Finance_Section("Invoice Control Register","cat37","The Accounts Section of every Ministry or Department/Agency shall maintain an Invoice Control Register to ensure that all imported Allocated Stores paid for, are duly taken on charge. This register shall provide columns for entries to show:\n" +
+                "\n" +
+                "(a)\tIndent No. and date (To be entered when indent is prepared).\n" +
+                "(b)\tInvoice No. and date.\n" +
+                "(c)\tValue of stores on invoice.\n" +
+                "(d)\tImport Payment Voucher, date, number.\n" +
+                "(e)\tDate invoiced stores taken on charge.\n" +
+                "(f)\tStores Receipt Voucher Number.\n" +
+                "\n" +
+                "     The Register shall be examined periodically by a senior officer specifically designated to verify that the stores paid for have in fact been received.\n");
+        Finance_Section section587 = new Finance_Section("Transfer of Stores.","cat37","When it is desired to transfer stores from one store to another, a Stores Transfer Requisition (Stores Form 12) shall be raised by the requisitioning stores in duplicate, the original of which shall be forwarded to the issuing store. The stores transferred shall be accompanied by a stores issued voucher (Stores Form 4) in duplicate, one copy of which shall be receipted and returned. The second copy shall serve as a receipt voucher and be numbered and filed");
+        Finance_Section section588 = new Finance_Section("Receipt of imported Stores.","cat37","The Clearing Agent import stores through the post on behalf of a consignee, who should arrange for collection at the post office. Duty payable on such stores shall be paid by the consignee at the time of collection, and the duty is chargeable to the sub-head of expenditure provided for the purchase of the stores. Indents on the Overseas Agents concerned for stores to be sent by post should show the full postal address of the indentor and any reference to the Clearing Agent should be avoided.");
+        Finance_Section section589 = new Finance_Section("Receipt of Local Stores.","cat37",". Stores received by rail, air, road, sea or by local purchase shall be checked against the consignment note and/or relative invoice and their correctness established as in Financial Regulations 37005 and 37009. Discrepancy and Breakage Reports shall be prepared for goods damaged or short delivered and claims for settlement made direct with relevant transporting agency.");
+        Finance_Section section590 = new Finance_Section("Checking Stores: General","cat37","(i) All receipts into a store shall be checked against the relative document by the Store-keeper and another officer, except where the establishment of a sub-store provides for only one officer.\n" +
+                "\n" +
+                "     (ii)  Certain fragile stores which are specially packed to avoid damage in transit need not be opened for checking provided they are easily identifiable and are likely to be transferred elsewhere. Where however, the external packing shows signs of damage or pilferage, the contents must be checked.\n");
+
+
+
+
+
+
+
+
+
+
+        Finance_Section section591 = new Finance_Section("Requisitions for Stores: Preparation.","cat38",". (i) Issues shall be made only on the authority of a numbered Stores Requisition, a numbered combined Requisition/Issue Voucher, or a Stores Transfer Requisition. In cases of issue of stock from unallocated stores, the Requisition, etc. must be signed by the officer authorized to incur expenditure, who must ensure that funds are available.\n" +
+                "\n" +
+                "     (ii) Requisitions shall be prepared in duplicate, the original of which should be sent to the stores issuing department. Quantities shall be written in both words and figures and each type of article required shall be given an item number. To prevent unauthorized additions, a line shall be drawn immediately below the last entry. The Requisition Forms shall be clearly marked original and duplicate.\n" +
+                "\n" +
+                "     (iii) When a combined Requisition/Issue Voucher is issued, three copies shall be sent to the stores issuing department and the original shall become the issue voucher. After issue of the stores, the original and one copy of the voucher should be sent to the Requisition Officer, who shall sign and return the original to the issuing officer, as acknowledgement.\n");
+        Finance_Section section592 = new Finance_Section("Requisitions for Stores: Acceptance for issue","cat38","(i) A requisition shall not be accepted and passed to the store-keeper until it has been examined by the responsible officer, to ensure that it is signed by the authorized requisitioning officer, the correct rate of charge is quoted, the quantity required is not excessive, and the voucher is otherwise correct. Accounting Officers should furnish specimen signatures of authorized requisitioning officers to the stores issuing department.\n" +
+                "\n" +
+                "     (ii) Separate stores requisitions should be prepared for items of stores in different vocabulary groups. Stores issuing departments should furnish requisitioning officers with a stores vocabulary whenever necessary.\n" +
+                "\n" +
+                "     38003.  All issue of stores shall be supported by a Stores Issue Voucher in the prescribed form which shall be prepared in ink or indelible writing devices. Each line on the voucher must be utilized until the requisition is completely entered and there should not be any blank spaces between items. All amounts shall appear in words as well as in figures except where alternative safeguards against fraudulent additions have been specifically approved in accordance with Financial Regulation 34023. The voucher shall then be ruled-off and initialed. The issuing officer shall sign each voucher.\n");
+        Finance_Section section593 = new Finance_Section("Stores Issue Voucher: Allocated Stores distribution.","cat38","Allocated Stores Issue Vouchers shall be prepared in triplicate, the original and duplicate of which shall be forwarded to the requisitioning officer who shall acknowledge receipt of stores by signing and returning the original to the issuing officer for filing. The duplicate shall be retained by the requisitioning officer as the Stores Receipt Voucher. Stores required for immediate use must be so endorsed on the original and duplicate copies by the requisitioning officer. ");
+        Finance_Section section594 = new Finance_Section("Stores Issue Voucher: Unallocated Stores distribution.","cat38","Unallocated Stores Issue Vouchers shall be raised and distributed in accordance with the approved code or accounting instruction as stipulated in Financial Regulation 34023. The number of copies required must include, in addition to those enumerated in Financial Regulation 38004 an accounts copy, and a copy to support the Monthly Summary of Receipts and Issues.");
+        Finance_Section section595 = new Finance_Section("Stores Issue Vouchers: Classification of Copies","cat38","All copies of Store Issue Vouchers must be clearly marked “Original” “Duplicate”, etc.");
+        Finance_Section section596 = new Finance_Section("Issue of Stores Procedure.","cat38","(i) After a Stores Requisition has been accepted in accordance with Financial Regulations 38002 (i) and (ii), and the availability of the stores ascertained, the Stores Issue Voucher shall be prepared and sent to the store-keeper. The issuing storekeeper shall post his tally card at the actual time of issue of the stores, pre- or late posting is strictly forbidden.\n" +
+                "\n" +
+                "     (ii) Stores may only be issued by or in the presence of an authorized Issuing Officer.\n" +
+                "\n" +
+                "     (iii) Whenever the establishment of a store permits, the issuing storekeeper should not have access to the main store ledger or normally be aware of the ledger balances, except on handing over. (see Financial Regulation 41001). He may be informed, however, of specific balances if required for checking purposes.\n");
+        Finance_Section section597 = new Finance_Section("Issue of Stores: Conversion Vouchers","cat38","Stores and materials issued within the same store for conversion or manufacture shall be supported by a conversion voucher in duplicate. The original copy shall serve as an issue voucher when the materials are issued from store and as a receipt voucher for the article after manufacture, when it is returned to store and brought on charge. Both receipt and issued sides of the voucher shall show the quantities and values where necessary.");
+        Finance_Section section598 = new Finance_Section("Issue of stores: Write- off of condemned Stores.","cat38","(i) The Issue entry of stores condemned by a Board of Survey after approval has been given to write them off charge, shall be supported by a Store Issue Voucher quoting the authority.\n" +
+                "\n" +
+                "     (ii) Proceeds of sale of condemned stores shall be credited to Revenue Head: Earnings and Sales by Governments, Sub-head: Sales of Stores: General.\n");
+        Finance_Section section599 = new Finance_Section("Issue of Stores: On Payment.","cat38","(i) Stores may be issued on payment only when the Accounting Officer is satisfied that such sales are in the public interest. Stores which are marked or stamped as government property may not be sold except when specifically authorized by the Commissioner of Finance.\n" +
+                "\n" +
+                "     (ii) The purchaser shall be required to pay, in addition to the gross cost (Allocated store) or current issue price (unallocated store), a percentage (10%) store charge. Any alteration in these charges must be approved by the Commissioner for Finance who shall inform the Auditor-General. Proceeds realized from these charges shall be credited to the appropriate sub-head under the Revenue Head: Earnings and Sales by Government Departments.\n" +
+                "\n" +
+                "     (iii) The purchaser should supply transport from the store of issue, but where this is not possible, the cost of transport from store to destination shall be paid by the purchaser.\n" +
+                "\n" +
+                "(iv)\tStores-on-payment issue shall be made by Stores Issue Voucher, but such stores shall not be released until the purchaser presents to the issuing officer, a Treasury Receipt for payment of the stores and all additional costs, including store and transport charges. The Treasury number shall be entered on the Store Issue Voucher.\n" +
+                "\n" +
+                "(v)\tIn exceptional cases, where credit facilities have been authorized by the Head of Section/Department to approved purchases, the Store Issue Voucher shall bear reference to the authority. Under no circumstance must credit facilities be made available to individuals or non-governmental bodies.\n");
+        Finance_Section section600 = new Finance_Section("Issue of Stores: General.","cat38","Where permission is granted to use books for issue, instead of Stores Issue Vouchers, e.g. issue of petrol from pumps, the quantity or number of each item issued shall be entered in words and the recipient shall sign in full opposite the entry at the time he receives the stores.\n" +
+                "\n" +
+                "     38012. Regulations for each cash sales of manufactured articles from Workshops are given in Chapter 43.\n");
+
+
+
+
+        Finance_Section section601 = new Finance_Section("Unused Stores: expendable or consumable.","cat39","Expendable or consumable stores which have been issued but not used shall be returned to store and taken on charge in the stores cost book at the current issue price. The vote for the work shall be credited by adjustment and the unallocated stores vote correspondingly debited.\n" +
+                "\n" +
+                "     39002. (i) Non-expendable stores which have been issued for, and charged to, a work vote, but not used, and if not required immediately on other works, shall be returned to the nearest allocated store and taken on numerical charge. The issue value will be credited by adjustment to the works vote with a corresponding debit to the appropriate vote for tools, plant or other non-expendable allocated store.\n" +
+                "\n" +
+                "     (ii) It is not necessary to return non-expendable stores to stock, if they are required immediately for other works. Financial adjustment should be made between the works votes concerned.\n");
+        Finance_Section section602 = new Finance_Section("Completed Works:  Tools in use and recovered stores.","cat39","(i) Immediately after completion of works, officers in-charge shall ensure that all tools in use are returned to the nearest allocated stores. The receiving officer shall take the stores on numerical charge in a special ledger, and store separately. The entries in the ledger shall be supported by a stores issue voucher (Store Form 4) signed by the officer in-charge of works, who shall also record the returned stores in the Completion Report.\n" +
+                "\n" +
+                "     (ii) An exception to paragraph (i) above may be permitted in the case of large plant, which need not necessarily be returned to store on completion of the work, provided the location of such plant is shown in the Plant Register (see Financial Regulations 45010 and 45011).\n");
+        Finance_Section section603 = new Finance_Section("Recovered Stores.","cat39","Recovered stores shall be treated in a similar manner to tools in use (see Financial Regulation 39003).");
+        Finance_Section section604 = new Finance_Section("Unserviceable Used Parts.","cat39","Unserviceable used parts removed from plant and vehicles for replacement in the normal course of repair and overhaul shall be returned to a separate section of the store and a record made for submission to a Board of Survey, which should be held at frequent intervals.");
+        Finance_Section section605 = new Finance_Section("Serviceable Used parts.","cat39","Serviceable parts becoming available on the dismantling of plants or vehicles, may only be removed after Board of Survey’s recommendations have been approved, and must be taken on charge in a special ledger.");
+
+
+
+
+
+
+
+
+
+        Finance_Section section606 = new Finance_Section("Hospital Clothing and Bedding.","cat40","40001. Hospital clothing and bedding which have become unserviceable through fair wear and tear may be written off charge on the authority of a certificate signed by the officer-in-charge of the Hospital as follows:\n" +
+                "\n" +
+                "  “I hereby certify that I have personally inspected the under mentioned articles in ………………………………  Hospital which have become unserviceable through fair wear and tear and have been destroyed by………………..…………………………\n" +
+                "                                                    ( method of destruction)\n");
+        Finance_Section section607 = new Finance_Section("Purchase of Stationery.","cat40","     40002. (a) The regulations governing the acquisition of stores in Chapter 36 shall apply as a whole to the purchases of  all stationery. Where practicable, Ministries, Departments/Agencies may obtain stationery through the Government Printer.\n" +
+                "      (b) Accounting Officers shall delegate to responsible officers, the duties of the safe custody, receipt and issue of stationery. The accounting records at each store shall include:\n" +
+                "          (i)  Where main stocks are held for supply to branch offices, a stores ledger (Store Form 1) which shall show, for each category, the receipt into stock, issues to branch offices and the balance remaining in stock.\n" +
+                "\n" +
+                "          (ii)  For all branch offices where stocks are held, a Stationery Store Ledger (Store Form 20) which shall show, for each category, the receipt from the main stores, the issue to the various offices and the balance in stock.\n" +
+                "\n" +
+                "          (iii) Stores Receipt Vouchers or Receipted Issue Vouchers.\n" +
+                "\n" +
+                "          (iv) Daily Issue Book to record the detailed issues to offices.\n" +
+                "\n" +
+                "     (c)  All stocks of stationery shall be kept under lock and key and in charge of a responsible officer, who shall ensure that the ledger balances are checked periodically against physical stocks.\n");
+        Finance_Section section608 = new Finance_Section("Issue of Stores Forms.","cat40","Stores forms in general use bear Store numbers and are issued under the authority of the Accountant-General. Stores Forms for special use may not be used without the authority of the Accountant-General, (see Appendix 9 for list of Store Forms).");
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Finance_Section section609 = new Finance_Section("General Procedure.","cat41","When an officer hands over custody of stores to another officer, he and the in-coming officer shall verify that the physical stocks and balances in the ledger and tally cards agree. If no discrepancies are found, both officers shall sign a certificate in duplicate to that effect on Stores Form 10, one copy of which shall be forwarded to the Accounting Officer of the Ministry, Department/Agency, and the other copy filed by the officer-in-charge. When due to the number of items, it is impracticable to check all stores, test check of a reasonable percentage of items in each group or class of stores must be made. Where test checks have of necessity, been made, the certificate shall be suitably endorsed");
+        Finance_Section section610 = new Finance_Section("Discrepancies","cat41","Any excess and deficiencies and the values there of shall be listed, and signed by the out-going officer as an acknowledgement. The in-coming officer shall report the discrepancies to his senior officer, who shall obtain an explanation from the out-going officer. Receipt vouchers shall be prepared for excesses which shall be taken on charge in the usual manner. The officer-in-charge shall forward a report to his Head of Ministry, Department/Agency, who shall refer it with recommendations to the Board of Enquiry/ for decision with regard to deficiencies.");
+        Finance_Section section611 = new Finance_Section("Absence of out-going Officer.","cat41","(i) If circumstances are such that the out-going officer is unable to be present at the time of hand-over, a Stock Verifier or Board of Survey shall be appointed to check and hand over stores.\n" +
+                "\n" +
+                "     (ii)  The in-coming officer shall be present throughout the check by the Store Verifier or Board of Survey and shall take over when completed. Stores Form 11 shall be prepared in duplicate, with a list of any discrepancies, and signed as the handing-over certificate. The Stock Verifier or Board of Survey shall distribute the certificate as stated in Financial Regulation 41001.\n");
+        Finance_Section section612 = new Finance_Section("Responsibility for deficiencies","cat41","The out-going officer shall be responsible for all deficiencies reported at the time of handing-over and the in-coming officer shall be responsible for deficiencies not so reported but subsequently discovered. Where only a percentage check has been made and deficiencies in the items not checked are discovered subsequent to the completion of the handing over, all officers concerned shall be called upon for explanation.");
+        Finance_Section section613 = new Finance_Section("Valuable and Attractive Store Register.","cat41","Senior Stores Officers responsible for supervision of stores shall ensure that a “Valuable and Attractive Stores Register” is maintained for items qualifying for this description. In every case of handing over, these items shall be subject to a hundred percent check and the certificate endorsed accordingly.\n" +
+                "\n 41006.  The Handing-over of furniture in Government quarters is dealt with in the Civil Service Rules.\n");
+
+
+
+
+
+
+
+
+        Finance_Section section614 = new Finance_Section("Services and works: to be put out to public tender.","cat42","(i) All the local purchase of stores are set out in Chapter 36 and subject to those conditions, all local purchase of stores costing over N250,000 and all works and services costing over N50,000 must be obtained by contract after public tender.\n" +
+                "\n" +
+                "     (ii)  Local Purchase of stores costing up to N250,000 and for works and services costing up to N50,000 may be arranged, subject to the approval of the responsible Commissioner, by Heads of Departments after obtaining quotations from all suitable sources. Contracts shall not be arranged piecemeal in order to keep within the limits authorized under these Regulations.\n" +
+                "\n" +
+                "     42002. Contracts for works, services and stores shall be considered and awarded by the following Tenders boards within limit determined by government from time to time for each category indicated:\n" +
+                "\n" +
+                "             Categories                                                             Value of Contracts Categories                                             Considered and awarded\n" +
+                "\n" +
+                "(a)\t State Tenders Board/State Executive Council …......Above N20, 000,000.00\n" +
+                "(b)\tState Tenders Board/Governor.…………………………..Not exceeding N20,000,000.00\n" +
+                "(c)\t Ministerial Tenders Board ……………………………………Not exceeding N1,000,000.00\n" +
+                "(d)\tDepartmental/Corporations Tenders Board……………Not exceeding N750,000.00 \n" +
+                "(e)\tHeads of Departments/Chief Executive……………………Not exceeding N250,000.00\n");
+        Finance_Section section615 = new Finance_Section("Tenders Board: Composition of","cat42","STATE TENDERS BOARD\n" +
+                "\n" +
+                "42003. The State Tenders Board, whose composition shall be determined from time to time, shall be under the Chairmanship of the Deputy Governor or Secretary to the State Government.\n" +
+                "\n" +
+                "MINISTERIAL TENDERS BOARD\n" +
+                "\n" +
+                "42004. In addition to its Departmental/Corporations Tenders Board, provided for in Regulation 42005 below, in each of the following Ministries and Corporations has been empowered to establish a Ministerial Tenders Board. The Ministerial Tenders Board shall be presided over by the State Commissioner of the Ministry concerned. Other members of the Board shall include the Permanent Secretary, Heads of Department, and senior representatives of the Ministry of Finance and of the Ministry of Works and Housing.\n");
+        Finance_Section section616 = new Finance_Section("Notices inviting tenders:","cat42","DEPARTMENTAL/CORPORATIONS TENDER BOARD\n" +
+                "\n" +
+                "     42005. The Ministerial, Departmental/Agency Tenders Board will be composed of the Permanent Secretary/Chief Executive who will be Chairman, and the Heads of Department of the Ministry/Agency.\n" +
+                "\n" +
+                "     42006. All notices inviting the submission of tenders shall be published in Ondo State of Nigeria Official Gazette, some newspapers (one local and one National), and Ondo State Government Official Website. There is no objection to copies of tender notices being published elsewhere (e.g. on a notice board in the Ministry, Department/Agency).\n" +
+                "\n" +
+                "     42007. Notices inviting the submission of tenders shall contain the following information:\n" +
+                "\n" +
+                "(i)\tThe name of the Ministry, Department/Agency  inviting the tender;\n" +
+                "\n" +
+                "(ii)\tA nature of the work,/service/goods required;\n" +
+                "\n" +
+                "(iii)\tA specification of the work/service/goods required, or a statement indicating when and where the specifications may be seen or obtained;\n" +
+                "\n" +
+                "(iv)\tThe designation and address of the officer to whom tenders are to be posted or delivered;\n" +
+                "\n" +
+                "(v)\tThe manner in which tenders are to be sealed and marked;\n" +
+                "\n" +
+                "(vi)\tThe place where, and the times between which, tenders may be delivered or deposited;\n" +
+                "\n" +
+                "(vii)\tThe closing time and date for the acceptance of tenders;\n" +
+                "\n" +
+                "(viii)\tA statement that the Board considering the tenders will not be bound to accept the lowest or any tender.\n" +
+                "\n" +
+                "(ix)\tAny other conditions that may be stipulated by the client Ministry, Department/Agency.\n" +
+                "\n" +
+                "     42008. The time allowed between the date which advertisement is placed and the closing date for the submission of tender shall not exceed twenty-one days except the nature of contract dictates otherwise.\n" +
+                "\n" +
+                "     42009. All officers are forbidden to accept tenders after the advertised closing time for the acceptance of tenders, no matter what reason for late submission may be offered by the persons wishing to submit late tenders.\n" +
+                "\n" +
+                "     42010. The provision of Regulation 42009 applies to tenders received through the mail after the hour advertised as closing time for the acceptance of tenders. In the event of a tender being received in the mail after the advertised closing time, the officer receiving the tender shall take actions as follows:\n");
+        Finance_Section section617 = new Finance_Section("Period of Submission of Tender","cat42",")   If the envelope containing the tender bears the name and address of the person tendering the tender should be returned unopened to the sender by registered mail with a letter stating the time and date of receipt, and explaining that the tender cannot be accepted because of late arrival;\n" +
+                "\n" +
+                "     (ii)  If the tender does not bear the name and address of the sender, it should be retained unopened and submitted to the Board for directions as to disposal when the Board meets to consider the tenders received.\n");
+        Finance_Section section618 = new Finance_Section("The time and date of receipt of late tenders should be recorded on the envelope.","cat42",". It may happen that a contractor will request, before the advertised closing time, an extension of time for the submission of a tender. Officers are forbidden to grant any extension of time for the submission of tender, no matter what reason is advanced in support of the request. If no contractor submits a tender in time, a fresh notice must be published.\n" +
+                "\n" +
+                "     42012. Tenders other than those submitted for the consideration of the State Tenders Board shall be retained in a security container, unopened, until such time as they are submitted to the Board concerned for consideration. They shall then be opened by the Chairman in the presence of the Board.\n");
+
+
+
+        Finance_Section section619 = new Finance_Section("Extension of tender closing time on a tenderer’s request: prohibited.","cat42","Tenders submitted for the consideration of the State Tenders Board shall be opened, as soon as practicable after the advertised closing time, by a Tenders Opening Committee composed of appropriate officials chosen by the Secretary to the State Government, the Ministry of Finance and representatives of the Ministries, Departments/Agencies inviting the tender.");
+        Finance_Section section620 = new Finance_Section("Security keeping of tender documents","cat42",". It is the duty of the members of the Tenders Opening Committee to:\n" +
+                "\n" +
+                "(a)\topen, at the appointed time. All tenders received on or before the advertised closing time;\n" +
+                "\n" +
+                "(b)\tcheck all the tenders received within time;\n" +
+                "\n" +
+                "(c)\tprepare a list showing, in respect of each such tender:\n" +
+                "(i)\tthe name of the tenderer,\n" +
+                "(ii)\tthe documents supporting the tender.\n");
+        Finance_Section section621 = new Finance_Section("Duties of  Tenders opening Committee","cat42","The original of this list will be retained by the Secretary, State Tenders Board, the duplicate copy, together with the originals of the tenders and supporting documents, will be taken by the representatives of the Ministry/Department/Agency inviting the tenders so that the Department may scrutinize their tenders and prepare a brief upon them for the consideration of the State Tenders Board.\n" +
+                "\n" +
+                "(d)\t sign both copies of the list referred to in (c) and mark it with the date and time.\n");
+        Finance_Section section622 = new Finance_Section("State Tender Board Meeting","cat42","A meeting of the State Tenders Board can be convened at the instance of the Chairman of the Board within a short notice.");
+        Finance_Section section623 = new Finance_Section("Classification of contracts and Contractors","cat42","For the purpose of Civil Engineering, Building, Electrical and Supplies Contracts, contractors are classified into five categories (A-E) with values and fees payable as fixed from time to time by the government:\n" +
+                "\n" +
+                "                                                               Cost of Form and\n" +
+                "No.  Category     Amount of Contract   Registration Fees          Renewal Fees\n" +
+                "\n" +
+                "                                  N             N                     \n" +
+                "1.            A          50,000 – 250,000                 -                                           -\n" +
+                "2.            B        250,001 -  500,000                -                                           -\n" +
+                "3.            C        500,001 – 1,500,000             -                                           -\n" +
+                "4.            D     1,500,001 – 3,000,000            -                                            -\n" +
+                "5.            E     3,000,001 – and above            -                                           -      \n" +
+                "\n" +
+                "CONDITIONS FOR REGISTRATION – GENERAL\n" +
+                "\n" +
+                "CATEGORIES ‘A’ – ‘B’ \n" +
+                "\n" +
+                "     (i)   Payment of appropriate fees (non-refundable).\n" +
+                "     (ii)  Tax Clearance for the past 3 years.\n" +
+                "     (iii) Development Levy receipt for 3 years. \n" +
+                "    (iv)  Certificate of Registration\n" +
+                "    (v)   Business Premises\n" +
+                "    (vi)  Two Passport Photographs\n");
+        Finance_Section section624 = new Finance_Section("Eligibility of Contractors to Tender","cat42","CATEGORIES ‘C’ – ‘E’\n" +
+                "(i)\t  Tax Clearance for the past 3 years\n" +
+                "(ii)\tDevelopment Levy receipt for 3 years\n" +
+                "(iii)\tPhotostat copy of the Credential of the Company Staff\n" +
+                "(iv)\tCertificate of works already successfully executed and the contract award letter along with letter or certificate of completion\n" +
+                "(v)\tSupporting document of on-going contracts\n" +
+                "(vi)\tCertificate of Incorporation\n" +
+                "(vii)\tBank letter of accreditation\n" +
+                "(viii)\tDetails of plant and equipment to be certified by a registered professional\n" +
+                "(ix)\tTwo passport photographs\n" +
+                "(x)\tCompany profile\n");
+        Finance_Section section625 = new Finance_Section("Negotiation Contracts.","cat42","Note:     The rates, conditions and requirements may be subject to review from time to time.\n" +
+                "\n" +
+                "     42017. Only those contractors whose names appear in the Register maintained by the Works Registration Board (Ministry of Works and Housing) are eligible to tender for Government contracts in the categories indicated in Regulation 42016. A contractor is classified in a category according to his financial and technical capacity after due verification by the Board.\n" +
+                "\n" +
+                "     42018. Any person or firm tendering for contract of N1,000,000 and below in value is required to deposit with the Board of Internal Revenue Office a non-refundable sum of N5,000.00 and when the contract is above N1,000,000.00 the tender fee shall be N10,000.00. On production to the responsible office of the department concerned of a receipt for this amount, he is given relevant contract documents and drawings. The payment is required as an evidence of serious intention\n");
+        Finance_Section section626 = new Finance_Section("Auditor-General to be informed of all contractors.","cat42",". (a) In exceptional circumstances when a project is required to be undertaken as a matter of extreme urgency or when the work which is required is of a very specialized nature, the relevant Ministry, Department or Agency may, with the prior permission of the Chairman, State Tenders Board, negotiate a contract with the contractors who, is in its opinion, have the ability to carry out the work effectively. The terms of this contract are then to be submitted to the State Tenders’ Board for consideration. If the terms of the contract are approved by the State Tenders Board, the award is then to be made to the contractors concerned.");
+        Finance_Section section627 = new Finance_Section("Sales of Government Property.","cat42","     (b)  It must be emphasized that this procedure is only to be followed in exceptional cases such as those calling for specialized skills which can be furnished only by a few contractors, and that normally all contracts are advertised in the Ondo State of Nigeria Official Gazette and tenders invited.\n" +
+                "\n" +
+                "     42020. All contracts must be completed in writing and must be in a form approved by the Solicitor-General. No payment may be made in respect of an alleged oral contract.\n" +
+                "\n" +
+                "     42021. The substance of all contracts must be communicated in writing to the Auditor-General, and whenever practicable (i.e. in all cases other than contracts requiring extensive documentation), a copy of the contract itself must be sent to him.\n" +
+                "\n" +
+                "\n" +
+                "     42022. When Government property is offered for sale by public Tender, the same procedure as for works, etc. will be followed.\n" +
+                "\n" +
+                "     42023. (i) Departmental/Corporations Tenders Board records shall be made available from time to time to the Accounting Officer.\n" +
+                "\n" +
+                "     (ii) Minutes of all Tenders Board meetings as well as a list of contracts awarded by all Boards must be forwarded, from time to time, together with all necessary details and/or supporting papers to the Office of the Governor for his information and record and also to the Auditor-General.\n" +
+                "\n" +
+                "     (iii) The records in (ii) above shall be kept for a period of five years from the date of completion of the contract.\n");
+        Finance_Section section628 = new Finance_Section("Minor Losses: Write-Off of.","cat42",". A loss of stores, plant, equipment, etc, may be written off under the personal authority of the Accounting Officer, provided that:\n" +
+                "(a)\tTheir original cost or the estimated value, whichever is applicable, of a unit of each item does not exceed N10,000.00 and the sum total of the value of the item does not exceed N50,000.00.\n" +
+                "(b)\tThere is no apparent weakness in the system of control.\n" +
+                "(c)\tThere is no evidence of fraud or theft.\n" +
+                "(d)\tWhere negligence is involved, the disciplinary action against the officer(s) found negligent is within the delegated powers of the Accounting Officer.\n");
+        Finance_Section section629 = new Finance_Section("Procedure Action by officer in charge of stores.","cat42",". In the event of heavy loss of stores, the officer in charge in which the loss occurs, will:\n" +
+                "\n" +
+                "(a)\treport immediately to the Head of Department or Unit in writing without any delay.\n" +
+                "\n" +
+                "(b)\treport to the nearest Police Station if there is any possibility of fraud or theft.\n" +
+                "\n" +
+                "(c)\tinitiate action on Treasury Form 146, (see Appendix No. 7) complete Part 1 and forward the form in five copies to his Head of Department or Unit, without delay.\n" +
+                "\n" +
+                "(d)\tensure that, if a weakness in the system of control or in security is revealed, immediate measures are taken to prevent a recurrence of the loss.\n");
+
+
+
+        Finance_Section section630 = new Finance_Section("Minor Losses: Write-Off of.","cat43","A loss of stores, plant, equipment, etc, may be written off under the personal authority of the Accounting Officer, provided that:\n" +
+                "(a)\tTheir original cost or the estimated value, whichever is applicable, of a unit of each item does not exceed N10,000.00 and the sum total of the value of the item does not exceed N50,000.00.\n" +
+                "(b)\tThere is no apparent weakness in the system of control.\n" +
+                "(c)\tThere is no evidence of fraud or theft.\n" +
+                "(d)\tWhere negligence is involved, the disciplinary action against the officer(s) found negligent is within the delegated powers of the Accounting Officer.\n");
+        Finance_Section section631 = new Finance_Section("Procedure Action by officer in charge of stores.","cat43","In the event of heavy loss of stores, the officer in charge in which the loss occurs, will:\n" +
+                "\n" +
+                "(a)\treport immediately to the Head of Department or Unit in writing without any delay.\n" +
+                "\n" +
+                "(b)\treport to the nearest Police Station if there is any possibility of fraud or theft.\n" +
+                "\n" +
+                "(c)\tinitiate action on Treasury Form 146, (see Appendix No. 7) complete Part 1 and forward the form in five copies to his Head of Department or Unit, without delay.\n" +
+                "\n" +
+                "(d)\tensure that, if a weakness in the system of control or in security is revealed, immediate measures are taken to prevent a recurrence of the loss.\n");
+        Finance_Section section632 = new Finance_Section("Action by Head of Department or Unit.","cat43","On being informed of the loss, the Head of Department or Unit will:\n" +
+                "(a)\tforward immediately, by letter, brief details of the loss to his Accounting Officer.\n" +
+                "(b)\tinvestigate the whole incident at the earliest possible time, complete Parts II and III of Treasury Form 146, and forward the forms in four copies to his Accounting Officer. If the investigations are liable to be protracted – submit the reports on Treasury Form 146 as soon as possible, and follow up with interim and final reports in letter form.\n" +
+                "(c)\trecommend to his Accounting Officer, the convening of a Board of Enquiry, if he considers the circumstances warrant such an investigation (see Financial Regulation 43004).\n" +
+                "(d)\tensure that, if a weakness in the system of control, or inadequate security is revealed, measures have been taken to prevent a recurrence of the loss.\n" +
+                "(e)\tobtain copies of the Police report and/or Court Proceedings where appropriate, and forward four copies to his Accounting Officer.\n");
+        Finance_Section section633 = new Finance_Section("Board of Enquiry: when to Convene","cat43","In considering whether a Board of Enquiry should be held, consideration should be given to the following:\n" +
+                "(a)\tif fraud is involved;\n" +
+                "(b)\tif the loss exceeds the amounts specified in Financial Regulation 43001 (a);\n" +
+                "(c)\tif several officers are involved;\n" +
+                "(d)\tif there is any doubt as to the degree of responsibility for the loss;\n" +
+                "(e)\tif the loss occurred over a period of time.\n");
+        Finance_Section section634 = new Finance_Section("Action by the Accounting Officer.","cat43",". On receipt of the reports of the loss, the Accounting Officer will:\n" +
+                "(a)\tif the loss is minor one and falls under the categories of Financial Regulation 43001, examine the reports, take the appropriate disciplinary action, complete Part IV of the Treasury Form 146, and forward one copy of the form to the Head of Department or the appropriate accounting section, and send one copy of the form each to the Accountant-General, Ministry of Finance and to the Auditor-General. \n" +
+                "\n" +
+                "(b)\tIf the loss does not fall under Financial Regulation 43001, he will:\n" +
+                "\n" +
+                "(i)  If the loss is a substantial one, send immediately brief details of the loss by letter each to the Accountant-General, Ministry of Finance and to the Auditor-General.\n" +
+                "\n" +
+                "(ii) Request the convening of a Board of Enquiry if he considers the circumstances of the loss warrant such an investigation, (see Chapter 16 for procedure for convening of a Board of Enquiry, and Financial Regulation 43004 for examples when a Board must be convened).\n" +
+                "\n" +
+                "(iii) Request the interdiction from duty of the officer if he considers the circumstances of the loss warrant such disciplinary action.\n" +
+                "\n" +
+                "(iv)\tExamine the full circumstances of the loss and forward to the Accountant-General, Auditor-General, and Permanent Secretary, Civil Service Commission, by letter, together with the report on Treasury Form 146, and where appropriate, the supporting documents, including Police Reports and copy of court proceedings, his comments on the loss and, where appropriate, his recommendations for surcharge. Such comments and recommendation shall be distributed within three months.\n" +
+                "     \n" +
+                "     Note: If the investigations are likely to be protracted, or where the findings of the Board of Enquiry may not immediately be available, the forwarding of the reports on Treasury Form 146 must not be delayed, and in such circumstances, the Accounting Officer should forward the sets of reports to the addresses, immediately, with his initial comments, giving inter alia, details of the cause of delay. He should then follow up the case with interim and final reports in letter form to the above addresses to include any final recommendation for surcharge and any further Police Report or copy of Court Proceedings received by him.\n" +
+                "\n" +
+                "(v) Ensure that, if a weakness in the system of control or inadequate security is revealed, precautions have been taken to prevent a recurrence of the loss.\n" +
+                "\n" +
+                "(vi) Examine the findings of the Board of Enquiry when convened, and make a final report on the loss in his comments on the findings of the Board of Enquiry, and his recommendations for surcharge, where appropriate and then distribute the report to the officers as at (iv) above.\n" +
+                "\n" +
+                "(vii) Take all practicable measures to recover the loss and, if it seems likely that a civil action through the Court would be successful in recovering part or the whole of the loss, forward all supporting evidence to the Accounting-General with a request for presentation of the case to the Ministry of Justice. \n");
+        Finance_Section section635 = new Finance_Section("Action by Accountant-General","cat43","On receipt of the report of the loss, the Accountant-General will:\n" +
+                "\n" +
+                "(a)\tEnsure that his nominee is a member of the Board of Enquiry.\n" +
+                "(b)\tEnsure that the full procedure has been followed by the Ministry concerned.\n" +
+                "(c)\tRequest the President, Permanent Board of Enquiry to convene a meeting, if necessary.\n" +
+                "(d)\tRequest the President, Permanent Board of Enquiry to include any specific item in the terms of reference of the Board.\n" +
+                "(e)\tEnsure that, if a weakness in the system of control or inadequate security is revealed, adequate measures have been taken to prevent a recurrence of the loss.\n" +
+                "(f)\tEnsure that every practicable measure has been taken for recovery of the loss; and\n" +
+                "(g)\tRecommend to the Permanent Secretary, Civil Service Commission, where appropriate, a surcharge against any officer involved in the loss, within 30 days.\n");
+        Finance_Section section636 = new Finance_Section("Additional Procedures.","cat43","The provisions of Financial Regulations 16003 to 16010 inclusive relating to procedures for Secretary, Civil Service Commission, and losses involving State Officers, and the division of losses between the various Government Official(s), will apply as a whole to the loss of stores.");
+        Finance_Section section637 = new Finance_Section("Loss of Stores: Power of Write-off.","cat43","The authority for the write-off of losses of stores is the prerogative of the Commissioner of Finance. A limited degree of this power of write-off is delegated to Accounting Officers under Financial Regulation 43001.");
+        Finance_Section section638 = new Finance_Section("Write-off unserviceable store, etc.","cat43","Unserviceable stores, plants and equipment may be written off and disposed of under the personal authority of the Accounting Officer, provided that:\n" +
+                "\n" +
+                "(a)\tThe original cost or estimated value, whichever is applicable, does not exceed N20,000.00 in the case of general store, or N150,000.00 in the case of plants, motor vehicles and equipment, in any financial year.\n" +
+                "(b)\tThe plants, motor vehicles or equipment have been surveyed and condemned by an independent Board of Survey. (see Financial Regulations 44002 and 44003 for procedure for the convening of a Board of survey).\n" +
+                "(c)\tIf negligence of an officer is involved the disciplinary action (with or without surcharge) against the officer(s) found negligent is within the delegated powers of the Accounting Officers.\n" +
+                "(d)\tThe Accounting Officer is of the option after taking advice from the appropriate technical officer, that the unserviceable articles are beyond economic repair. (see also Financial Regulations 43010 for disposal of expendable tools, and 43011 for disposal of machine parts).\n");
+        Finance_Section section639 = new Finance_Section("Expendable Tools: Write-Off of.","cat43","Expendable tools, (see Financial Regulations 33002 and 45007) which become unserviceable through fair wear and tear may be written off charge of the Expendable. Tools Ledger on the authority of the Officer in charge of the Workshop or Unit, provided that he is on salary level 12 and above. (see Financial Regulation 45008 for the form of destruction certificate).");
+        Finance_Section section640 = new Finance_Section("Used parts of plant or vehicles: Write-off of.","cat43","Used parts of plant and vehicles which have become unserviceable by fair wear and tear may be written off on the authority of the Accounting Officer, who will, in his discretion, authorize disposal by destruction or by sale by public auction or public tender. The vouchers covering the issue of replacement parts will be countersigned by a mechanical engineer.");
+        Finance_Section section641 = new Finance_Section("Procedure: action by officer in charge.","cat43","It is the duty of the officer directly in charge of a store to segregate unserviceable articles and to report to his Head of Unit or Department on the circumstances leading to the stores being rendered unserviceable.");
+        Finance_Section section642 = new Finance_Section("Procedure Head of Department or Unit","cat43","(a) It is the discretion of the Head of Department or Unit to decide whether the quantity of stores considered to be unserviceable is sufficient to justify the convening of a Special Board of Survey (see Chapter 44) or whether the articles should be held for inspection by the next periodical survey to be held under the provisions of Financial Regulation 44001. There must be no delay however, in the application for a Board of Survey for articles which have a residual value and which are liable to deteriorate rapidly, such as motor vehicle or items of furnishing, etc.\n" +
+                "\n" +
+                "     (b) The Head of Department or Unit will submit to the President of the Board of Survey, Treasury Form 147 (see Appendix 12) in five copies, together with Store Form 9 in five copies, duly completed with the details of the stores to be inspected. A separate set of forms must be submitted for those articles of store which fail to be dealt with under the provisions of Financial Regulation 43009.\n");
+        Finance_Section section643 = new Finance_Section("Report by Board of Survey","cat43","The President of the Board of Survey will complete Part II of Treasury Form 147 and the certificate on the Store Form 9, then forward the reports in four copies through the President, Board of Enquiry, to the Accounting Officer.");
+        Finance_Section section644 = new Finance_Section("Procedure Accounting Officer","cat43","On receipt of the reports on Treasury Form 147, the Accounting Officer will:\n" +
+                "\n" +
+                "(a)\tIf the unserviceable articles fall within the provisions of Financial Regulation 43009 examine the reports, take the appropriate disciplinary action, complete Part III of the Treasury Form 147 and forward one set to the Head of Department with his instructions for disposal of the unserviceable articles, one set to the Accountant-General, Ministry of Finance and one set to the Auditor-General.\n" +
+                "(b)\tIf the unserviceable articles do not fall within the provisions of Financial Regulation 43009 examine the reports, complete Part IV and V of Treasury Form 147 and add his recommendations and distribute two sets of the forms to the Accountant-General, Ministry of Finance and one copy to the Auditor-General.\n");
+        Finance_Section section645 = new Finance_Section("Procedure: Accountant General.","cat43","On receipt of the report on Treasury Form 147, the Accountant-General shall, if negligence is involved, forward one set of the forms to the Secretary, Civil Service Commission. The authority for the write-off and disposal of the stores shall be conveyed to the Accounting Officer by a completed Store Form 9 under cover of letter, a copy of which will be forwarded to the Auditor-General");
+        Finance_Section section646 = new Finance_Section("Destruction of unserviceable Stores.","cat43","Unserviceable stores authorized to be destroyed must be mutilated as to render the articles unusable for their original purpose. The certificate of destruction, signed by at least two officers who witnessed the destruction, must be completed to include details of the quantities destroyed and the method of destruction used. The certificate shall be attached to the copy of the relative Treasury Form 147 in the possession of the Accounting Officer.");
+        Finance_Section section647 = new Finance_Section("Disposal by Sale.","cat43","Accounting Officers shall make arrangements with the Ministry of Works and Housing or other Ministry or Department in which a full stores organization is available, for sale of the unserviceable and condemned stores by a licensed public auctioneer, or, where appropriate by public tender in accordance with Financial Regulation 42022.");
+        Finance_Section section648 = new Finance_Section("Proceeds of sale by Public Auction or Public Tender","cat43","The officer in charge of the public auction or public tender will pay the net proceeds of the auction after the reduction of the auctioneer’s commission, or, alternatively the full proceeds of the tender, to the nearest Treasury Cash Office for classification to the appropriate Sub-head of the Miscellaneous Revenue Head, and he will inform the Accounting Office concerned of the details of the proceeds of sale and quote there reference and date of the relevant Treasury Receipt. The Accounting Officer will inform the Accountant-General, and the Auditor-General of the reference number, date and amount of the Treasury Receipt for the proceeds of the sales of articles disposed of under the authority of this Chapter.");
+        Finance_Section section649 = new Finance_Section("Power of write-off of Unserviceable Stores, etc","cat43",". The authority for the write-off of stores, plant and equipment when condemned as unserviceable is the prerogative of the Commissioner for Finance. A limited degree of the power of write-off is delegated to Accounting Officers under Financial Regulations 43009 and 43010.");
+        Finance_Section section650 = new Finance_Section("Constitution of Ministerial/Departmental Board of Survey.","cat43",". (i) Each Ministry, Department/Agency will set up a board of Survey for the boarding and disposal of its unserviceable stores, vehicles, plants and equipment, etc.\n" +
+                "\n" +
+                "     (ii) a Ministerial/Department Board of Survey shall consist of at least three members.\n" +
+                "\n" +
+                "(a)\tThe President who must be an officer not below salary Grade Level 15;\n" +
+                "(b)\tThe Head of the accounts or his nominee;\n" +
+                "(c)\tAny other Senior Officer.\n" +
+                "\n" +
+                "     (iii) The Transport Officer, Storekeeper(s) or other stores officials of the Ministry/Department shall not serve on the Board.\n");
+        Finance_Section section651 = new Finance_Section("Estimated value of Stores, etc. Guidelines.","cat43","(i) For the purpose of arriving at the estimated value(s) of stores, motor vehicles, plants and equipment, the following guidelines are provided:\n" +
+                "\n" +
+                "(a)\tfor motor vehicle with engine capacity of 2000 c.c and below:\n" +
+                "Under 1 year old, 20 per cent reduction on original cost.\n" +
+                "Between 1 and 2 years old, 40 per cent reduction or original cost.\n" +
+                "Between 2 and 3 years old, 60 per cent reduction on original cost.\n" +
+                "Between 3 and 4 years old, 80 per cent reduction on original cost.\n" +
+                "Between 4 and 5 years old, 90 per cent reduction on original cost.\n" +
+                "5 years old and above, nominal value of not less that 5% of the original cost.\n" +
+                "\n" +
+                "(b)\tFor motor vehicle with engine capacity of over 2000 c.c.\n" +
+                "Between 1 and 2 years old, 50 per cent reduction on original cost.\n" +
+                "Between 2 and 3 years old, 65 per cent reduction on original cost.\n" +
+                "Between 3 and 4 years old, 75 per cent reduction on original cost.\n" +
+                "Between 4 and 5 years old, 85 per cent reduction on original cost.\n" +
+                "Between 5 and 6 years old, 90 per cent reduction on original cost.\n" +
+                "6 years and above – nominal value of not less than 5% of the original cost.\n" +
+                "Construction vehicles over 7 tons can be depreciated by this method.\n" +
+                "\n" +
+                "(c)\tFor Plants and Equipment:\n" +
+                "An Engineer’s estimated Value of the asset at the time of the write-off or disposal shall be obtained.\n" +
+                "\n" +
+                "(d)\tFor general stores, the estimated value shall be furnished by a Stock Verifier.\n" +
+                "\n" +
+                "     (ii) Before arriving at estimated final value of motor-vehicles Board of Survey should be properly constituted to ensure that there will always be a technically qualified member who will give competent advice to the Board on the valuation of the vehicles.\n");
+        Finance_Section section652 = new Finance_Section("Memorandum record","cat43",". On the discovery of a loss of stores, a memorandum note in red ink will be made of the details of the deficiency in the relative Stores Ledger Account and Tally Card.");
+        Finance_Section section653 = new Finance_Section("Application of Financial Regulations Chapter 16 on lost Stores and unserviceable Stores.","cat43",". The provisions of Financial Regulations 16011 and 16015 will apply as a whole to the write-off of stores lost and stores rendered unserviceable.\n" +
+                "\n" +
+                "    \n" +
+                "\n" +
+                "\n" +
+                "      43025.  On receipt of the authority for the write-off of allocated stores an issue voucher will be raised to support the write-off entry to be made in the relative Stores Ledger Account and Tally Card, and the voucher entry in the ledger will be dully initialed by the officer in-charge of the store. A reference to the write-off authority will be written against the entry and included in the detail of the issue voucher.\n");
+        Finance_Section section654 = new Finance_Section("Write-Off: Unallocated Stores.","cat43","The procedure for the write-off of Unallocated Stores shall be in accordance with Financial Regulation 43001.");
+
+
+
+
+
+
+        Finance_Section section655 = new Finance_Section("Inspection of Stores at least once annually.","cat44","Government Stores shall be regularly inspected and reported upon by a Board of Survey or Stock Verifier, at least once a year. The Accounting Officer shall ensure that systematic inspections are made at irregular intervals and not at fixed or pre-determined dates. If the services of Stock Verifier are not available, the Accounting Officer shall apply for the appointment of a Board of Survey as stipulated in Financial Regulation 43021 (i).");
+        Finance_Section section656 = new Finance_Section("Closure of Store during a Survey. Procedure: Programme of Inspection.\n","cat44","The Store shall be closed while a Board of Survey is being conducted and no issue shall be made without the sanction of the President; for issues thus sanctioned, the President shall countersign the stores issue vouchers.\n" +
+                "\n" +
+                "     44003. A Board of Survey shall be required to inspect a minimum of forty per cent of the stock categories but if a serious discrepancy is found or suspected, then a 100 per cent inspection must be made. Items selected for inspection must include all categories of stock, but especially those in general demand, of high value, or of the nature of attractive stores. A Stock Verifier shall be required to arrange a programme of inspection to cover the whole store at least once annually.\n");
+        Finance_Section section657 = new Finance_Section("Procedure: Method of inspection.","cat44","44004. At the end of every stores inspection, the Store-keeper or Stores Officer shall sign the Survey sheets with or without comments and the following procedure shall be observed, in addition to any special check required, by the Board of Survey or the Stock Verifier:\n" +
+                "\n" +
+                "(a)\tInstruct the Store-keeper to make the accounting entries in the Stores ledger for all receipts and issues of stores up to the point of the closure of the Store.\n" +
+                "(b)\tMake a physical count of the stock of each category inspected, examine each item for serviceability, and compare the physical stock count against the Tally Card balance and the Stock balance as shown on the relative Stores Ledger Account.\n" +
+                "(c)\tSeek the explanation of the Officer in charge of the store for any deficiency and ensure that details of the deficiency are entered on the Stores Form 8.\n" +
+                "(d)\tSeek the explanation of the Officer-in-charge of the store for items found unserviceable and ensure that details of the unserviceability and recommendations for disposal are entered on the Stores Form 9.\n" +
+                "(e)\tExamine the receipt and issue vouchers prepared since the date of the last inspection and test check that they are properly recorded in the Stores Ledger.\n" +
+                "(f)\tExamine the records of payments made for stores acquired since the last inspection and test check that purchases of stores have been properly taken on charge in the relative Stores Ledger account.\n" +
+                "(g)\tInstruct the Store-keeper to prepare receipt vouchers to bring on charge on the Tally Card and in the Stores Ledger account any excess of stock found on inspection.\n" +
+                "(h)\tInitial the entries in the Stores Ledger, and the relative Tally Card, or the taking on charge of the excesses.\n" +
+                "(i)\tInitial the memorandum notes to be made, in red ink, in the Stores Ledger account and the relative Tally Card of the details of any deficiencies.\n" +
+                "(j)\tComplete Store Forms 8 and 9 with recommendation as to the disposal of dormant and unserviceable stores (see Financial Regulation 44005 for distribution of the forms).\n");
+        Finance_Section section658 = new Finance_Section("Report of the Board or Stock Verifier.","cat44","The President of the Board (or Stock Verifier) shall submit a report in four copies, together with Store Forms 8 and 9, also in four copies, to the Accounting Officer. The report shall contain, among others, the following:\n" +
+                "\n" +
+                "(a)\tA reference to the lists of items found deficient, obsolete, unserviceable or surplus to requirements.\n" +
+                "(b)\tAn opinion as to the responsibility of the Store-keeper and/or Officer-in-charge of the store for the general state of the store and, in particular to the deficiencies, and to the obsolete and unserviceable items.\n" +
+                "(c)\tAn opinion as to the adequacy and condition of the stores accommodation, security arrangements, and fire fighting appliances.\n" +
+                "\n");
+        Finance_Section section659 = new Finance_Section("Action on the report","cat44","The reports of the Board or Stock Verifier involving a loss of stores, or the unserviceability of stores shall be dealt with in accordance with the provisions of Chapter 43.");
+
+
+
+
+
+
+
+        Finance_Section section660 = new Finance_Section("General","cat45","The provisions of Chapter 33 to 41 concern the accounting for, security of, and the receipt and issue of stores, before issue, whilst the provisions of this Chapter concern the control of certain classes of stores after issue.");
+        Finance_Section section661 = new Finance_Section("Tools: Non -expendable: Definition of.","cat45","The provisions of this Section will apply to all hand tools and tools for machines, excepting those which cannot be considered to have a specific life assigned to them e.g. back saw blades, files, etc.");
+        Finance_Section section662 = new Finance_Section("Tools Ledger: Non-expendable.","cat45","The receipt of non-expendable tools from Main Store or from direct purchase or from transfer, and their return to Main Store shall be recorded in a separate non-Expendable Tools Ledger to be maintained by the officer in-charge of the Workshop or Unit. The officer in-charge shall also maintain subsidiary or inventory records to show the issue and return of tools to and from individuals. The supervising officers will make periodical checks to ensure that the correct numbers of tools are on hand and that they are in good serviceable condition.");
+        Finance_Section section663 = new Finance_Section("Write-off. Non-Expendable Tools: Unserviceable.","cat45","Non-expendable Tools which have become unserviceable will remain on charge in the Tools Ledger pending examination by a Board of Survey and authority for disposal and write-off to be given under the provisions of Chapter 43.");
+        Finance_Section section664 = new Finance_Section("Write-off non-expendable Tools lost.","cat45","Non-expendable tools which have been lost will remain on ledger charge in the Tools Ledger and will be the liability of the officer in-charge, pending the examination of the loss under the provisions of Chapter 43.");
+        Finance_Section section665 = new Finance_Section("Tools Ledger.","cat45","The receipt of expendable tools (i.e. those which are not considered to have specific life assigned to them) will be recorded in a separate Expendable Tools Ledger to be maintained by the officer in-charge of the Workshop or Unit.");
+        Finance_Section section666 = new Finance_Section("Write-off. Unserviceable tools.","cat45","Expendable tools which have become unserviceable through fair wear and tear may be written-off charge in the Expendable Tools Ledger without an examination by a Board of Survey (see Financial Regulation 43010).");
+        Finance_Section section667 = new Finance_Section("Replacement of.","cat45","When replacement of expendable tools destroyed is required, the original of the destruction certificate in the following form shall be forwarded to the issuing store in support of the demand:\n" +
+                "\n" +
+                "     ‘Certify that I have personally inspected the undermentioned expendable tools issued to me which have become unserviceable through fair wear and tear and have been destroyed by (quote method of destruction)\n");
+
+
+
+        Finance_Section section668 = new Finance_Section("Definition. Plant","cat45","The term plant includes both fixed and movable items, such as machines, engines, boilers, etc.");
+        Finance_Section section669 = new Finance_Section("Registration of. ","cat45","Every item of plant will be numbered in a series to be recorded in register form at the headquarters of a Ministry/Department concerned at the time of acquisition and issue of the plant. The appropriate series and number will be painted or stamped on the equipment.");
+        Finance_Section section670 = new Finance_Section("Plant Ledger.","cat45","The receipt of plant will be recorded in a Plant Ledger to be maintained by the officer in-charge of the Workshop or Unit, and for fixed plant, the record must show the location of the plant in use.");
+        Finance_Section section671 = new Finance_Section("Inventory of accessories.","cat45",". Inventory on Stores Form 15 will be maintained by the officer in-charge of plant to record the accessories, spares and tools carried with plant equipment.");
+        Finance_Section section672 = new Finance_Section("Log Book.","cat45","Officers in-charge of plant will maintain a plant log book for each item of equipment to record the plant history of repairs, overhauls, spare parts consumed, details of periodical maintenance, servicing and details of the fuel and oil consumption.");
+        Finance_Section section673 = new Finance_Section("Write-off","cat45","Plant which has become unserviceable or lost will remain on charge in the plant Ledger pending examination by a Board of Survey or Board of Enquiry and the authority for disposal and write-off is given under the provisions of Chapter 43.");
+        Finance_Section section674 = new Finance_Section("Source of Supply  FURNITURE AND EQUIPMENT ISSUED TO OFFICES AND HOUSES","cat45","Furniture and equipment for Government residential quarters and public buildings will normally be obtained from the Ministry of Works and Housing. However, Ministries and non-Ministerial Departments may, on their own, furnish and equip their offices.");
+        Finance_Section section675 = new Finance_Section("Furniture Ledger","cat45","The receipt from Stores or direct purchase and equipment for an office or other Government building and returns to Store will, be recorded in a Furniture Ledger to be maintained by the officer in-charge of the building.");
+        Finance_Section section676 = new Finance_Section("Master Inventory Record.","cat45","The distribution of furniture and equipment within a building will be recorded in a Master Inventory Record to be maintained by the Office Manager or officer in-charge to show the location of the furniture and equipment and he will ensure that the total of each type so distributed agrees with the balance on the relative Furniture Ledger folio.");
+        Finance_Section section677 = new Finance_Section("Furniture Inventory Board","cat45","The officer in-charge of the building will ensure that a Furniture Inventory Board (Store Form 15), is displayed in each room or office to record the distribution of furniture and equipment to each room or group of rooms. He will make periodical checks, at least once quarterly, to ensure that the correct numbers of furniture and equipment are in its original place and that they are in good serviceable condition. He will ensure that all items found surplus are immediately taken on inventory and master inventory charge.");
+        Finance_Section section678 = new Finance_Section("Master Inventor of Furniture  issued to quarters","cat45","The officer in-charge of Government quarters in an area will maintain in Master Inventory Record to show the location of all Government furniture on issue to quarters, etc, and will issue a Furniture Inventory Board (Stores Form 15) to record the furniture and equipment on issue to each quarter. Inventories will be checked in full detail on a change of occupant.");
+        Finance_Section section679 = new Finance_Section("Registration of equipment","cat45","Every typewriter, electrical or gas cooker, refrigerator, water heater, fan, etc. will be numbered in a series to be recorded in register form by the Officer in-charge of the store of issue. The appropriate series and number will be painted or stamped on the equipment.");
+
+
+
+        Finance_Section section680 = new Finance_Section("Purpose of.","cat46","The purpose of an Unallocated Store is to acquire stores of a standard design and in constant demand, and to hold minimum stocks thereof to facilitate their immediate availability when required for a project or service, and to allow the vote of the relative project or service to be charged with the value of the stores when issued.");
+        Finance_Section section681 = new Finance_Section("Maximum holding","cat46","The maximum limit of the value of the stores which may be held in stock at any one time shall be determined by each MDA based on need.");
+        Finance_Section section682 = new Finance_Section("Application of Financial Regulations.","cat46","The provisions of Chapters 33 to 43 concerning Requisitions, Security, Issue, Return, Handing Over, Acquisition and Losses will apply the same way to Unallocated Stores.");
+        Finance_Section section683 = new Finance_Section("Vote to be charged","cat46","The cost of stores purchased to replenish standard stocks, and stores imported and handled by an Unallocated Stores organization for a specific work or service, will normally be charged initially to the Unallocated Stores sub-head of the current Estimates, under the item of ‘Purchases of Stores’.");
+        Finance_Section section684 = new Finance_Section("Local Purchases for specific project or service.","cat46","\n" +
+                "     46005. The cost of stores purchased locally for specific projects or service will normally be charged direct to the relative vote of the project or service.\n");
+        Finance_Section section685 = new Finance_Section("Cost of Stores","cat46","The cost of unallocated stores for accounting purposes will be:\n" +
+                "\n" +
+                "(a)\tFor imported store – the invoice price (fob), ocean freight, inspection fees, marine insurance and customs duty.\n" +
+                "(b)\tFor stores purchased locally – the full purchase price, less discount, if any.\n");
+        Finance_Section section686 = new Finance_Section("Fixed price method.","cat46",". When stores are received each category will be separately taken on charge in quantity and value. The value at which stores will be taken on charge will be ascertained by the officer in-charge of the Stores by determining a unit price for each category approximate to the average of the value of the items in stock and the known or estimated price of the stores to be taken on charge. This unit price will remain as a fixed or catalogue price until a variation of the cost of a replacement purchase demands a revision of the rate.");
+        Finance_Section section687 = new Finance_Section("Last Known price method","cat46",". As an alternative system to the fixed price method, and when approved specifically by the Ministry of Finance, the articles may be taken on charge at the last known price when details of the full landed costs are not immediately available.");
+        Finance_Section section688 = new Finance_Section("Minimum Record ","cat46","The Head of Account of the Ministry, Department or Agency will ensure that the following records are maintained as a minimum:\n" +
+                "(a)\tPurchase Journal (or Stores Cost Book),\n" +
+                "(b)\tIssue Journal (or Stores Issue Summary),\n" +
+                "(c)\tStores Ledger, to include an account for each category of store, and a separate account for:\n" +
+                "(i)   Shortfalls and Excesses (or Price Adjustments),\n" +
+                "(ii)   Claims,\n");
+        Finance_Section section689 = new Finance_Section("Purchase Journal","cat46","The Purchase Journal (or Store Cost Book) will be the prime entry record for the taking on charge of the stores received and will normally be a manually-written record in columnar form conveniently divided to facilitate:\n" +
+                "(a)\tThe reconciliation between the prime entries for stores received with the accounting entries in the Abstract.\n" +
+                "(b)\tThe reconciliation between the prime entries for the costs of stores received with the values taken on charge at the fixed or predetermined rate.\n" +
+                "(c)\tThe reconciliation and agreement of the total posting and balances remaining on the various stores accounts.\n" +
+                "(d)\tThe periodical computation of the total of the differences between the actual costs and the fixed prices.\n" +
+                "(e)\tThe recording of the values for goods imported when short-landed or damaged and the subject of a claim on the carrier or supplier.\n" +
+                "(f)\tThe recording of the revaluations of stocks on hand upon the change of a fixed price.\n");
+        Finance_Section section690 = new Finance_Section("Journal or Stores Issues Summary.","cat46",". The Issue Journal or Stores Issues Summary will provide a summary and a monthly total of the values of issues of stores computed at the prevailing fixed price. Copies of the Stores Issues Summary, in triplicate, together with supporting copy stores issue vouchers, when required, will be forwarded monthly in the form of Materials Expenses Statement to the Head of Account of the Ministry controlling the Stores by a date to be prescribed by the Accounting Officer. The Head of Account will incorporate into the Abstract Record the total of the issues to the credit of the unallocated stores sub-head of Expenditure item “Issues of Stores,” and charge the value of the issues to the relative votes of the project of service for which the stores were drawn, (see Financial Regulation 03007).");
+        Finance_Section section691 = new Finance_Section("Shortfalls and Excesses Account.","cat46","The Shortfalls and Excesses Account (or Price Adjustment Account) will be utilized only for the following purposes:\n" +
+                "\n" +
+                "(a)\tTo accommodate the differences between the actual costs and the fixed prices of issues.\n" +
+                "(b)\tTo accommodate the value of stores found surplus.\n" +
+                "(c)\tTo accommodate the value of minor discrepancies of stores and goods short-landed or damaged when written-off store ledger charge by Accounting Officer under the authority of Financial Regulations 43001 and 43005 (a).\n" +
+                "(d)\tTo accommodate the value of unserviceable stores written-off store ledger charge by the authority of the Accounting Officer under the provisions of Financial Regulation 43009.\n" +
+                "(e)\tTo accommodate the increase or decrease in the valuation of stocks on a change of fixed price.\n");
+        Finance_Section section692 = new Finance_Section("Clearance of excess balances on the Shortfalls and on Excesses Account.","cat46","A credit balance remaining at the end of a financial year on the Shortfalls and Excesses or Price Adjustment Account will be abandoned, and no accounting entry will be passed through the Abstract. If the account runs into a debit balance near to the end of the financial year, or earlier, if the debit is excessive, the officer in-charge of the store shall fully investigate the cause and, if appropriate, make the necessary amendments to the fixed prices.");
+        Finance_Section section693 = new Finance_Section("Store Charges","cat46",". Store Charges will be raised only when stores are issued on repayment to another Government, Corporation or in exceptional circumstances on repayment to a Government Official or to the Public. The element of store charge will be shown as an addition to the issue of fixed price, and will be classified direct to the appropriate Head of Revenue.");
+        Finance_Section section694 = new Finance_Section("Claims for short landings or good damaged","cat46","The value of imported stores received in a damaged condition from, or short-landed by, the carrier, will be recorded in the Purchase Journal (or Stores Cost Book) and taken on charge in the appropriate Claims section. Details of the loss will be entered in a Claims Register and the claim against the carrier or supplier will be passed to the Government Agent by the officer in-charge of the stores. The claim must be made immediately and within the prescribed time limit. The receipt of a settlement of a claim will be recorded in the Purchase Journal and the appropriate record will be made in the Claims Register. The Stores Charges Account will reflect the periodical totals of the value of the claims made, settled or written-off and the balance of the values of claims outstanding, (see end of Chapter for pro-forma for annual statement).");
+        Finance_Section section695 = new Finance_Section("Claim: when not to be made","cat46",". A claim will not normally be made when the value of the short landed or damaged store does not exceed N10,000.00");
+
+        Finance_Section section696 = new Finance_Section("Claim: Write off.","cat46","Unsettled claims will be abandoned and written-off in accordance with the provisions of Chapter 43. A claim abandoned under the authority of the Accounting Officer, (Financial Regulation 43005 (b) (1), may be charged against the Shortfalls and Excesses Account (or Price Adjustment Account) if the balance on the account is sufficient to absorb the loss. In all other instances the losses will be transferred, when funds are made available, to the separate sub-head of Expenditure ‘Unallocated Stores Deficiencies’, by a transfer adjustment as an expenditure credit to the item of ‘Purchases’.");
+        Finance_Section section697 = new Finance_Section("Annual balance statements","cat46","As soon as possible after the end of a financial year, or not later than a date to be prescribed by the Accountant-General an Annual Balance Statement and Reconciliation Accounts (see end of Chapter for pro-forma), will be prepared to be signed by the Head of Account and submitted by the Accounting Officer to the Accountant-General and the Auditor-General.");
+        Finance_Section section698 = new Finance_Section("Stock Verification","cat46","The provisions of Chapter 44 concerning Boards of Survey and Inspections of Stores, and Financial Regulations 30003 and 35006 concerning the responsibility of Stock Verifiers and Internal Auditors, will apply.");
+        Finance_Section section699 = new Finance_Section("Losses of Stores and unserviceable Stores.","cat46","The provisions of Chapter 43, concerning losses of Stores will apply.");
+
+
+        Finance_Section section700 = new Finance_Section("General consideration","cat47","This chapter should guide State government contracts subject to the enactment of a Public Procurement Law (PPL). The chapter is a further strengthening of Chapters 36 and 42 and the provisions of the most current Ondo State Budget Implementation Guide. Government contracts are made in accordance with the ordinary law of contract through offer by one party and acceptance by the other. The main distinction between government contract and commercial undertaking is that, while an outside body can freely choose the suppliers to deal with, an MDA is accountable for disbursement of public funds and obliged to consider all qualified firms claims.");
+        Finance_Section section701 = new Finance_Section("BIG: As a guide ","cat47","The state Public Procurement Law (PPL) when enacted shall provide further detailed requirements and guidelines for procurement contract in respect of commodities (goods and services) across MDAs. This chapter therefore should be read alongside Chapters 36 and 42 as well as the most current Ondo State Budget Implementation Guide (BIG).");
+        Finance_Section section702 = new Finance_Section("Scope","cat47","This rule applies to all procurements made by all Ministries, Departments and Agencies (MDAs) of government that derive at least 35% of their operational funds through the State Appropriation Law.  \n" +
+                "\n" +
+                "47004. Pursuant to sub-section above (47003), all procurement plans must be supported by prior budgeted appropriation as proof of availability of funds. In other words payments that are not provided for in the annual estimates shall not be accepted. \n");
+        Finance_Section section703 = new Finance_Section("Eligibility proof","cat47","All bidders in a contract must show proof of eligibility for the award of the contract by proving that: \n" +
+                "a.\tThey possess the necessary technical qualifications;\n" +
+                "b.\tThey possess the machinery, equipment and manpower for the job;\n" +
+                "c.\tThey have the legal capacity to enter into the contract i.e. they are neither under a receivership nor insolvent;\n" +
+                "d.\tThey are not tax evaders and avoiders; and \n" +
+                "e.\tNone of their director(s) have been convicted in respect of any offence/crime involving frau or financial misappropriation of record falsification.\n");
+        Finance_Section section704 = new Finance_Section("Bids disqualification and filing ","cat47","Any bidder who breach the provisions of section 47005 above or whose bids do not meet the tenders requirements shall be automatically disqualified and their bids withdrawn.  Notice of disqualified bids shall be conveyed to the Due process office with reasons given while all procurement proceeding made in a fiscal year shall be properly recorded in files and electronic records for at least ten (10) years.");
+        Finance_Section section705 = new Finance_Section("Early stage consultation conditions ","cat47","Accounting officers shall inform the Ministry of Finance and the office of the Accountant General of the State as early as possible in the negotiation of contract under any of the following conditions:\n" +
+                "a.\tWhere the price or consideration is to be denominated in a currency other than the Naira;\n" +
+                "b.\tWhere a foreign currency exchange guarantee is involved; and\n" +
+                "c.\tWhere the provisions are to specify a substantial programme of deferred payments extending beyond the end of the fiscal year in which the contract is to be executed.\n");
+        Finance_Section section706 = new Finance_Section("Goods, works and services procurement ","cat47","The following provisions and guidelines apply strictly to procurement of goods, works and services which fall within the monetary thresholds prescribed in 42002.");
+        Finance_Section section707 = new Finance_Section("Open Competitive Bidding ","cat47",". Except in special cases where other methods of procurements are inevitable, all procurement of goods, works and services shall be by way of Open Competitive Bidding (OCB) by which is meant that all contractors/suppliers shall be subjected to the same level playing field or equal chance of being chosen. The format for submission and all pre-determined criteria for evaluation including the deadline shall not vary from one contract/supplier to another but rather be the same. The lowest responsive bid shall be the winning bid. \n" +
+                "\n" +
+                "47010. All bids shall be in writing and in the format stipulated in the bid documents and shall be signed by an official who is authorized to bind the bidder to contract.\n");
+        Finance_Section section708 = new Finance_Section("Tender consideration","cat47","No contract work involving construction shall be considered by Tender Board unless:\n" +
+                "a.\tThe land has been acquired, and the topographical map(s) including soil text or Environmental Impact Assessment (EIA) done except where it is certified by an Architect that it is not necessary and approved by the appropriate authority. Documents relating to the survey maps, EIA, or certificate of exemption by an Architect should form part of contract documents to be presented to the Tenders Board. \n" +
+                "b.\tThe design of the building, road, etc relating to (a) above is broken into:\n" +
+                "i.\tArchitectural Design\n" +
+                "ii.\tStructural Design \n" +
+                "iii.\tElectrical Design \n" +
+                "iv.\tMechanical design \n" +
+                "v.\tBills of Quantities \n" +
+                "c.\tTechnical details of the project shall be made available to the Board for proper costing. \n" +
+                "\n" +
+                "47012. (i) Subject to any regulations that may be prescribed from time to time, a procuring entity (an MDA) may grant a mobilization fee which shall not exceed fifteen per cent (15%) of the contract price. Such payment shall be supported by in case of Open competitive Bidding a guarantee issued by a reputable Bank or Insurance company. \n" +
+                "\n" +
+                "(ii) No further payments shall be made to a contractor/supplier who has been paid mobilization fee except on the strength of an interim performance certificate or report issued in accordance with the agreement of the contract. \n");
+        Finance_Section section709 = new Finance_Section("Interest on delayed payment","cat47","Payment for the procurement of goods, works or services shall be settled promptly and diligently. Any payment due for more than sixty (60) days from the date of submission of invoice, valuation certificate or confirmation or authentication by an MDA, shall be deemed to be a delayed payment and shall hence attract interest at the rate specified in the contract agreement.");
+        Finance_Section section710 = new Finance_Section("Special bidding methods distinguished","cat47","Apart from open competitive bidding process treated under part II of this chapter, there are provisions for other procurement methods and the conditions for their usage. These conditions serve as in-built controls to safe guard against breaches and abuses. They include :\n" +
+                "1.\tTwo-Stage Bidding \n" +
+                "2.\tRestrictive Bidding \n" +
+                "3.\tDirect Procurement \n" +
+                "4.\tEmergency procurement \n" +
+                "5.\tRequest for Quotations \n");
+        Finance_Section section711 = new Finance_Section("Two-Stage General principles to apply","cat47","Two-Stage Bidding: In this process, the contractor shall be appointed on the basis of a first stage tender which determines the level of overhead and profit for each contractor. The contractor then works with the project team during the second stage to develop the designs and establish detailed costings for separate project work elements. This method shall be used in the following circumstances:\n" +
+                "i.\tWhere the formulation of ‘detailed specifications’ for the good or works is not possible or where the characteristics of the services requires multi-faceted means to gain satisfaction.\n" +
+                "ii.\tWhere the character of the goods or works are subject to rapid technological advances\n" +
+                "iii.\twhere the procuring entity seeks to enter into a contract for research, experiment, study or development costs\n" +
+                "iv.\tWhere the procurement is concerned with state security \n" +
+                "v.\tWhere initial tender process was not successful and a new process would produce similar result. \n");
+        Finance_Section section712 = new Finance_Section("Restrictive Tendering conditions ","cat47","Restricted Bidding: This method shall be used where the goods or services are of a specialized nature or can only be supplied by a limited number of firms or enterprises. Here the security implications of the procurement are taken into consideration. The firms are identified through a confidential due diligence research by a competent agency such as the user or systems branch. This method shall be used with a Terms of Reference (ToR) that will specify exactly what supply or service is required. Other conditions include:\n" +
+                "o\tGoods, works and services are available from only a limited number of qualified suppliers or contractors.\n" +
+                "o\tTime and cost for evaluating tenders lopsided to the value of the goods, works or services to be procured.\n" +
+                "\n");
+        Finance_Section section713 = new Finance_Section("Direct procurement requirements","cat47","Direct Procurement: The procedure for procurement under the direct procurement method shall be through an invitation by the procurement entity to a contractor/supplier to submit a proposal or price quotation. This shall be used in the following circumstances:\n" +
+                "i.\tIf a particular supplier has an exclusive right or where an alternative does not exist.\n" +
+                "ii.\tExtreme urgency (which is not the fault of the procuring agency)\n" +
+                "iii.\tSituation of urgency arising as a result of catastrophe and it will be impracticable to use any other methods of procurement.\n" +
+                "iv.\tProcuring entity (MDA) may decide to procure goods, equipment, technology or services procured from a particular supplier or contractor because of the following: \n" +
+                "\uF0A7\tNeed to maintain standards and a particular size\n" +
+                "\uF0A7\tNeed to maintain compatibility with existing goods\n" +
+                "\uF0A7\tMaintaining price reasonability\n" +
+                "\uF0A7\tProcurement involves research, experiment, study or development\n" +
+                "\uF0A7\tProcurement involving state security\n" +
+                "\n");
+        Finance_Section section714 = new Finance_Section("Emergency procurement procedure","cat47",".  Emergency Procurement: Emergency procedures can be used by a procuring entity (an MDA) to engage in direct procurement of goods, works and services in the following circumstances:\n" +
+                "o\tState/public emergency involving disaster, war, or natural disaster like flooding, etc; \n" +
+                "o\tDeterioration of the condition and quality of public goods; and \n" +
+                "o\tLikely delay of a public project due to the absence of an item of minor value.\n" +
+                "\n" +
+                "47019.  Emergency procurement shall also be used when there is an existing threat to public health, welfare and safety. In emergency procurement, supplies and equipment are purchased to cover emergency situations in a specific setting. Emergency procurement must be approved by respected authorities and demonstrate a need for such procurement supplies and equipment. Emergency procurement is not applicable to agencies if needed materials are available statewide. Emergency procurement shall follow the following steps: \n" +
+                "o\tRequests: The first step in emergency procurement is to make a request for approval of emergency equipment. Requests are generally submitted through email to appropriate authorities. After request, availability of funds is made known.\n" +
+                "o\tBids: Once an agency submits a request and determines available funds, the agency solicits bids over the phone to one or more suppliers. During bidding the agency conveys to suppliers or contractor certain supply needs and quantity of such supplies.\n" +
+                "o\tQuotes: Suppliers inform agency of quotes and relate information to the agency; the agency in turn submits quotes to the appropriate authorities for overall approval. If practical, authorities approve quotes when in agreement with supplier.\n" +
+                "o\tPurchase Order: After submission of quotes and approval, the agency places an order for emergency procurement with the lowest bidder. An emergency purchase order is completed and the emergency procurement approval request form is attached to the purchase for submission and delivery.\n");
+        Finance_Section section715 = new Finance_Section("Request for quotations and conditions","cat47","Request for Quotations: This is to be deployed where the value of the goods or works to be procured does not exceed a lower sum that is set in the procurement regulation and in the case of Ondo state when the goods, works or services is less than N250,000.00 (Two Hundred and Fifty Thousand Naira) only. Quotations shall be obtained from at least 3 unrelated contractors or suppliers. Procuring entity shall inform the contractor or supplier of factors that should be included in the price. Each bidder shall give only one quotation and shall not be allowed to change or vary the quotation or enter into any negotiation with the procuring entity. The successful contractor or supplier shall be the one that gives the lowest priced responsive quotation. \n" +
+                "\n" +
+                "Quotations will normally be requested from several firms or organizations and shall be submitted in writing. After the submission a procuring entity (MDA) shall: \n" +
+                "a)\tprepare a list of qualified persons selected from the list maintained under Regulation and from its own knowledge of the market;\u2028\n" +
+                "b)\tsubmit the list prepared under (a) to the tender committee for approval; and ensure a fair and equal rotation amongst the persons on the list kept under paragraph (a) in respect to giving the requests for quotations.\n");
+        Finance_Section section716 = new Finance_Section("Consulting needs nature ","cat47","The procurement of consultancy services by any Ministry, Department and Agency   (MDA) of government in Ondo state may either be for ascertained or unascertained needs.");
+        Finance_Section section717 = new Finance_Section("Services  for ascertained needs ","cat47",". (i) An MDA shall call for Expression of Interest (EoI) or applications for pre-qualification from consultants where their so required services have been fully ascertained.\n" +
+                "\n" +
+                "(ii) Pursuant to sub-section (i) above, a notice shall be published in at least two (2) national newspapers and the notice boards of the state secretariat. \n" +
+                "\n" +
+                "(iii) The proposal requested for under sub-section (i) above shall include:\n" +
+                "a)\ta statement of qualifications of the Consultant to provide the required service(s);\n" +
+                "b)\ta statement of understanding of the procuring entity’s needs;\n" +
+                "c)\tthe methodology for providing the service(s); and \n" +
+                "d)\tthe fee or cost for providing the service(s). \n");
+        Finance_Section section718 = new Finance_Section("Services for unascertained needs. Proposal requests ","cat47","Where an MDA intends to enter into a contract to procure service(s) for the purpose of research, experiment, study or development, it shall be done by requesting for proposals, except in a situation where the said contract will include goods and services production in enough quantities that is sufficient to establish commercial viability that can recover the cost of research and development.");
+        Finance_Section section719 = new Finance_Section("Direct programme unascertained","cat47","An MDA shall make direct request for a limited number of consultants requesting proposals for the provision of service(s) under the following conditions:\n" +
+                "i.\tthe service(s) are only available from not more than three (3) consultants;\n" +
+                "ii.\twhere there are more than three (3) consultants the cost and time required to evaluate large number of proposals would be uneven  to the value of services to be delivered, provided it invites enough consultants to ensure transparent competition; and \n" +
+                "iii.\twhen it is in the interest of the state security or some other reasons of confidentiality. \n");
+        Finance_Section section720 = new Finance_Section("Proposal confidentiality","cat47","An MDA shall treat proposals and any negotiation or selection procedure as confidential and avoid the disclosure of their contents to competing consultants.");
+
 
 
 
@@ -2470,7 +3147,105 @@ public class Finance_Section implements Parcelable {
                 section448,section449,section450,section451,section452,section453,section454,section455,section456,section457,
 
 
-                section458,section459,section460,section461,section462,section463
+                section458,section459,section460,section461,section462,section463,
+
+
+
+
+
+                section464,section465,section466,section467,section468,section469,section470,section471,section472,section473,
+
+
+                section474,section475,section476,section477,section478,section479,section480,
+
+
+
+
+
+
+
+
+                section481,section482,section483,
+                section484,section485,section486,section487,section488,
+                section489,section490,section491,section492,section493,section494,section495,section496,section497,section498,section499,section500,
+
+
+
+                section501,section502,section503,section504,section505,
+
+
+                section506,section507,section508,section509,section510,section511,section512,section513,section514,section515,
+                section516,section517,section518,section519,section520,section521,
+                section522,section523,section525,section526,section527,section528,section529,section530,section531,
+
+
+                section532,section533,section534,section535,section536,section537,section538,section539,section540,section541,
+                section542,section543,section544,section545,section546,section547,
+                section548,section549,section550,section551,section552,section553,section554,section555,section556,section557,
+
+
+                section558,section559,section560,section561,section562,section563,
+
+
+                section564,section565,section566,section567,section568,section569,section570,section571,section572,section573,
+
+
+                section574,section575,section576,section577,section578,section579,section580,
+
+
+
+
+
+
+
+
+                section581,section582,section583,
+                section584,section585,section586,section587,section588,
+                section589,section590,section591,section592,section593,section594,section595,section596,section597,section598,section599,section600,
+
+
+
+                section601,section602,section603,section604,section605,
+
+
+                section606,section607,section608,section609,section610,section611,section612,section613,section614,section615,
+                section616,section617,section618,section619,section620,section621,
+                section622,section623,section624,section625,section626,section627,section628,section629,section630,section631,
+
+
+                section632,section633,section634,section635,section636,section637,section638,section639,section640,section641,
+                section642,section643,section644,section645,section646,section647,
+                section648,section649,section650,section651,section652,section653,section654,section655,section656,section657,
+
+
+                section658,section659,section660,section661,section662,section663,
+
+
+
+
+                section664,section665,section666,section667,section668,section669,section670,section671,section672,section673,
+
+
+                section674,section675,section676,section677,section678,section679,section680,
+
+
+
+
+
+
+
+
+                section681,section682,section683,
+                section684,section685,section686,section687,section688,
+                section689,section690,section691,section692,section693,section694,section695,section696,section697,section698,section699,section700,
+
+
+
+                section701,section702,section703,section704,section705,
+
+
+                section706,section707,section708,section709,section710,section711,section712,section713,section714,section715,
+                section716,section717,section718,section719,section720
 
         };
 
