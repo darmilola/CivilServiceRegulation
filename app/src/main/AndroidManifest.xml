@@ -11,7 +11,12 @@
         android:supportsRtl="true"
         android:testOnly="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".Finance_Search"></activity>
+        <activity android:name=".Procurement_Details"></activity>
+        <activity android:name=".Procurement_Search" />
+        <activity android:name=".Procurement_Bookmark" />
+        <activity android:name=".Procurement_Main" />
+        <activity android:name=".Procurement_Chapter" />
+        <activity android:name=".Finance_Search" />
         <activity android:name=".Finance_Details" />
         <activity android:name=".Finance_Bookmark" />
         <activity android:name=".Finance_Chapter" />

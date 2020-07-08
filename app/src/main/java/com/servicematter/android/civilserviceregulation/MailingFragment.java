@@ -15,6 +15,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -49,6 +51,7 @@ public class MailingFragment extends Fragment {
             public void onClick(View view) {
                 //startActivity(new Intent(getContext(),.class));
 
+                displayDialog();
             }
         });
         return view;
@@ -61,20 +64,36 @@ public class MailingFragment extends Fragment {
 
         if (isvisibletouser) {
 
-            DashBoard.AuthPage(4,R.drawable.rectanglemailing);
+            DashBoard.AuthPage(5,R.drawable.rectanglemailing);
         }
     }
 
     private void displayDialog(){
 
         Dialog dialog;
+        TextView emailtitle,subjecttitle,messagetitle;
+        EditText emailvalue,subjectvalue,messagevalue;
+        Button send;
         dialog = new Dialog(getContext(),android.R.style.Theme_Light);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         View view = LayoutInflater.from(getContext()).inflate(R.layout.mailusdialog,null);
         dialog.setContentView(view);
-
+        emailtitle = view.findViewById(R.id.mailusemailtitle);
+        emailvalue = view.findViewById(R.id.mailusemailvalue);
+        subjecttitle = view.findViewById(R.id.mailussubjecttitle);
+        subjectvalue = view.findViewById(R.id.mailussubjectvalue);
+        messagetitle = view.findViewById(R.id.mailusmessagetitle);
+        messagevalue = view.findViewById(R.id.mailusmessagevalue);
+        send = view.findViewById(R.id.mailussend);
         Typeface customfont= Typeface.createFromAsset(getActivity().getAssets(), "Kylo-Light.otf");
 
+        emailtitle.setTypeface(customfont);
+        emailvalue.setTypeface(customfont);
+        subjecttitle.setTypeface(customfont);
+        subjectvalue.setTypeface(customfont);
+        messagetitle.setTypeface(customfont);
+        messagevalue.setTypeface(customfont);
+        send.setTypeface(customfont);
 
 
 

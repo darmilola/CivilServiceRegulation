@@ -64,6 +64,10 @@ public class ArticleViewHolder extends GroupViewHolder {
             article_number.setText(((Finance_Articles) article).getArticlenumber());
 
         }
+        else if(article instanceof  Procurement_Article){
+            title.setText(article.getTitle());
+            article_number.setText(((Procurement_Article) article).getArticlenumber());
+        }
 
     }
 }

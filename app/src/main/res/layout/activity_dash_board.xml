@@ -15,6 +15,27 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/gradient">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:src="@drawable/free_trial_oneday"
+        android:layout_height="120dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Upgrade"
+        android:id="@+id/upgrade_button"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/transparent_background"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/White"/>
+
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -30,7 +51,7 @@
    <TextView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="/6"
+       android:text="/7"
        android:id="@+id/pagenumbers"
        android:textSize="50dp"
        android:layout_marginBottom="30dp"

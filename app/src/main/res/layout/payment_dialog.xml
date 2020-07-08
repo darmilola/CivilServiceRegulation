@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#00000000"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:id="@+id/payment_dialog_root"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:hint="Email"
+        android:textColorHint="#c8c8c8"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"/>
+
+<com.servicematter.android.civilserviceregulation.MyPaymentCardView
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="#00000000"
+    app:cv_submitBtnText="Pay 2500"
+    android:layout_height="wrap_content">
+
+</com.servicematter.android.civilserviceregulation.MyPaymentCardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center|left"
+        android:text="Activation Key will be sent to your email upon payment"
+        android:textColor="#c8c8c8"
+        android:textSize="13dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Or Activate"
+        android:textColor="#FA2525"
+        android:textSize="18dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/upgrade_button"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColorHint="#c8c8c8"
+        android:hint="Activation Key"
+        android:background="@drawable/edittext_background"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Activate"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/transparent_background"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/White"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:id="@+id/procurement_root"
+    android:background="@drawable/procurement_rectangle"
+    tools:context=".Procurement_fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#70000000">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PUBLIC PROCUREMENT LAW"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:id="@+id/procurement_text"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -55,7 +55,7 @@ public class aboutus extends Fragment {
 
         if (isvisibletouser) {
 
-            DashBoard.AuthPage(5,R.drawable.about);
+            DashBoard.AuthPage(6,R.drawable.about);
         }
     }
 

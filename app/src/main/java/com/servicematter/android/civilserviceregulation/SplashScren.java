@@ -17,6 +17,7 @@ public class SplashScren extends AppCompatActivity {
     AppDatabase appDatabase;
     rulesDatabase rulesDatabase;
     Finance_Database finance_database;
+    Procurement_Database procurement_database;
     boolean isFirstTime;
     TextView splashtext;
 
@@ -38,7 +39,8 @@ public class SplashScren extends AppCompatActivity {
             appDatabase.sectionDao().InsertAll(Section.populateSection());
             finance_database = Room.databaseBuilder(this,Finance_Database.class,"finance_db").allowMainThreadQueries().build();
             finance_database.finance_dao().InsertAll(Finance_Section.populate_finance_rule());
-
+            procurement_database = Room.databaseBuilder(this,Procurement_Database.class,"Procurement_Section").allowMainThreadQueries().build();
+            procurement_database.procurement_dao().InsertAll(Procurement_Section.populateSection());
         }
         intent = new Intent(SplashScren.this,DashBoard.class);
         CountDownTimer timer = new CountDownTimer(3000,1000);

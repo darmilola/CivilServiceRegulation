@@ -58,7 +58,7 @@ public class thirdpage extends Fragment {
 
         if (isvisibletouser) {
 
-            DashBoard.AuthPage(6,R.drawable.share);
+            DashBoard.AuthPage(7,R.drawable.share);
         }
     }
 
