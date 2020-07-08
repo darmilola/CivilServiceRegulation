@@ -21,7 +21,7 @@ public class Procurement_Chapter extends AppCompatActivity {
 
 
     RecyclerView recyclerView;
-    Finance_Adapter adapter;
+    Procurement_Adapter adapter;
     Toolbar toolbar;
     TextView title;
     Procurement_Dao procurement_dao;
@@ -50,7 +50,7 @@ public class Procurement_Chapter extends AppCompatActivity {
             ((DefaultItemAnimator) animator).setSupportsChangeAnimations(false);
         }
 
-        adapter = new Finance_Adapter(GetChapters(), this);
+        adapter = new Procurement_Adapter(GetChapters(), this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
         setSupportActionBar(toolbar);

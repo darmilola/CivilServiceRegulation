@@ -43,7 +43,7 @@ public class Procurement_fragment extends Fragment {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(),Procurement_Chapter.class));
+                startActivity(new Intent(getContext(),Procurement_Main.class));
 
             }
         });

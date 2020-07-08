@@ -31,10 +31,10 @@ public class Procurement_Section implements Parcelable {
         rules = in.readString();
     }
 
-    public Procurement_Section(String mtitle, String mcategory, String mrules) {
-        this.title = mtitle;
-        this.category = mcategory;
-        this.rules = mrules;
+    public Procurement_Section(String title, String category, String rules) {
+        this.title = title;
+        this.category = category;
+        this.rules = rules;
     }
 
     public String getTitle() {

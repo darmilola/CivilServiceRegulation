@@ -14,7 +14,7 @@ import java.util.List;
 public class Procurement_Adapter extends ExpandableRecyclerViewAdapter<ArticleViewHolder,SectionViewHolder> {
 
     Context context;
-    public Procurement_Adapter(List<Procurement_Section> groups, Procurement_Details_Adapter.ListItemClickListener context) {
+    public Procurement_Adapter(List<? extends ExpandableGroup> groups, Context context) {
         super(groups);
         this.context = context;
 
@@ -41,12 +41,12 @@ public class Procurement_Adapter extends ExpandableRecyclerViewAdapter<ArticleVi
 
         ///final Section section = ((Article)group).getItems().get(childIndex);
 
-        final Finance_Section section = ((Finance_Articles)group).getItems().get(childIndex);
+        final Procurement_Section section = ((Procurement_Article)group).getItems().get(childIndex);
         holder.section_title.setText(section.getTitle());
         holder.section_title.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context,Finance_Details.class);
+                Intent intent = new Intent(context,Procurement_Details.class);
                 intent.putExtra("category",section.getCategory());
                 intent.putExtra("position",childIndex);
                 intent.putExtra("categorytitle",(group).getTitle());
