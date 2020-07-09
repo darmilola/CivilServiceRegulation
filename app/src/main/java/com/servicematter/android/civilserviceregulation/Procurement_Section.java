@@ -349,13 +349,12 @@ public class Procurement_Section implements Parcelable {
                 "\n" +
                 "(4)\tA notice, summons or other documents required or authorized to be served  upon the Bureau under the provisions of this Law or any other Law or enactment may be served by delivering it to the Director-General or by sending it by registered post and addressed to the Director-General at the principal office of the Bureau.  \n" +
                 "\n");
-        Procurement_Section section11 = new Procurement_Section("","cat3","15.  (1)  \tSubject to the provisions of subsections (2) (3) and (4) of this section,                        Scope of  the provisions of this Law shall apply to all procurement of goods, works                 application\n" +
-                "and services carried out by the State, Local Government Boards and all other procurement entities in the State.                             \n" +
-                "\n" +
-                "\t\t(2)  \tThe provisions of this Law shall not apply to the procurement of special  \n" +
-                "\t\t\tgoods, works and services involving security unless the Governor’s  \n" +
-                "  approval has been first sought and obtained that the provisions shall specifically apply.  \n");
-        Procurement_Section section12 = new Procurement_Section("SCOPE OF APPLICATION    ","cat3","");
+            Procurement_Section section12 = new Procurement_Section("SCOPE OF APPLICATION","cat3","15.  (1)  \tSubject to the provisions of subsections (2) (3) and (4) of this section,                        Scope of  the provisions of this Law shall apply to all procurement of goods, works                 application\n" +
+                    "and services carried out by the State, Local Government Boards and all other procurement entities in the State.                             \n" +
+                    "\n" +
+                    "\t\t(2)  \tThe provisions of this Law shall not apply to the procurement of special  \n" +
+                    "\t\t\tgoods, works and services involving security unless the Governor’s  \n" +
+                    "  approval has been first sought and obtained that the provisions shall                                                       specifically apply.  \n");
         Procurement_Section section13 = new Procurement_Section("Fundamental Principles of procurement","cat4","(1)  \tSubject to any exemption allowed by this Law public procurement shall be               \n" +
                 "\t                    \n" +
                 "conducted:                                                                                                                     \n" +
@@ -1412,7 +1411,7 @@ public class Procurement_Section implements Parcelable {
 
 
         Procurement_Section[] sections = new Procurement_Section[]{
-           section1,section2,section3,section4,section5,section6,section7,section8,section9,section10,section11,section12,section13,section14,section15,section16,section17,section18,section19,section20,
+           section1,section2,section3,section4,section5,section6,section7,section8,section9,section10,section12,section13,section14,section15,section16,section17,section18,section19,section20,
 
 
                 section21,section22,section23,section24,section25,section26,section27,section28,section29,section30,section31,section32,section33,section34,section35,section36,section37,section38,section39,section40,
