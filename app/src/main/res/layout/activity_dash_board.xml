@@ -18,6 +18,7 @@
 
     <ImageView
         android:layout_width="120dp"
+        android:id="@+id/free_trial_icon"
         android:src="@drawable/free_trial_oneday"
         android:layout_height="120dp"/>
     <Button

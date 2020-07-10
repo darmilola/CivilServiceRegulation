@@ -266,6 +266,7 @@ public class MailingFragment extends Fragment {
 
     private void showloadingdialog() {
         loadingdialog = new Dialog(getContext(), android.R.style.Theme_Light);
+        loadingdialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         loadingdialog.setContentView(R.layout.loadingdialog);
         ImageView image = loadingdialog.findViewById(R.id.loadingimage);
         DrawableImageViewTarget imageViewTarget = new DrawableImageViewTarget(image);
@@ -277,14 +278,14 @@ public class MailingFragment extends Fragment {
         int displayHeight = displayMetrics.heightPixels;
         WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams();
         layoutParams.copyFrom(loadingdialog.getWindow().getAttributes());
-        int dialogWindowWidth = (int) (displayWidth * 0.4f);
-        int dialogWindowHeight = (int) (displayHeight * 0.3f);
+        int dialogWindowWidth = (int) (displayWidth * 0.7f);
+        int dialogWindowHeight = (int) (displayHeight * 0.7f);
 
 
         layoutParams.width = dialogWindowWidth;
         layoutParams.height = dialogWindowHeight;
-        loadingdialog.getWindow().setAttributes(layoutParams);
-        loadingdialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#70000000")));
+        //loadingdialog.getWindow().setAttributes(layoutParams);
+        loadingdialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00000000")));
         loadingdialog.show();
     }
 

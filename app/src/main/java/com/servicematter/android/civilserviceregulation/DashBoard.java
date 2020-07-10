@@ -72,14 +72,22 @@ public class DashBoard extends AppCompatActivity {
     static TextView pagecount,pagenumbers;
     Dialog loadingdialog;
     Dialog dialog;
+    boolean isActivated;
+    ImageView free_trial_icon;
     FreeTrialTimerProcessor freeTrialTimerProcessor = new FreeTrialTimerProcessor();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
         PaystackSdk.initialize(getApplicationContext());
-        processFreeTrialTimeRemaining();
+        SharedPreferences preferences2 = PreferenceManager.getDefaultSharedPreferences(DashBoard.this);
+        isActivated = preferences2.getBoolean("isActivated",false);
+        if(!isActivated){
+            processFreeTrialTimeRemaining();
+        }
+
         pager = findViewById(R.id.dashboard_pager);
+        free_trial_icon = findViewById(R.id.free_trial_icon);
         dasboard_background = findViewById(R.id.dashboard_background);
         pagecount = findViewById(R.id.pagecount);
         pagenumbers = findViewById(R.id.pagenumbers);
@@ -92,6 +100,7 @@ public class DashBoard extends AppCompatActivity {
         pager.setPageTransformer(true,new BackgroundToForegroundTransformer());
         upgrade = findViewById(R.id.upgrade_button);
         upgrade.setTypeface(customfont);
+
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = preferences.edit();
         editor.putBoolean("firsttime",false);
@@ -103,6 +112,11 @@ public class DashBoard extends AppCompatActivity {
                 displayDialog();
             }
         });
+
+        if(isActivated){
+            free_trial_icon.setVisibility(View.GONE);
+            upgrade.setVisibility(View.GONE);
+        }
 
     }
 
@@ -337,6 +351,7 @@ public class DashBoard extends AppCompatActivity {
 
     private void showloadingdialog() {
         loadingdialog = new Dialog(DashBoard.this, android.R.style.Theme_Light);
+        loadingdialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         loadingdialog.setContentView(R.layout.loadingdialog);
         ImageView image = loadingdialog.findViewById(R.id.loadingimage);
         DrawableImageViewTarget imageViewTarget = new DrawableImageViewTarget(image);
@@ -348,17 +363,16 @@ public class DashBoard extends AppCompatActivity {
         int displayHeight = displayMetrics.heightPixels;
         WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams();
         layoutParams.copyFrom(loadingdialog.getWindow().getAttributes());
-        int dialogWindowWidth = (int) (displayWidth * 0.4f);
-        int dialogWindowHeight = (int) (displayHeight * 0.3f);
+        int dialogWindowWidth = (int) (displayWidth * 0.7f);
+        int dialogWindowHeight = (int) (displayHeight * 0.7f);
 
 
         layoutParams.width = dialogWindowWidth;
         layoutParams.height = dialogWindowHeight;
-        loadingdialog.getWindow().setAttributes(layoutParams);
-        loadingdialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#70000000")));
+        //loadingdialog.getWindow().setAttributes(layoutParams);
+        loadingdialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00000000")));
         loadingdialog.show();
     }
-
 
 
 
@@ -419,7 +433,7 @@ public class DashBoard extends AppCompatActivity {
             else if(result.toString().equalsIgnoreCase("payment_successful")){
 
                 Toast.makeText(DashBoard.this, "Payment Successful Please Check your mail to get Your Activation Key", Toast.LENGTH_LONG).show();
-                dialog.dismiss();
+                //dialog.dismiss();
             }
             else{
                 Toast.makeText(DashBoard.this, result.toString(), Toast.LENGTH_SHORT).show();
@@ -516,7 +530,17 @@ public class DashBoard extends AppCompatActivity {
             }
             else if(result.toString().equalsIgnoreCase("valid_key")){
 
+                dialog.dismiss();
+                free_trial_icon.setVisibility(View.GONE);
+                upgrade.setVisibility(View.GONE);
                 Toast.makeText(DashBoard.this, "Regulatory Books Successfully Activated", Toast.LENGTH_LONG).show();
+
+                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(DashBoard.this);
+                SharedPreferences.Editor editor = preferences.edit();
+                editor.putBoolean("isActivated",true);
+                editor.commit();
+
+
 
             }
             else{

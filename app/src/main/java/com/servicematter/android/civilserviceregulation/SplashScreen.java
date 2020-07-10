@@ -21,6 +21,8 @@ public class SplashScreen extends AppCompatActivity {
     Procurement_Database procurement_database;
     boolean isFirstTime;
     TextView splashtext;
+    boolean isActivated;
+    TextView opening_page_title;
     FreeTrialTimerProcessor freeTrialTimerProcessor = new FreeTrialTimerProcessor();
     FreeTrialCountDownTimerUtil freeTrialCountDownTimerUtil;
 
@@ -30,11 +32,14 @@ public class SplashScreen extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash_scren);
-        splashtext = findViewById(R.id.splashscreentitle);
+        splashtext = findViewById(R.id.opening_page_title);
         Typeface customfont= Typeface.createFromAsset(getAssets(), "Kylo-Light.otf");
         splashtext.setTypeface(customfont);
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(SplashScreen.this);
         isFirstTime = preferences.getBoolean("firsttime",true);
+
+        SharedPreferences preferences2 = PreferenceManager.getDefaultSharedPreferences(SplashScreen.this);
+        isActivated = preferences2.getBoolean("isActivated",false);
         if(isFirstTime){
             rulesDatabase = Room.databaseBuilder(this, com.servicematter.android.civilserviceregulation.rulesDatabase.class,"ruledb").allowMainThreadQueries().build();
             rulesDatabase.rulesDao().InsertAll(Rules_Section.populate_rule());
@@ -83,14 +88,17 @@ public class SplashScreen extends AppCompatActivity {
        public void onResume() {
             super.onResume();
 
-            if (isFirstTime) {
-                freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(120000, 1000, SplashScreen.this);
-                freeTrialCountDownTimerUtil.start();
-            } else {
+            if(!isActivated){
+                if (isFirstTime) {
+                    freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(120000, 1000, SplashScreen.this);
+                    freeTrialCountDownTimerUtil.start();
+                } else {
 
-                long TimeRemaining = freeTrialTimerProcessor.ProcessFreeTrialTimeRemaining(SplashScreen.this);
-                freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(TimeRemaining, 1000, SplashScreen.this);
-                freeTrialCountDownTimerUtil.start();
+                    long TimeRemaining = freeTrialTimerProcessor.ProcessFreeTrialTimeRemaining(SplashScreen.this);
+                    freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(TimeRemaining, 1000, SplashScreen.this);
+                    freeTrialCountDownTimerUtil.start();
+                }
+
             }
 
 
@@ -98,8 +106,13 @@ public class SplashScreen extends AppCompatActivity {
         @Override
        public void onStop() {
 
-            freeTrialTimerProcessor.PutLeftTimeStamp(SplashScreen.this);
             super.onStop();
+            if(!isActivated){
+                freeTrialTimerProcessor.PutLeftTimeStamp(SplashScreen.this);
+
+            }
+
         }
+
 }
 
