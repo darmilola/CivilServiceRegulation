@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.text.Editable;
+import android.text.InputType;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
@@ -65,6 +66,7 @@ public class MyPaymentCardView extends RelativeLayout {
         mTxtCardTitle = mView.findViewById(R.id.txtCardTitle);
         mEdtCardNumber = mView.findViewById(R.id.edtCardNumber);
         mEdtCardNumber.setMaxLines(1);
+        //mEdtCardNumber.setInputType(InputType.TYPE_CLASS_NUMBER);
         ImageView mImgCancel = mView.findViewById(R.id.iconCancel);
 
 

@@ -8,11 +8,12 @@ import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-public class SplashScren extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
     Intent intent;
     AppDatabase appDatabase;
     rulesDatabase rulesDatabase;
@@ -20,6 +21,8 @@ public class SplashScren extends AppCompatActivity {
     Procurement_Database procurement_database;
     boolean isFirstTime;
     TextView splashtext;
+    FreeTrialTimerProcessor freeTrialTimerProcessor = new FreeTrialTimerProcessor();
+    FreeTrialCountDownTimerUtil freeTrialCountDownTimerUtil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +33,7 @@ public class SplashScren extends AppCompatActivity {
         splashtext = findViewById(R.id.splashscreentitle);
         Typeface customfont= Typeface.createFromAsset(getAssets(), "Kylo-Light.otf");
         splashtext.setTypeface(customfont);
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(SplashScren.this);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(SplashScreen.this);
         isFirstTime = preferences.getBoolean("firsttime",true);
         if(isFirstTime){
             rulesDatabase = Room.databaseBuilder(this, com.servicematter.android.civilserviceregulation.rulesDatabase.class,"ruledb").allowMainThreadQueries().build();
@@ -42,7 +45,7 @@ public class SplashScren extends AppCompatActivity {
             procurement_database = Room.databaseBuilder(this,Procurement_Database.class,"Procurement_Section").allowMainThreadQueries().build();
             procurement_database.procurement_dao().InsertAll(Procurement_Section.populateSection());
         }
-        intent = new Intent(SplashScren.this,DashBoard.class);
+        intent = new Intent(SplashScreen.this,DashBoard.class);
         CountDownTimer timer = new CountDownTimer(3000,1000);
         timer.start();
     }
@@ -75,5 +78,28 @@ public class SplashScren extends AppCompatActivity {
 
         }
 
-    }
+
+        @Override
+       public void onResume() {
+            super.onResume();
+
+            if (isFirstTime) {
+                freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(120000, 1000, SplashScreen.this);
+                freeTrialCountDownTimerUtil.start();
+            } else {
+
+                long TimeRemaining = freeTrialTimerProcessor.ProcessFreeTrialTimeRemaining(SplashScreen.this);
+                freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(TimeRemaining, 1000, SplashScreen.this);
+                freeTrialCountDownTimerUtil.start();
+            }
+
+
+        }
+        @Override
+       public void onStop() {
+
+            freeTrialTimerProcessor.PutLeftTimeStamp(SplashScreen.this);
+            super.onStop();
+        }
+}
 

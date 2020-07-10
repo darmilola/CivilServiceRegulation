@@ -23,6 +23,9 @@
         android:textAllCaps="false"
         android:textSize="20dp"
         android:hint="Email"
+        android:maxLines="1"
+        android:inputType="text"
+        android:id="@+id/payment_dialog_email"
         android:textColorHint="#c8c8c8"
         android:layout_marginBottom="10dp"
         android:background="@drawable/edittext_background"
@@ -35,6 +38,7 @@
     android:layout_marginRight="5dp"
     android:background="#00000000"
     app:cv_submitBtnText="Pay 2500"
+    android:id="@+id/cardview_payment"
     android:layout_height="wrap_content">
 
 </com.servicematter.android.civilserviceregulation.MyPaymentCardView>
@@ -45,8 +49,9 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="5dp"
         android:gravity="center|left"
-        android:text="Activation Key will be sent to your email upon payment"
+        android:text="Activation Key will be sent to your mailbox upon payment(also Check spam folder)"
         android:textColor="#c8c8c8"
+        android:id="@+id/payment_dialog_activation_key_send_to_mail"
         android:textSize="13dp" />
     <TextView
         android:layout_width="match_parent"
@@ -55,14 +60,15 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
+        android:id="@+id/payment_dialog_or_activate"
         android:text="Or Activate"
-        android:textColor="#FA2525"
+        android:textColor="@color/colorPrimary"
         android:textSize="18dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/upgrade_button"
+        android:id="@+id/payment_dialog_activation_key_value"
         android:gravity="left|center"
         android:paddingLeft="10dp"
         android:layout_marginTop="10dp"
@@ -81,6 +87,7 @@
         android:layout_height="50dp"
         android:text="Activate"
         android:gravity="center"
+        android:id="@+id/payment_dialog_activate_button"
         android:layout_marginTop="20dp"
         android:background="@drawable/transparent_background"
         android:layout_gravity="center|top"

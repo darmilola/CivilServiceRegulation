@@ -37,7 +37,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:id="@+id/financialregulations"
-                android:text="ONDO STATE FINANCIAL REGULATIONS 2014\n\n REVISED EDITION"/>
+                android:text="ONDO STATE FINANCIAL REGULATIONS 2017\n\n REVISED EDITION"/>
 
 
 

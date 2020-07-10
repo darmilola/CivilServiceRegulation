@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.servicematter.android.civilserviceregulation">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -11,6 +13,9 @@
         android:supportsRtl="true"
         android:testOnly="false"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_test_bf395e89a315198929ddca163fafecf64899d524" />
         <activity android:name=".Procurement_Details"></activity>
         <activity android:name=".Procurement_Search" />
         <activity android:name=".Procurement_Bookmark" />
@@ -66,7 +71,7 @@
             android:name=".Chapters"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashScren"
+            android:name=".SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

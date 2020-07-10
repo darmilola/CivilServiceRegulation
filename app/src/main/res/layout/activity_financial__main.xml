@@ -28,7 +28,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:gravity="center|top"
-                android:text="ONDO STATE FINANCIAL REGULATIONS\n 2014"
+                android:text="ONDO STATE FINANCIAL REGULATIONS\n 2017"
                 android:textColor="#000000"
                 android:id="@+id/finance_main_title"
                 android:textSize="20dp" />

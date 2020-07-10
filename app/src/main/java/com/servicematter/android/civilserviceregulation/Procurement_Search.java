@@ -33,6 +33,7 @@ public class Procurement_Search extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_procurement__search);
+        initView();
 
 
     }

@@ -11,9 +11,9 @@ import androidx.room.Query;
 public interface Procurement_Bookmark_Dao {
 
     @Query("SELECT * FROM Procurement_Bookmark_Model")
-    List<Finance_Bookmark_Model> getAll();
+    List<Procurement_Bookmark_Model> getAll();
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insertentry(Procurement_Bookmark_Model finance_bookmark_model);
+    void insertentry(Procurement_Bookmark_Model procurement_bookmark_model);
 
 }
