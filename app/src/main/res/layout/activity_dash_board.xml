@@ -19,7 +19,7 @@
     <ImageView
         android:layout_width="120dp"
         android:id="@+id/free_trial_icon"
-        android:src="@drawable/free_trial_oneday"
+        android:src="@drawable/freetrialnewimage"
         android:layout_height="120dp"/>
     <Button
         android:layout_width="150dp"
@@ -66,5 +66,10 @@
        android:id="@+id/dashboard_pager"
        android:clipToPadding="false"
        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/next"/>
 </LinearLayout>
 </LinearLayout>

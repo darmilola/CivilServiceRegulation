@@ -1,77 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.servicematter.android.civilserviceregulation">
+    package="com.servicematter.android.regulatorybooks">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:name=".MyApplication"
+        android:name="com.servicematter.android.regulatorybooks.MyApplication"
         android:allowBackup="true"
-        android:icon="@drawable/newimageicon"
+        android:icon="@drawable/rsznewsplashlogo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/newimageicon"
+        android:roundIcon="@drawable/rsznewsplashlogo"
         android:supportsRtl="true"
         android:testOnly="false"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <meta-data
             android:name="co.paystack.android.PublicKey"
-            android:value="pk_test_bf395e89a315198929ddca163fafecf64899d524" />
-        <activity android:name=".Procurement_Details"></activity>
-        <activity android:name=".Procurement_Search" />
-        <activity android:name=".Procurement_Bookmark" />
-        <activity android:name=".Procurement_Main" />
-        <activity android:name=".Procurement_Chapter" />
-        <activity android:name=".Finance_Search" />
-        <activity android:name=".Finance_Details" />
-        <activity android:name=".Finance_Bookmark" />
-        <activity android:name=".Finance_Chapter" />
-        <activity android:name=".Financial_Main" />
-        <activity android:name=".Financial_Regulations_Coat_of_Arm" />
-        <activity android:name=".appendix" />
+            android:value="pk_live_e707c0ea3e6a9cffd4ac324ebbfcbbf58db1234e" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Procurement_Details"></activity>
+        <activity android:name="com.servicematter.android.regulatorybooks.Procurement_Search" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Procurement_Bookmark" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Procurement_Main" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Procurement_Chapter" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Finance_Search" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Finance_Details" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Finance_Bookmark" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Finance_Chapter" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Financial_Main" />
+        <activity android:name="com.servicematter.android.regulatorybooks.Financial_Regulations_Coat_of_Arm" />
+        <activity android:name="com.servicematter.android.regulatorybooks.appendix" />
         <activity
-            android:name=".ruleBookmark"
+            android:name="com.servicematter.android.regulatorybooks.ruleBookmark"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ruleSearch"
+            android:name="com.servicematter.android.regulatorybooks.ruleSearch"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ruledetail"
+            android:name="com.servicematter.android.regulatorybooks.ruledetail"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".rules_chapter"
+            android:name="com.servicematter.android.regulatorybooks.rules_chapter"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Preface"
+            android:name="com.servicematter.android.regulatorybooks.Preface"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".rule_main"
+            android:name="com.servicematter.android.regulatorybooks.rule_main"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Civil_Service_Regulation_Coat_Of_Arm"
+            android:name="com.servicematter.android.regulatorybooks.Civil_Service_Regulation_Coat_Of_Arm"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Civil_Service_Rules_Coat_Of_Arm"
+            android:name="com.servicematter.android.regulatorybooks.Civil_Service_Rules_Coat_Of_Arm"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DashBoard"
+            android:name="com.servicematter.android.regulatorybooks.DashBoard"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Search"
+            android:name="com.servicematter.android.regulatorybooks.Search"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".BookmarksPage"
+            android:name="com.servicematter.android.regulatorybooks.BookmarksPage"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ArticleDetails"
+            android:name="com.servicematter.android.regulatorybooks.ArticleDetails"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Preamble"
+            android:name="com.servicematter.android.regulatorybooks.Preamble"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Chapters"
+            android:name="com.servicematter.android.regulatorybooks.Chapters"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.servicematter.android.regulatorybooks.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -80,7 +81,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.servicematter.android.regulatorybooks.MainActivity"
             android:screenOrientation="portrait" />
     </application>
 

@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/White"
     android:orientation="vertical">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -31,33 +29,33 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:orientation="vertical">
 
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/logo"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"/>
+                    android:layout_marginTop="10dp"/>
 
-                <TextView
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:text="Ondo State Civil Service Regulatory Books"
-                    android:textSize="23dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:id="@+id/opening_page_title"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/csrsplashback">
+
+
+                </LinearLayout>
+
             </LinearLayout>
 
 
 
 
 
+
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </ScrollView>
+
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -32,16 +32,16 @@
         android:layout_marginRight="20dp"
         android:textColor="#ffffff"/>
 
-<com.servicematter.android.civilserviceregulation.MyPaymentCardView
+<com.servicematter.android.regulatorybooks.MyPaymentCardView
     android:layout_width="match_parent"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
     android:background="#00000000"
-    app:cv_submitBtnText="Pay 2500"
+    app:cv_submitBtnText="Pay 1"
     android:id="@+id/cardview_payment"
     android:layout_height="wrap_content">
 
-</com.servicematter.android.civilserviceregulation.MyPaymentCardView>
+</com.servicematter.android.regulatorybooks.MyPaymentCardView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
