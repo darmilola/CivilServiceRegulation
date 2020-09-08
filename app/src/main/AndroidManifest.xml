@@ -7,9 +7,9 @@
     <application
         android:name="com.servicematter.android.regulatorybooks.MyApplication"
         android:allowBackup="true"
-        android:icon="@drawable/rsznewsplashlogo"
+        android:icon="@drawable/appicon"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/rsznewsplashlogo"
+        android:roundIcon="@drawable/appicon"
         android:supportsRtl="true"
         android:testOnly="false"
         android:usesCleartextTraffic="true"

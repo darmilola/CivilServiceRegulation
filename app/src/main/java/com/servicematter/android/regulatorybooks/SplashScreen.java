@@ -89,7 +89,7 @@ public class SplashScreen extends AppCompatActivity {
 
             if(!isActivated){
                 if (isFirstTime) {
-                    freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(120000  , 1000, SplashScreen.this);
+                    freeTrialCountDownTimerUtil = new FreeTrialCountDownTimerUtil(259200000, 1000, SplashScreen.this);
                     freeTrialCountDownTimerUtil.start();
                 } else {
 

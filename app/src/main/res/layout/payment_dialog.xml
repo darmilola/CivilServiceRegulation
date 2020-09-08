@@ -37,7 +37,7 @@
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
     android:background="#00000000"
-    app:cv_submitBtnText="Pay 1"
+    app:cv_submitBtnText="Pay 500"
     android:id="@+id/cardview_payment"
     android:layout_height="wrap_content">
 

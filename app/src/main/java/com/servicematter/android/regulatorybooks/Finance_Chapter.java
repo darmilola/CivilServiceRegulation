@@ -181,7 +181,7 @@ public class Finance_Chapter extends AppCompatActivity {
         Finance_Articles article3 = new Finance_Articles("Article 3","SELF-ACCOUNTING MINSITRIES, DEPARTMENTS AND AGENCY",section3);
         Finance_Articles article4 = new Finance_Articles("Article 4","ACCOUNTING PROCEDURES",section4);
 
-        Finance_Articles article5 = new Finance_Articles("Article 5","TREASURY DEPARTMENT OF THE MINSITRY OF FINANCE AND TREASURY CASH OFFICES",section5);
+        Finance_Articles article5 = new Finance_Articles("Article 5","TREASURY DEPARTMENT OF THE MINISTRY OF FINANCE AND TREASURY CASH OFFICES",section5);
         Finance_Articles article6 = new Finance_Articles("Article 6","REVENUE COLLECTION AND ACCOUNTING ",section6);
 
         Finance_Articles article7 = new Finance_Articles("Article 7","AUTHORIZATION OF EXPENDITURE",section7);

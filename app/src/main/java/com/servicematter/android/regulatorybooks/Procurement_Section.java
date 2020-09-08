@@ -1276,7 +1276,7 @@ public class Procurement_Section implements Parcelable {
                 "\n" +
                 "        (13)    A person involved in the disposal of assets, shall not either by a third party or by himself   be interested in any manner in buying directly or indirectly these assets and shall not have or obtain any type of advantage or  revenue from the disposal  for a period  of three (3) years after the disposal.   \n" +
                 "\n");
-        Procurement_Section section54 = new Procurement_Section("Ofences","cat12","Any natural person not being a public officer who contravenes any provision of                      Offences\n" +
+        Procurement_Section section54 = new Procurement_Section("Offences","cat12","Any natural person not being a public officer who contravenes any provision of                      Offences\n" +
                 "of this Law commit an offence and is liable on conviction to a term of imprisonment             relating to\n" +
                 "for five (5) years fine and restitution.   \t\t\t\t\tpublic procurement \n" +
                 "(2)\tAny offence in contravention of this Law shall be tried by the State High Court.  \n" +

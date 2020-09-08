@@ -69,7 +69,7 @@ public class DashBoard extends AppCompatActivity {
     Dialog loadingdialog;
     Dialog dialog;
     boolean isActivated;
-    ImageView free_trial_icon;
+    TextView fiveDaysTrial;
     FreeTrialTimerProcessor freeTrialTimerProcessor = new FreeTrialTimerProcessor();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +83,7 @@ public class DashBoard extends AppCompatActivity {
         }
 
         pager = findViewById(R.id.dashboard_pager);
-        free_trial_icon = findViewById(R.id.free_trial_icon);
+        fiveDaysTrial = findViewById(R.id.fivedaystrial);
         dasboard_background = findViewById(R.id.dashboard_background);
         pagecount = findViewById(R.id.pagecount);
         pagenumbers = findViewById(R.id.pagenumbers);
@@ -110,7 +110,7 @@ public class DashBoard extends AppCompatActivity {
         });
 
         if(isActivated){
-            free_trial_icon.setVisibility(View.GONE);
+            fiveDaysTrial.setVisibility(View.GONE);
             upgrade.setVisibility(View.GONE);
         }
 
@@ -178,7 +178,7 @@ public class DashBoard extends AppCompatActivity {
         TextView oractivate,checkmail;
         MyPaymentCardView myPaymentCardView;
         Button activate;
-        int amountToPay = 1;
+        int amountToPay = 500;
 
         dialog = new Dialog(DashBoard.this,android.R.style.Theme_Light);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -523,7 +523,7 @@ public class DashBoard extends AppCompatActivity {
             else if(result.toString().equalsIgnoreCase("valid_key")){
 
                 dialog.dismiss();
-                free_trial_icon.setVisibility(View.GONE);
+                fiveDaysTrial.setVisibility(View.GONE);
                 upgrade.setVisibility(View.GONE);
                 Toast.makeText(DashBoard.this, "Regulatory Books Successfully Activated", Toast.LENGTH_LONG).show();
 
